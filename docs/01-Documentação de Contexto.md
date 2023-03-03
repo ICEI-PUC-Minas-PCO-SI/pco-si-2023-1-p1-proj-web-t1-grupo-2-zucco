@@ -25,12 +25,8 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Escolhemos trabalhar na reestruturação completa do site https://www.zuccotransportes.com.br/ , devido a plataforma não conter um layout completo e que o torne acessível. Além de não obter todas as informações necessárias para os clientes acompanharem a mercadoria transportada pela empresa, o site não fornece atualizações diárias, falhando em fornecer informações ao usuário. Outro ponto a ser melhorado, seria a interface reservar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato com a empresa para obter a cotação do serviço.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
