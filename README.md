@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Matheus Henrique Marques Canuto
 * Alice Silva Lisboa
-* Nome completo do aluno 3
+* Raul Eleutério Aleixo
 * Nome completo do aluno 4
 
 ## Orientador
