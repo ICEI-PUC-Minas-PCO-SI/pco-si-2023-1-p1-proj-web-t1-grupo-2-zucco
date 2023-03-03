@@ -34,10 +34,13 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Temos três tipos de público-alvo em nossa aplicação: os caminhoneiros que irão transportar as cargas, os funcionários da empresa que irão analisar a melhor rota para o transporte de determinada carga e os clientes que contrataram o serviço da empresa. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Por parte dos caminhoneiros, geralmente não tem muito o hábito de usar aplicações extremamente complexas. São pessoas mais simples, com pouco entendimento tecnológico, e, por isso, a aplicação deve ter um uso simples para eles conseguirem utilizar. Como é o caso, por exemplo de Roberto Souza, de 43 anos, um trabalhador comum, caminhoneiro, que tem essa profissão por gostar de dirigir. Roberto não tem muito conhecimento sobre tecnologia, por isso, a aplicação deve ser bem intuitiva, para que ele consiga utilizá-la corretamente, e não cause nenhum transtorno tanto para a empresa, quanto para o cliente. 
+
+Os funcionários da empresa, por outro lado, já têm mais hábito de usar aplicações complexas. São pessoas que já trabalham na área de logística há anos. Porém, não há necessidade de se criar uma ferramenta que seja complexa e apenas atrase o trabalho deles. A ferramenta ser simples também facilitará o trabalho de diversos desses funcionários, como é o caso de Ricardo Moura, de 28 anos, que trabalha nessa área de logística. Ricardo é um homem comum, gosta de sair do trabalho e jogar futebol, ou assistir uma série. Ricardo gosta de ser bastante eficiente em seu trabalho, por isso, uma ferramenta intuitiva o ajudaria a continuar sendo bastante produtivo, e não iria o deixar cansado, permitindo que ele pudesse sair do trabalho e continuar tendo energia para fazer o que gosta, além é claro, de aumentar sua reputação na empresa, por conseguir continuar sendo extremamente eficiente. 
+
+Além disso, também temos os clientes que contratam o serviço da empresa. Clientes podem ou não ter um conhecimento tecnológico avançado, por isso, é necessário que a aplicação tenha ferramentas intuitivas também na questão do rastreio das encomendas. Afinal de contas, a Rafaela Oliveira, de 21 anos, que estuda e trabalha durante o dia e contratou o serviço da empresa, não quer ter gastar mais do que 5 minutos para saber como está o transporte da sua mercadoria. Portanto, um sistema de rastreio que seja simples, rápido, porém detalhado é o nosso objetivo. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
