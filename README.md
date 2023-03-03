@@ -15,6 +15,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Alice Silva Lisboa
 * Raul Eleutério Aleixo
 * Arthur Braga Ribeiro
+* Nicole Vargas Zanotto
+* Vinicius Nunes Silva Rios
 
 ## Orientador
 
