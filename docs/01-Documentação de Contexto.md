@@ -7,7 +7,7 @@ Como desenvolver o site Zucco Transportes para melhorar a experiência do usuár
 
 
 ## Objetivo Geral
-- Implementar uma solução de web para melhorar o armazenamento, compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logistica.
+- Implementar uma solução de web para melhorar o armazenamento, compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logística.
 ## Objetivos específicos
 - Informar onde a carga/caminhão está localizada
 - Auxiliar a comunicação entre diferentes setores da empresa
