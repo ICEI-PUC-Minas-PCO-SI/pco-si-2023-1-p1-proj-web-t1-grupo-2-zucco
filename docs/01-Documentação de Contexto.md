@@ -19,7 +19,7 @@ Como desenvolver o site Zucco Transportes para melhorar a experiência do usuár
 
 ## Justificativa
 
-Escolhemos trabalhar na reestruturação completa do site https://www.zuccotransportes.com.br/ , devido a plataforma não conter um layout completo e que o torne acessível. Além de não obter todas as informações necessárias para os clientes acompanharem a mercadoria transportada pela empresa, o site não fornece atualizações diárias, falhando em fornecer informações ao usuário. Outro ponto a ser melhorado, seria a interface reservar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato com a empresa para obter a cotação do serviço.
+Escolhemos trabalhar na reestruturação completa do site https://www.zuccotransportes.com.br/ , devido a plataforma não conter um layout definido e que o torne acessível. Além de não obter todas as informações necessárias para os clientes acompanharem a mercadoria transportada pela empresa, o site não fornece atualizações diárias, falhando em fornecer informações ao usuário. Outro ponto a ser melhorado, seria a interface reservar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato com a empresa para obter a cotação do serviço.
 
 ## Público-Alvo
 
