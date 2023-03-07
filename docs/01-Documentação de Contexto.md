@@ -1,10 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.zuccotransportes.com.br/) com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes. A reestruturação tem como objetivo principal melhorar o armazenamento, compartilhamento e comunicação entre os funcionários e clientes da empresa de logística. A justificativa para essa reestruturação é a falta de atualizações e informações no site atual, além da necessidade de um ambiente reservado para novas solicitações de serviço. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
 
 ## Problema
-Como desenvolver o site Zucco Transportes para melhorar a experiência do usuário?
 
+Como desenvolver o site Zucco Transportes para melhorar a experiência do usuário?
 
 ## Objetivo Geral
 - Implementar uma solução de web para melhorar o armazenamento, compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logística.
