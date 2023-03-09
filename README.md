@@ -7,7 +7,7 @@
 
 `1° semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.zuccotransportes.com.br/) com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes. A reestruturação tem como objetivo principal melhorar o armazenamento, compartilhamento e comunicação entre os funcionários e clientes da empresa de logística. A justificativa para essa reestruturação é a falta de atualizações e informações no site atual, além da necessidade de um ambiente reservado para novas solicitações de serviço. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
 
 ## Integrantes
 
