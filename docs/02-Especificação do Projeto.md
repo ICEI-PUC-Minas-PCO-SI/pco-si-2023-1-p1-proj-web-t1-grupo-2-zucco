@@ -8,11 +8,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Roberto Souza, de 43 anos, um trabalhador comum, caminhoneiro, que tem essa profissão por gostar de dirigir, e não tem muito contato com tecnologia. Roberto busca continuar fazendo um trabalho eficiente pela empresa, continuar fazendo suas viagens pelo Brasil em seu caminhão, e, quem sabe, receber um aumento por sua eficiência na empresa. 
+Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Ricardo Moura, de 28 anos, que trabalha na área de logística da empresa. Ricardo é um homem comum, gosta de sair do trabalho e jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a subir bem na empresa. 
+Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-Rafaela Oliveira, de 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia. 
+> **Links Úteis**:
+> - [Rock Content](https://rockcontent.com/blog/personas/)
+> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
+> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
+> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
+> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+>
+Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -48,8 +56,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | ALTA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
+|RNF-003| Deve enviar um e-mail para os clientes que cotarem o frete |  ALTA |
+|RNF-004| Deve-se calcular o valor do frete com base na distância percorrida, no tamanho e peso da carga, no preço da carga, na necessidade de escolta, nos impostos aplicáveis e no preço atual do combustível. |  BAIXA |
+|RNF-005| CRUD de clientes |  ALTA |
+|RNF-006| CRUD de funcionarios |  MEDIA |
+|RNF-007| CRUD de caminhoneiros autonomos |  MEDIA |
+|RNF-008| Plataforma de contratacao de caminhoneiros |  BAIXA |
+|RNF-009| Mapa localizando a sede e a filial |  BAIXA |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
