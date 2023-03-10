@@ -1,6 +1,6 @@
 # Introdução
 
-A empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes. A estruturação tem como objetivo principal melhorar o compartilhamento e comunicação entre os funcionários e clientes da empresa de logística. A justificativa para essa estruturação é não há uma meio de vizualizar informações necessárias para os clientes da transportada, além da necessidade de se projetar um ambiente reservado para novas solicitações de serviço. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
+A empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes. A estruturação tem como objetivo principal melhorar o compartilhamento e comunicação entre os funcionários e clientes da empresa de logística. A justificativa para essa estruturação é que não há uma meio de vizualizar informações necessárias para os clientes da transportada, além da necessidade de se projetar um ambiente reservado para novas solicitações de serviço. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
 
 ## Problema
 
