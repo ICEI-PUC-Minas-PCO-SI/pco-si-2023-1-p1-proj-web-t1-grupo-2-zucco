@@ -7,19 +7,16 @@ A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.
 Como desenvolver o site Zucco Transportes para melhorar a experiência do usuário?
 
 ## Objetivo Geral
-- Implementar uma solução de web para melhorar o armazenamento, compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logística.
+- Implementar uma solução de web para melhorar o compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logística.
 ## Objetivos específicos
-- Informar onde a carga/caminhão está localizada
-- Auxiliar a comunicação entre diferentes setores da empresa
-- Agrupar todos os dados da empresa em um só lugar
-- Melhorar o processo de leitura de dados
-- Melhorar a comunicação entre filiais
-- Fazer a cotação de fretes de forma mais eficiente
+- Agrupar todas as informações da empresa em um só lugar
+- Melhorar o processo de leitura de informações
+- Solicitar a cotação de fretes de forma mais eficiente
 - Melhorar a comunicação entre o cliente e o funcionário
 
 ## Justificativa
 
-Escolhemos trabalhar na reestruturação completa do site https://www.zuccotransportes.com.br/ , devido a plataforma não conter um layout definido e que o torne acessível. Além de não obter todas as informações necessárias para os clientes acompanharem a mercadoria transportada pela empresa, o site não fornece atualizações diárias, falhando em fornecer informações ao usuário. Outro ponto a ser melhorado, seria a interface reservar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato com a empresa para obter a cotação do serviço.
+Escolhemos trabalhar na estruturação completa do site, para fornecer um layout definido, que o torne acessível. Não há uma meio de vizualizar informações necessárias para os clientes da transportada,  falhando em fornecer uma experiência adequada ao cliente. Um problema a ser solucionado, é criar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referente a sugestões da empresa.
 
 ## Público-Alvo
 
