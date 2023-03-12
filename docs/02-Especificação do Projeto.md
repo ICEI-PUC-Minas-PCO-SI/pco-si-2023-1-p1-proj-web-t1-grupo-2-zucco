@@ -57,6 +57,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007| CRUD de caminhoneiros autonomos |  MEDIA |
 |RNF-008| Plataforma de contratacao de caminhoneiros |  BAIXA |
 |RNF-009| Mapa localizando a sede e a filial |  BAIXA |
+|RNF-010| Botão que muda as cores do site para o modo noturno |  BAIXA |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
