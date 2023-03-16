@@ -66,14 +66,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
-|RNF-003| Deve enviar um e-mail para os clientes que cotarem o frete |  ALTA |
-|RNF-004| Deve-se calcular o valor do frete com base na distância percorrida, no tamanho e peso da carga, no preço da carga, na necessidade de escolta, nos impostos aplicáveis e no preço atual do combustível. |  BAIXA |
-|RNF-005| CRUD de clientes |  ALTA |
-|RNF-006| CRUD de funcionarios |  MEDIA |
-|RNF-007| CRUD de caminhoneiros autonomos |  MEDIA |
-|RNF-008| Plataforma de contratacao de caminhoneiros |  BAIXA |
-|RNF-009| Mapa localizando a sede e a filial |  BAIXA |
-|RNF-010| Botão que muda as cores do site para o modo noturno |  BAIXA |
+|RNF-003| O site deve ficar fora do ar no máximo 3 horas por ano |  ALTA |
+|RNF-004| Todos os formularios devem ter validação de dados que filtram comandos html e javascript |  ALTA |
+|RNF-005| O Chat bot deve atender o ser instantâneo e ser capaz de atender as principais duvidas do cliente  |  ALTA |
+|RNF-006| As informações da empresa devem ser asseguradas pela LGPD  |  ALTA |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -100,6 +96,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Utilizar as seguintes tecnologias HTML, CSS, JAVASCRIPT, JSON, Local Storage e AJAX|
+|04| O gasto máximo com o site tem que ser de R$00,00|
+|05| Trabalhar com a paleta de cores e fontes definidas pela empresa|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
@@ -107,4 +105,3 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-</div>
