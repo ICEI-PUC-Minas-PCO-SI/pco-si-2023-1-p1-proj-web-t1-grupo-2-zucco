@@ -1,4 +1,4 @@
-<div style="background-color: #D3D3D3">
+<div style="background-color: #ff0a0a">
 # Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
