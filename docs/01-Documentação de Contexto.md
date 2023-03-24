@@ -23,7 +23,9 @@ Sendo assim, faz-se necessário a criação de uma aplicação que esteja de aco
 
 ## Justificativa
 
-Escolhemos trabalhar na estruturação completa do site, para fornecer um layout definido, que o torne acessível. Não há uma meio de vizualizar informações necessárias para os clientes da transportada,  falhando em fornecer uma experiência adequada ao cliente. Um problema a ser solucionado, é criar um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referente a sugestões da empresa.
+Escolhemos realizar uma reformulação completa do site, tornando-o mais moderno, responsivo e fácil de usar. Além disso, é preciso atualizar as informações e organizar melhor o conteúdo, de modo a facilitar a navegação dos usuários e fornecer todas as informações relevantes sobre os serviços da empresa.
+Com essas medidas, a empresa poderá melhorar a experiência dos usuários em seu site, aumentar sua credibilidade e atratividade no mercado de transporte e, consequentemente, obter mais clientes. Um ponto a ser melhorado, seria a criação de um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referente a sugestões da empresa.
+Um site bem projetado e atualizado pode transmitir uma imagem profissional e moderna da empresa, o que pode aumentar sua credibilidade e atratividade para os clientes.
 
 ## Público-Alvo
 
