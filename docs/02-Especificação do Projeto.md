@@ -22,7 +22,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Roberto Souza/Caminhoneiro|Necessito de algo que eu possa notificar a empresa onde eu trabalho|Para que ela possa saber meu trajeto ao longo das entregas
-|Ricardo Moura/Administrador do sistema|Preciso de algo que possa me dar informações sobre como esta transcorrendo as entregas da empresa|Para poder informar ao cliente onde esta seu produto e para saber como todos os caminhões de transporte estão.|
+|Ricardo Moura/Administrador do sistema|Preciso de algo que possa me dar informações sobre como esta transcorrendo as entregas da empresa|Para poder informar ao cliente onde esta seu produto e para saber como todos os caminhões de transporte estão|
 |Rafaela Oliveira/Contratante|Gostaria de algo que me mantivesse 100% do tempo informada sobre onde estão as minhas mercadorias que estão sendo transportadas|Para que eu possa me sentir segura e despreocupada se irei receber as minhas encomendas|
   
 
