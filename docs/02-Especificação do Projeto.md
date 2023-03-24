@@ -89,7 +89,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Utilizar as seguintes tecnologias HTML, CSS, JAVASCRIPT, JSON, Local Storage e AJAX|
+|03| Utilizar as seguintes tecnologias HTML, CSS, JAVASCRIPT, JSON CRUD server, Local Storage e AJAX|
 |04| O gasto máximo com o site tem que ser de R$00,00|
 |05| Trabalhar com a paleta de cores e fontes definidas pela empresa|
 
