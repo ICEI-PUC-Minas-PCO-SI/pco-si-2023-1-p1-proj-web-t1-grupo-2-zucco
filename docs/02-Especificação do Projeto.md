@@ -13,7 +13,7 @@ Roberto Souza, de 43 anos, um trabalhador comum, caminhoneiro, que tem essa prof
 
 Ricardo Moura, de 28 anos, que trabalha na área de logística da empresa. Ricardo é um homem comum, gosta de sair do trabalho e jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a subir bem na empresa. 
 
-Rafaela Oliveira, de 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia. (img/diagrama.png)
+Rafaela Oliveira, de 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia. 
 
 ## Histórias de Usuários
 
