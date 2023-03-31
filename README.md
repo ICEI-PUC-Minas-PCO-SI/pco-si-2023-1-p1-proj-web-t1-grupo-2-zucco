@@ -16,7 +16,7 @@ A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.
 * Raul Eleutério Aleixo
 * Arthur Braga Ribeiro
 * Nicole Vargas Zanotto
-* Vinicius Nunes Silva Rios
+* Rafael Romagnoli Conforte Cesario
 
 ## Orientador
 
