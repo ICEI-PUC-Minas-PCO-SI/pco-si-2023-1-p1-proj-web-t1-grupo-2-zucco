@@ -36,4 +36,4 @@ O público-alvo do produto atinge três segmentos: quem opera a logística da em
 
 
 
-Por parte dos caminhoneiros normalmente não são acostumados com aplicações mais complexas por terem pouco contato com a tecnologia, precisando de algo mais simples para compreensão. Já os funcionários da empresa, é bem provável terem a capacidade de compreender aplicações mais complexas já que eles exercem uma função q necessita dessa habilidade, mas mesmo tendo essa capacidade para que possam otimizar o tempo de trabalho preferem algo mais simples de operar. Ainda temos os clientes, que as podem ter ou não conhecimento tecnológico alto, variando de pessoa pra pessoa, mas com o intuito de capitar o máximo de clientes uma aplicação mais simples é mais que indispensável. 
+
