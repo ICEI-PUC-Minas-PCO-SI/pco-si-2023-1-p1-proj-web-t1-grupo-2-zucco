@@ -7,7 +7,7 @@
    
 ## Problema
 
-  Atualmente a empresa conta com um sistema desatualizado, com informações incompletas e desorganizadas. A estrutura ultrapassda não permite que o usuário acesse o site corretamente pelo celular e o layout incompleto mão oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
+    Atualmente a empresa conta com um sistema desatualizado, com informações incompletas e desorganizadas. A estrutura ultrapassda não permite que o usuário acesse o site corretamente pelo celular e o layout incompleto mão oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
 Isso tem causado uma série de problemas para a empresa, como baixa taxa de conversão de visitantes em clientes, insatisfação dos clientes atuais e perda de competitividade no mercado. Os concorentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
 Sendo assim, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos.
 
