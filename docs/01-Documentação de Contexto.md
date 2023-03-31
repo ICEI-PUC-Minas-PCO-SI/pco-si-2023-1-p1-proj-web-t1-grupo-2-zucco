@@ -15,7 +15,7 @@ Sendo assim, faz-se necessário a criação de uma aplicação que esteja de aco
 ## Objetivo Geral
 
 - Implementar uma solução de web para melhorar o compartilhamento e comunicação entre os funcionários e clientes de uma empresa de logística.
-- 
+
 ## Objetivos específicos
 
 - Agrupar todas as informações da empresa em um só lugar;
