@@ -1,12 +1,10 @@
 # Introdução
-      Nos dias atuais, a presença online é essencial para qualquer empresa que deseje se destacar no mercado e aumentar sua visibilidade para potenciais clientes. A presença digital é especialmente importante para empresas de transportes, que precisam disponibilizar informações precisas e atualizadas sobre horários, cotações e outros serviços aos seus clientes.
-  	Ter um site funcional e bem projetado é uma maneira eficaz de atender a essas demandas, permitindo que a empresa forneça informações detalhadas sobre seus serviços e facilite o contato com os clientes. Além disso, um site bem estruturado pode ajudar a fortalecer a imagem da empresa e a aumentar sua credibilidade junto aos clientes e parceiros comerciais. Com o desenvolvimento de um site, a empresa pode alcançar novos clientes e aumentar a fidelidade dos existentes, além de, obter vantagens competitivas no mercado. Por isso, é essencial que a empresa invista em um site funcional e de qualidade para garantir uma presença online efetiva
-  	A empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes através de uma aplicação simples e intuitiva para todos.
+  
 
 ## Problema
 
 Atualmente a empresa conta com um sistema que está ultrapassado, desatualizado, com informações incompletas e desorganizadas, que não permite que o usuário acesse o site corretamente pelo celular e que não oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
-Isso tem causado uma série de problemas para a empresa, como baixa taxa de conversão de visitantes em clientes, insatisfação dos clientes atuais e perda de competitividade no mercado. Os concorrentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
+Isso tem causado uma série de problemas para a empresa, como baixa taxa de conversão de visitantes em clientes, insatisfação dos clientes atuais e perda de competitividade no mercado. Os concorentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
 Sendo assim, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos.
 
 
