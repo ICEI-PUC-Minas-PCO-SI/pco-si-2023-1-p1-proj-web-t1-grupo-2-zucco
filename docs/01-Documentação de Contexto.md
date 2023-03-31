@@ -7,24 +7,27 @@
    
 ## Problema
 
-Atualmente a empresa conta com um sistema que está ultrapassado, desatualizado, com informações incompletas e desorganizadas, que não permite que o usuário acesse o site corretamente pelo celular e que não oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
+  Atualmente a empresa conta com um sistema desatualizado, com informações incompletas e desorganizadas. A estrutura ultrapassda não permite que o usuário acesse o site corretamente pelo celular e o layout incompleto mão oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
 Isso tem causado uma série de problemas para a empresa, como baixa taxa de conversão de visitantes em clientes, insatisfação dos clientes atuais e perda de competitividade no mercado. Os concorentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
 Sendo assim, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos.
 
 
 ## Objetivo Geral
-- Implementar uma solução de web para melhorar o compartilhamento e comunicação entre os funcionarios e clientes de uma empresa de logística.
+
+- Implementar uma solução de web para melhorar o compartilhamento e comunicação entre os funcionários e clientes de uma empresa de logística.
+- 
 ## Objetivos específicos
-- Agrupar todas as informações da empresa em um só lugar
-- Melhorar o processo de leitura de informações
-- Solicitar a cotação de fretes de forma mais eficiente
-- Melhorar a comunicação entre o cliente e o funcionário
+
+- Agrupar todas as informações da empresa em um só lugar;
+- Aperfeiçoar a leiturabilidade;
+- Possibilitar a cotação de fretes de forma mais eficiente;
+- Dinamizar a comunicação entre o cliente e o funcionário;
 
 ## Justificativa
-
-Escolhemos realizar uma reformulação completa do site, tornando-o mais moderno, responsivo e fácil de usar. Além disso, é preciso atualizar as informações e organizar melhor o conteúdo, de modo a facilitar a navegação dos usuários e fornecer todas as informações relevantes sobre os serviços da empresa.
-Com essas medidas, a empresa poderá melhorar a experiência dos usuários em seu site, aumentar sua credibilidade e atratividade no mercado de transporte e, consequentemente, obter mais clientes. Um ponto a ser melhorado, seria a criação de um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referente a sugestões da empresa.
-Um site bem projetado e atualizado pode transmitir uma imagem profissional e moderna da empresa, o que pode aumentar sua credibilidade e atratividade para os clientes.
+   Diante do problema em questão, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos. Foi escolhido realizar uma reformulação completa do site, tornando-o mais moderno e responsivo. Além disso, é preciso atualizar as informações e organizar melhor o conteúdo, de modo a facilitar a navegação dos usuários e fornecer todas as informações relevantes sobre os serviços da empresa.
+  
+  Um ponto a ser melhorado, seria a criação de um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referente a sugestões da empresa.
+Um site bem projetado e atualizado pode transmitir uma imagem profissional e moderna da empresa, o que pode aumentar sua credibilidade e atratividade no mercado de transporte e, consequentemente, obter mais clientes.
 
 ## Público-Alvo
 
