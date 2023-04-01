@@ -1,15 +1,15 @@
 # Introdução
-  Nos dias atuais, a presença online é essencial para qualquer empresa que queira se destacar no mercado e aumentar sua visibilidade para potenciais clientes. A presença digital é especialmente importante para empresas de transportes, que precisam disponibilizar informações precisas e atualizadas sobre horários, cotações e outros serviços aos seus clientes.
+  Nos dias atuais, a presença online é essencial para qualquer empresa que queira se destacar no mercado e aumentar sua visibilidade para potenciais clientes. A reputação online é especialmente importante para empresas de transportes, que precisam disponibilizar informações precisas e atualizadas sobre horários, cotações e outros serviços aos seus clientes.
    
-   Ter um site funcional e bem projetado é uma maniera eficaz de atender a essas demanandas, permitindo que a empresa forneça informações detalhadas sobre seus serviços e facilite o contato com os clientes. Além disso, um site bem estruturado pode ajudar a fortalecer a imagem da empresa e a aumentar sua credibilidade junto aos clientes e parceiros comerciais. Com o desenvolvimento de um site, a empresa pode alcançar novos clientes e aumentar a fidelidade dos existentes, além de, obter vantagens competitivas no mercado. Por isso, é essencial que a empresa invista em um site funcional e de qualidade para garantir uma presença online efetiva.
+   Ter um site funcional e bem projetado é uma maneira eficaz de atender a essas demanandas, permitindo que a empresa forneça informações detalhadas sobre seus serviços e facilite o contato com os clientes. Além disso, um site bem estruturado pode ajudar a fortalecer a imagem da empresa e a aumentar sua credibilidade junto aos clientes e parceiros comerciais. Com o desenvolvimento de um site, a empresa pode alcançar novos consumidores e aumentar a fidelidade dos existentes, além de, obter vantagens competitivas no mercado. Por isso, é essencial que a empresa invista em um site funcional e de qualidade para garantir uma presença online efetiva.
    
-   A empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários  (contratados e terceirizados) e clientes através de uma aplicação simples e intuitiva para todos.
+   Somando a esses motivos, A empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre membros da equipe e clientes, através de uma aplicação simples e intuitiva para todos.
    
 ## Problema
 
-   Atualmente a empresa conta com um sistema desatualizado, com informações incompletas e desorganizadas. A estrutura ultrapassda não permite que o usuário acesse o site corretamente pelo celular e o layout incompleto mão oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros. 
-Isso tem causado uma série de problemas para a empresa, como baixa taxa de conversão de visitantes em clientes, insatisfação dos clientes atuais e perda de competitividade no mercado. Os concorentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
-Sendo assim, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos.
+   Atualmente a empresa conta com um sistema desatualizado, com informações incompletas e desorganizadas. A estrutura ultrapassda não permite que o usuário acesse o site corretamente pelo celular e o layout incompleto não oferece recursos para contatar a empresa de forma eficiente para cotar fretes, tirar dúvidas, entre outros serviços. 
+Isso tem causado uma série de problemas, como a baixa taxa de conversão de visitantes em clientes, insatisfação dos atuais e perda de competitividade no mercado. Os concorentes possuem sites mais modernos e funcionais, o que torna a empresa menos atraente para os clientes em potencial.
+
 
 
 ## Objetivo Geral
@@ -24,10 +24,10 @@ Sendo assim, faz-se necessário a criação de uma aplicação que esteja de aco
 - Dinamizar a comunicação entre o cliente e o funcionário;
 
 ## Justificativa
-   Diante do problema em questão, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas da empresa e que facilite a utilização de seus recursos. Foi escolhido realizar uma reformulação completa do site, tornando-o mais moderno e responsivo. Além disso, é preciso atualizar as informações e organizar melhor o conteúdo, de modo a facilitar a navegação dos usuários e fornecer todas as informações relevantes sobre os serviços da empresa.
+   Diante do problema em questão, faz-se necessário a criação de uma aplicação que esteja de acordo com as novas tecnologias, demandas corporativas e, que facilite a utilização de seus recursos. Foi escolhido realizar uma reformulação completa do site, tornando-o mais moderno e responsivo. Além disso, é preciso atualizar as informações e organizar melhor o conteúdo, de modo a facilitar a navegação dos usuários e fornecer todas as informações relevantes sobre os serviços da empresa.
   
-  Um ponto a ser melhorado, seria a criação de um ambiente para as novas solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação do serviço. Forneceremos atualizações de interface referentes as sugestões da empresa.
-Um site bem projetado e atualizado pode transmitir uma imagem profissional e moderna da empresa, o que pode aumentar sua credibilidade e atratividade no mercado de transporte e, consequentemente, obter mais clientes.
+  Um ponto a ser aprimorado, é a criação de um ambiente para as solicitações de serviços, assim, os clientes não precisam entrar em contato por telefone com a empresa para obter a cotação dos serviços oferecidos. Será fornecido atualizações de interface referentes as sugestões da empresa.
+Um site bem projetado e atualizado pode transmitir uma imagem profissional e moderna, o que poderá aumentar a credibilidade e atratividade da empresa no mercado de transporte e, consequentemente, obter mais clientes.
 
 ## Público-Alvo
 
@@ -39,4 +39,4 @@ O público-alvo do produto abrange 3 segmentos: quem opera a logística da empre
 
   Clientes: empresas que realizam pedidos de mercadorias, como distribuidores, varejistas e e-commerce, também são usuárias do site de logística. Esse público busca soluções que ofereçam facilidade na realização de pedidos, rastreamento de entregas em tempo real e informações precisas sobre prazos e condições de entrega.
 
-  A automatização dos serviços do site vai organizar melhor as demandas dos funcionários da empresa, manter os responsáveis pelo transporte atualizados a respeito de prazos e recursos e garantir transparência e praticidade para o cliente. A aplicação web deve ser capaz de resolver os problemas do usuário por meio de uma estética intuitiva e da rapidez do atendimento, atendendo, assim, às potenciais personas às quais o produto final se direciona.
+  A automatização dos serviços do site vai organizar melhor as demandas dos funcionários da empresa, manter os responsáveis pelo transporte atualizados a respeito de prazos e recursos e, garantir transparência e praticidade para o cliente. A aplicação web deve ser capaz de resolver os problemas do usuário por meio de uma estética intuitiva e da rapidez do atendimento, satisfazendo assim, às potenciais personas às quais o produto final se direciona.
