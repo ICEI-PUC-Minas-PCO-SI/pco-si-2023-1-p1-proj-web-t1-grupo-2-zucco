@@ -11,20 +11,17 @@ A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.
 
 ## Integrantes
 
-* Matheus Henrique Marques Canuto
 * Alice Silva Lisboa
-* Raul Eleutério Aleixo
 * Arthur Braga Ribeiro
+* Matheus Henrique Marques Canuto
 * Nicole Vargas Zanotto
 * Rafael Romagnoli Conforte Cesario
+* Raul Eleutério Aleixo
 
 ## Orientador
 
-* Fabio Leandro Rodrigues Cordeiro
+* Fábio Leandro Rodrigues Cordeiro
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
