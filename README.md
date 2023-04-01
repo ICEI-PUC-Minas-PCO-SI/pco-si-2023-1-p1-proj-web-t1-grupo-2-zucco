@@ -7,7 +7,7 @@
 
 `1° semestre`
 
-A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.zuccotransportes.com.br/) com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários (contratados e terceirizados) e clientes. A reestruturação tem como objetivo principal melhorar o armazenamento, compartilhamento e comunicação entre os funcionários e clientes da empresa de logística. A justificativa para essa reestruturação é a falta de atualizações e informações no site atual, além da necessidade de um ambiente reservado para novas solicitações de serviço. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
+A empresa Zucco Transportes está buscando reestruturar o seu site (https://www.zuccotransportes.com.br/) com o propósito de melhorar a experiência do usuário e auxiliar na comunicação entre funcionários internos, terceirizados e clientes. A reestruturação tem como objetivo principal melhorar o armazenamento, compartilhamento e interação entre os colaboradores e os clientes da empresa de logística. A justificativa para essa reestruturação é a falta de atualizações e informações no site atual, além da necessidade de um ambiente reservado para novas solicitações de serviços. O público-alvo inclui caminhoneiros, funcionários da empresa e clientes, e é importante que a aplicação seja simples e intuitiva para todos.
 
 ## Integrantes
 
