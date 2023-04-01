@@ -3,7 +3,7 @@
    
    Ter um site funcional e bem projetado é uma maneira eficaz de atender a essas demanandas, permitindo que a empresa forneça informações detalhadas sobre seus serviços e facilite o contato com os clientes. Além disso, um site bem estruturado pode ajudar a fortalecer a imagem da empresa e a aumentar sua credibilidade junto aos clientes e parceiros comerciais. Com o desenvolvimento de um site, a empresa pode alcançar novos consumidores e aumentar a fidelidade dos existentes, além de, obter vantagens competitivas no mercado. Por isso, é essencial que a empresa invista em um site funcional e de qualidade para garantir uma presença online efetiva.
    
-   Somando a esses motivos, a empresa Zucco Transportes está buscando estruturar um site com o objetivo de melhorar a experiência do usuário e auxiliar na comunicação entre membros da equipe e clientes, através de uma aplicação simples e intuitiva para todos.
+   Diante dos motivos citados, a empresa Zucco Transportes busca estruturar o seu site com o objetivo de aperfeiçoar a experiência do usuário e auxiliar na comunicação entre membros da equipe e clientes, através de uma aplicação simples e intuitiva para todos.
    
 ## Problema
 
