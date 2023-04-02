@@ -45,23 +45,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve incluir uma estrutura de navegação clara e fácil de usar, para ajudar os usuários a encontrar o que estão procurando rapidamente | ALTA | 
-|RF-002| O site deve permitir que os usuários preencham formulários, como formulários de contato, formulários de registro e formulários de requisição, e enviar essas informações com segurança por email para a empresa   | ALTA |
-|RF-003|Solicitar uma cotação de frete através do preenchimento de um formulário | ALTA |
-|RF-004|Solicitar uma coleta através do preenchimento de um formulário | ALTA |
-|RF-005|Cadastro de curriculo (anexar documento) através do preenchimento de um formulário | MEDIA |
-|RF-006|O site deve fornecer informações detalhadas sobre a empresa, incluindo sua história, missão e valores | ALTA |
-|RF-007|O site deve incluir páginas estáticas, como páginas de informações e contato | ALTA |
-|RF-008|O sistema deve ter botões direcionando para as páginas do site | ALTA |
-|RF-009|O sistema deve ter a geolocalização das unidades (matriz/filiais) - Infraestrutura | ALTA |
-|RF-010|O site deve fornecer informações sobre os serviços de transporte oferecidos, como tipos de carga aceitos, regiões atendidas, prazos de entrega e valores de frete e variações de meios de transportes | ALTA |
-|RF-011|Deve ser possível entrar em contato com direcionamento de mensagem para o email ou chat online direto com atendente/funcionário | MEDIA |
-|RF-012|Deve disponibilizar opções de comentários/ avaliações | BAIXA |
-|RF-013|O site deve ter integração de mídia social, redirecionado e permitindo que os usuários vejam e sigam as contas de mídia social do site | BAIXA |
-|RF-014|O site deve incluir imagens e vídeos relevantes que complementem o conteúdo do site | ALTA |
-|RF-015|O site deve incluir suporte a arquivos de vídeo, foto e outras formas de mídia, como galerias de fotos | MEDIA |
-|RF-016|O site pode fornecer informações sobre serviços adicionais oferecidos, como armazenamento e seguro de carga | MEDIA |
-|RF-017|O site pode permitir que os usuários personalizem o estilo da página, como botão que muda as cores do site para o modo noturno | BAIXA |
+|RF-001| O site deve incluir uma estrutura de navegação clara e fácil de usar, para ajudar os usuários a encontrar o que estão procurando rapidamente | ALTA | Raul |
+|RF-002| O site deve permitir que os usuários preencham formulários, como formulários de contato, formulários de registro e formulários de requisição, e enviar essas informações com segurança por email para a empresa   | ALTA | Arthur |
+|RF-003|Solicitar uma cotação de frete através do preenchimento de um formulário | ALTA | Alice |
+|RF-004|Solicitar uma coleta através do preenchimento de um formulário | ALTA | Nicole |
+|RF-005|Cadastro de curriculo (anexar documento) através do preenchimento de um formulário | MEDIA | Matheus |
+|RF-006|O site deve fornecer informações detalhadas sobre a empresa, incluindo sua história, missão e valores | ALTA | Nicole |
+|RF-007|O site deve incluir páginas estáticas, como páginas de informações e contato | ALTA | Alice |
+|RF-008|O sistema deve ter botões direcionando para as páginas do site | ALTA | Rafael |
+|RF-009|O sistema deve ter a geolocalização das unidades (matriz/filiais) - Infraestrutura | ALTA | Raul |
+|RF-010|O site deve fornecer informações sobre os serviços de transporte oferecidos, como tipos de carga aceitos, regiões atendidas, prazos de entrega e valores de frete e variações de meios de transportes | ALTA | Matheus |
+|RF-011|Deve ser possível entrar em contato com direcionamento de mensagem para o email ou chat online direto com atendente/funcionário | MEDIA | Arthur |
+|RF-012|Deve disponibilizar opções de comentários/ avaliações | BAIXA | Nicole |
+|RF-013|O site deve ter integração de mídia social, redirecionado e permitindo que os usuários vejam e sigam as contas de mídia social do site | BAIXA | Matheus |
+|RF-014|O site deve incluir imagens e vídeos relevantes que complementem o conteúdo do site | ALTA | Rafael |
+|RF-015|O site deve incluir suporte a arquivos de vídeo, foto e outras formas de mídia, como galerias de fotos | MEDIA | Alice |
+|RF-016|O site pode fornecer informações sobre serviços adicionais oferecidos, como armazenamento e seguro de carga | MEDIA | Raul |
+|RF-017|O site pode permitir que os usuários personalizem o estilo da página, como botão que muda as cores do site para o modo noturno | BAIXA | Rafael |
 
 
 ### Requisitos não Funcionais
