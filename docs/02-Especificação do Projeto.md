@@ -1,25 +1,25 @@
 <div style="background-color: #ff0a0a">
+  
 ## Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+  Ao desenvolver um projeto de uma aplicação, é essencial considerar uma variedade de fatores que afetam sua funcionalidade e usabilidade. Entre esses fatores, destacam-se as personas, os requisitos funcionais, requisitos não funcionais e as restrições. A abordagem de personas, envolve a criação de personagens fictícios que representam os usuários-alvo da aplicação. Ao compreender as necessidades e objetivos desses usuários, é possível desenvolver uma aplicação mais eficaz e personalizada. Os requisitos funcionais são as funcionalidades específicas que o site deve ter para atender às necessidades dos usuários, como a capacidade de pesquisar, navegar e nesse caso, por exemplo, solicitar a cotação de fretes. Por outro lado, os requisitos não funcionais incluem características que afetam a usabilidade, desempenho e segurança do site, como a velocidade de carregamento, a compatibilidade com dispositivos móveis e a segurança dos dados. As restrições podem incluir limitações de tempo, orçamento, tecnologia ou recursos humanos. Ao considerar todas essas questões, é possível criar um projeto de site mais eficiente e eficaz. Para especificar o projeto, foi definido que seria usado diagrama de personas. Essa ferramenta ajuda a visualizar e planejar as funcionalidades e interfaces do site de acordo com a necessidade dos usuários. 
+  Para a reestruturação dessa aplicação, serão necessárias tecnologias modernas e eficazes que garantam uma experiência do usuário otimizada. Dentre as tecnologias que serão utilizadas para a reestruturação, destacam-se o HTML, CSS e JavaScript, que são fundamentais para a construção e estilização da interface gráfica do usuário. Além disso, o JSON e o CRUD server serão utilizados para gerenciar as informações e dados do aplicativo, tornando o processo mais eficiente e organizado. O Local Storage e o AJAX serão utilizados para armazenar informações e realizar atualizações em tempo real, proporcionando uma experiência de usuário mais fluida e interativa.
+  Com a utilização dessas tecnologias modernas e eficazes, a reestruturação do aplicativo ou site de logística poderá melhorar significativamente a experiência do usuário e a eficiência dos serviços prestados. Além disso, essas tecnologias também podem trazer benefícios em termos de segurança, escalabilidade e manutenção do sistema, tornando o aplicativo ou site mais robusto e confiável.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Roberto Souza, 66 anos, caminhoneiro, escolheu essa profissão por querer seguir os passos de seu pai. Roberto não tem muito contato com tecnologia, mas tudo que sabe aprendeu graças a sua neta. Ele quer continuar fazendo um trabalho eficiente pela empresa, realizando assim, mais viagens pelo Brasil em seu caminhão, e, quem sabe, receber um aumento por sua eficiência. 
+Roberto Souza, de 43 anos, um trabalhador comum, caminhoneiro, que tem essa profissão por gostar de dirigir, e não tem muito contato com tecnologia. Roberto busca continuar fazendo um trabalho eficiente pela empresa, continuar fazendo suas viagens pelo Brasil em seu caminhão, e, quem sabe, receber um aumento por sua eficiência na empresa. 
 
-Ricardo Moura, 28 anos, possui tecnólogo em logística e tualmente trabalha como Analista de Logística. Ricardo é um homem divertido, em seu tempo livre gosta de jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, ponto positivo que com certeza o ajudará a ser promovido com mais rapidez. 
+Ricardo Moura, de 28 anos, que trabalha na área de logística da empresa. Ricardo é um homem comum, gosta de sair do trabalho e jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a subir bem na empresa. 
 
-Rafaela Oliveira, 27 anos, trabalha em uma rede de supermercados que contratou o serviço fretado pela transportadora. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira no ramo do comércio, já que não não tem a intenção de mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia.
+Rafaela Oliveira, de 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia.
 
-José Carlos, 33 anos, é casado e tem uma filha. José trabalha como ajudante de carga e descarga, e faz de tudo para conseguir pagar uma boa escola para sua filha de 4 anos. José busca aumentar a sua comunicação com a empresa ao operar diretamente com o caminhoneiro transportando as cargas. Ele procura um meio de comunicação eficiente com a empresa, que permita uma troca rápida de informações sem causar perda de tempo, ou atraso na previsão de chegada, assim consequentemente, o tempo da viagem diminuiria e lhe daria mais tempo para realizar outras viagens, ganhar mais dinheiro, e conseguir continuar a pagar uma boa escola para sua filha. 
+José Carlos, de 33 anos, é casado e tem uma filha. José trabalha como ajudante de caminhoneiro, e faz de tudo para conseguir pagar uma boa escola para sua filha de 4 anos. José busca aumentar a sua comunicação com a empresa ao viajar levando as cargas, para que o tempo perdido comunicando local da carga e previsão de chegada diminua, e, consequentemente, o tempo da viagem também diminua, o que lhe daria mais tempo para realizar outras viagens, ganhar mais dinheiro, e conseguir continuar paga uma boa escola para sua filha. 
 
-Felipe Garcia é Gerente de Logística, está há mais de 7 anos na Zucco. Felipe é casado, e não tem filhos, já foi promovido dentro da empresa algumas vezes por sua grande agilidade e eficiência em calcular rotas e fretes. Felipe agora trabalha supervisionando a área de logística, analisando se não está ocorrendo nenhum problema nas entregas, enviando informações sobre acidentes e paralisações nas estradas para os caminhoneiros da empresa, e precisa de uma plataforma que consiga lhe proporcionar uma comunicação mais rápida com os caminhoneiros, para que continue sendo o mais eficiente possível em seu trabalho. 
+Felipe Garcia é um funcionário de mais de 7 anos da Zucco. Felipe é casado, e não tem filhos, mas já foi promovido dentro da empresa algumas vezes por sua grande agilidade e eficiência em calcular rotas e fretes. Felipe agora trabalha supervisionando a área de logística, analisando se não está ocorrendo nenhum problema nas entregas, enviando informações sobre acidentes e paralisações nas estradas para os caminhoneiros da empresa, e precisa de uma plataforma que consiga lhe proporcionar uma comunicação mais rápida com os caminhoneiros, para que continue sendo o mais eficiente possível em seu trabalho. 
 
-Ana Flávia Marques é uma mulher de 53 anos, solteira, dona de uma grande rede de supermercados no sul de Minas Gerais. Ana não é casada e não possui filhos, porém, ajuda a cuidar das duas filhas de sua irmã mais nova, que acabou perdendo o marido e tem passado por muitas dificuldades. Ana está em busca de uma empresa que transporte as mercadorias de seu supermercado e que tenha uma plataforma fácil de utilizar e monitorar os pedidos que seus funcionários encomendaram, para que assim possa continuar lucrando bem, e ajudando sua irmã na criação de suas sobrinhas.  
+Ana Flávia Marques é uma mulher de 53 anos, solteira, dona de uma grande rede de supermercados no sul de Minas Gerais. Ana não é casada e não possui filhos, porém, ajuda a cuidar das duas filhas de sua irmã mais nova, que acabou perdendo o marido e tem passado por muitas dificuldades. Ana está na busca por uma empresa que transporte as mercadorias de seu supermercado e que tenha uma plataforma fácil de se utilizar e monitorar as cargas que seus funcionários encomendaram, para que ela continue lucrando bem, e ajudando sua irmã na criação de suas sobrinhas.  
   
 <img src="img/diagrama (2).png">
 
@@ -45,23 +45,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----|--------|
-|RF-001| O site deve incluir uma estrutura de navegação clara e fácil de usar, para ajudar os usuários a encontrar o que estão procurando rapidamente | ALTA | Raul |
-|RF-002| O site deve permitir que os usuários preencham formulários, como formulários de contato, formulários de registro e formulários de requisição, e enviar essas informações com segurança por email para a empresa   | ALTA | Arthur |
+|RF-001| A aplicação deve incluir uma estrutura de navegação clara e fácil de usar, para ajudar os usuários a encontrar o que estão procurando rapidamente | ALTA | Raul |
+|RF-002| A aplicação deve permitir que os usuários preencham formulários, como formulários de contato, formulários de registro e formulários de requisição, e enviar essas informações com segurança por email para a empresa   | ALTA | Arthur |
 |RF-003|Solicitar uma cotação de frete através do preenchimento de um formulário | ALTA | Alice |
 |RF-004|Solicitar uma coleta através do preenchimento de um formulário | ALTA | Nicole |
 |RF-005|Cadastro de curriculo (anexar documento) através do preenchimento de um formulário | MEDIA | Matheus |
-|RF-006|O site deve fornecer informações detalhadas sobre a empresa, incluindo sua história, missão e valores | ALTA | Nicole |
-|RF-007|O site deve incluir páginas estáticas, como páginas de informações e contato | ALTA | Alice |
+|RF-006|A aplicação deve fornecer informações detalhadas sobre a empresa, incluindo sua história, missão e valores | ALTA | Nicole |
+|RF-007|A aplicação deve incluir páginas estáticas, como páginas de informações e contato | ALTA | Alice |
 |RF-008|O sistema deve ter botões direcionando para as páginas do site | ALTA | Rafael |
 |RF-009|O sistema deve ter a geolocalização das unidades (matriz/filiais) - Infraestrutura | ALTA | Raul |
-|RF-010|O site deve fornecer informações sobre os serviços de transporte oferecidos, como tipos de carga aceitos, regiões atendidas, prazos de entrega e valores de frete e variações de meios de transportes | ALTA | Matheus |
+|RF-010|A aplicação deve fornecer informações sobre os serviços de transporte oferecidos, como tipos de carga aceitos, regiões atendidas, prazos de entrega e valores de frete e variações de meios de transportes | ALTA | Matheus |
 |RF-011|Deve ser possível entrar em contato com direcionamento de mensagem para o email ou chat online direto com atendente/funcionário | MEDIA | Arthur |
 |RF-012|Deve disponibilizar opções de comentários/ avaliações | BAIXA | Nicole |
-|RF-013|O site deve ter integração de mídia social, redirecionado e permitindo que os usuários vejam e sigam as contas de mídia social do site | BAIXA | Matheus |
-|RF-014|O site deve incluir imagens e vídeos relevantes que complementem o conteúdo do site | ALTA | Rafael |
-|RF-015|O site deve incluir suporte a arquivos de vídeo, foto e outras formas de mídia, como galerias de fotos | MEDIA | Alice |
-|RF-016|O site pode fornecer informações sobre serviços adicionais oferecidos, como armazenamento e seguro de carga | MEDIA | Raul |
-|RF-017|O site pode permitir que os usuários personalizem o estilo da página, como botão que muda as cores do site para o modo noturno | BAIXA | Rafael |
+|RF-013|A aplicação deve ter integração de mídia social, redirecionado e permitindo que os usuários vejam e sigam as contas de mídia social do site | BAIXA | Matheus |
+|RF-014|A aplicação deve incluir imagens e vídeos relevantes que complementem o conteúdo do site | ALTA | Rafael |
+|RF-015|A aplicação deve incluir suporte a arquivos de vídeo, foto e outras formas de mídia, como galerias de fotos | MEDIA | Alice |
+|RF-016|A aplicação pode fornecer informações sobre serviços adicionais oferecidos, como armazenamento e seguro de carga | MEDIA | Raul |
+|RF-017|A aplicação pode permitir que os usuários personalizem o estilo da página, como botão que muda as cores do site para o modo noturno | BAIXA | Rafael |
 
 
 ### Requisitos não Funcionais
