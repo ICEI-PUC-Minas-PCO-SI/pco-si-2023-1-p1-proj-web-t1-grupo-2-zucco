@@ -14,6 +14,12 @@ Roberto Souza, de 43 anos, um trabalhador comum, caminhoneiro, que tem essa prof
 Ricardo Moura, de 28 anos, que trabalha na área de logística da empresa. Ricardo é um homem comum, gosta de sair do trabalho e jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a subir bem na empresa. 
 
 Rafaela Oliveira, de 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia.
+
+José Carlos, de 33 anos, é casado e tem uma filha. José trabalha como ajudante de caminhoneiro, e faz de tudo para conseguir pagar uma boa escola para sua filha de 4 anos. José busca aumentar a sua comunicação com a empresa ao viajar levando as cargas, para que o tempo perdido comunicando local da carga e previsão de chegada diminua, e, consequentemente, o tempo da viagem também diminua, o que lhe daria mais tempo para realizar outras viagens, ganhar mais dinheiro, e conseguir continuar paga uma boa escola para sua filha. 
+
+Felipe Garcia é um funcionário de mais de 7 anos da Zucco. Felipe é casado, e não tem filhos, mas já foi promovido dentro da empresa algumas vezes por sua grande agilidade e eficiência em calcular rotas e fretes. Felipe agora trabalha supervisionando a área de logística, analisando se não está ocorrendo nenhum problema nas entregas, enviando informações sobre acidentes e paralisações nas estradas para os caminhoneiros da empresa, e precisa de uma plataforma que consiga lhe proporcionar uma comunicação mais rápida com os caminhoneiros, para que continue sendo o mais eficiente possível em seu trabalho. 
+
+Ana Flávia Marques é uma mulher de 53 anos, solteira, dona de uma grande rede de supermercados no sul de Minas Gerais. Ana não é casada e não possui filhos, porém, ajuda a cuidar das duas filhas de sua irmã mais nova, que acabou perdendo o marido e tem passado por muitas dificuldades. Ana está na busca por uma empresa que transporte as mercadorias de seu supermercado e que tenha uma plataforma fácil de se utilizar e monitorar as cargas que seus funcionários encomendaram, para que ela continue lucrando bem, e ajudando sua irmã na criação de suas sobrinhas.  
   
 <img src="img/diagrama.png">
 
@@ -23,10 +29,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Roberto Souza/Caminhoneiro|Necessito de algo que eu possa notificar a empresa onde eu trabalho|Para que ela possa saber meu trajeto ao longo das entregas
-|Ricardo Moura/Administrador do sistema|Preciso de algo que possa me dar informações sobre como esta transcorrendo as entregas da empresa|Para poder informar ao cliente onde esta seu produto e para saber como todos os caminhões de transporte estão|
-|Rafaela Oliveira/Contratante|Gostaria de algo que me mantivesse 100% do tempo informada sobre onde estão as minhas mercadorias que estão sendo transportadas|Para que eu possa me sentir segura e despreocupada se irei receber as minhas encomendas|
-  
+|Caminhoneiro|Necessito de algo que eu possa notificar a empresa onde eu trabalho|Para que ela possa saber meu trajeto ao longo das entregas
+|Administrador do sistema|Preciso de algo que possa me dar informações sobre como esta transcorrendo as entregas da empresa|Para poder informar ao cliente onde esta seu produto e para saber como todos os caminhões de transporte estão|
+|Funcionária e supermercado/Contratante|Gostaria de algo que me mantivesse 100% do tempo informada sobre onde estão as minhas mercadorias que estão sendo transportadas|Para que eu possa me sentir segura e despreocupada se irei receber as minhas encomendas|
+|Supervisor de logística|Algo que me mantenha em contato direto com os caminhoneiros e contratantes de forma fácil|Para facilitar o meu trabalho e aumentar minha eficiência
+|Ajudante de caminhoneiro|Algo que facilite minha comunicação com a empresa|Para diminuir o tempo perdido comunicando sobre a carga e, consequentemente, diminuir o número de horas da viagem
+| Dona de redes de supermercado/Contratante|Uma empresa que transporte minhas mercadorias com cuidado com plataforma fácil e rápida de usar|Para que os produtos do meu supermercado cheguem bem ao consumidor final e eu continue fazendo um bom trabalho
 
 
 ## Requisitos
