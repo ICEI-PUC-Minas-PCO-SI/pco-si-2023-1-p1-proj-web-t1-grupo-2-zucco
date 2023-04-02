@@ -43,8 +43,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|----|--------|
 |RF-001| O site deve incluir uma estrutura de navegação clara e fácil de usar, para ajudar os usuários a encontrar o que estão procurando rapidamente | ALTA | Raul |
 |RF-002| O site deve permitir que os usuários preencham formulários, como formulários de contato, formulários de registro e formulários de requisição, e enviar essas informações com segurança por email para a empresa   | ALTA | Arthur |
 |RF-003|Solicitar uma cotação de frete através do preenchimento de um formulário | ALTA | Alice |
@@ -68,7 +68,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | ALTA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | ALTA |
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
 |RNF-003| O site deve ficar fora do ar no máximo 3 horas por ano |  ALTA |
 |RNF-004| Todos os formularios devem ter validação de dados que filtram comandos html e javascript |  ALTA |
