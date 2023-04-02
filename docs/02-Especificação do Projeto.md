@@ -21,7 +21,7 @@ Felipe Garcia é um funcionário de mais de 7 anos da Zucco. Felipe é casado, e
 
 Ana Flávia Marques é uma mulher de 53 anos, solteira, dona de uma grande rede de supermercados no sul de Minas Gerais. Ana não é casada e não possui filhos, porém, ajuda a cuidar das duas filhas de sua irmã mais nova, que acabou perdendo o marido e tem passado por muitas dificuldades. Ana está na busca por uma empresa que transporte as mercadorias de seu supermercado e que tenha uma plataforma fácil de se utilizar e monitorar as cargas que seus funcionários encomendaram, para que ela continue lucrando bem, e ajudando sua irmã na criação de suas sobrinhas.  
   
-<img src="img/diagrama.png">
+<img src="img/diagrama (2).png">
 
 ## Histórias de Usuários
 
