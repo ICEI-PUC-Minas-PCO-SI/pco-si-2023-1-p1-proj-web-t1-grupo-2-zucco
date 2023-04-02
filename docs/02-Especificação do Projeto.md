@@ -11,7 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Roberto Souza, 66 anos, caminhoneiro, escolheu essa profissão por querer seguir os passos de seu pai. Roberto não tem muito contato com tecnologia, mas tudo que sabe aprendeu graças a sua neta. Ele quer continuar fazendo um trabalho eficiente pela empresa, realizando assim, mais viagens pelo Brasil em seu caminhão, e, quem sabe, receber um aumento por sua eficiência. 
 
-Ricardo Moura, 28 anos, trabalha como Analista de Logística na empresa. Ricardo é um homem divertido, em seu tempo livre gosta de jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, ponro positivo que com certeza o ajudará a ser promovido com mais rapidez. 
+Ricardo Moura, 28 anos, trabalha como Analista de Logística. Ricardo é um homem divertido, em seu tempo livre gosta de jogar futebol e videogames. Ricardo é bastante eficiente em seu trabalho, e pensa em subir de cargo na empresa. Além disso, Ricardo é extremamente familiarizado com tecnologia, ponro positivo que com certeza o ajudará a ser promovido com mais rapidez. 
 
 Rafaela Oliveira, 27 anos, trabalha em uma rede de supermercados que contratou o serviço de frete da empresa. Rafaela adora sair aos fins de semana, e seu maior hobby é assistir séries, principalmente após sair do trabalho. Além disso, é casada e pensa em desenvolver uma boa carreira na empresa, já que não pensa em mudar de cidade ou país. Rafaela tem uma média familiaridade com tecnologia.
 
