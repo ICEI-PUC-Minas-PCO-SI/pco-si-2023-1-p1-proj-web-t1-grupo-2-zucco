@@ -13,7 +13,7 @@
 
 Roberto Souza tem 43 anos e é caminhoneiro. Ele optou por essa profissão porque gosta de dirigir e não tem muito contato com tecnologia. Roberto preza pela eficiência do seu trabalho, já que recebe por produtividade, ou seja, quanto mais entregas conseguir fazer, mais irá receber. 
 
-Ricardo Moura tem 28 anos e trabalha na área de logística da empresa. Ele gosta de sair do trabalho e jogar futebol e videogame. Bastante eficiente em seu trabalho pensa em subir de cargo na empresa, o mesmo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a atingir seu objetivo.
+Ricardo Moura tem 28 anos e atua como Analista de Logística na empresa. Ele gosta de sair do trabalho e jogar futebol e videogame. Bastante eficiente em seu trabalho pensa em subir de cargo na empresa, o mesmo é extremamente familiarizado com tecnologia, o que com certeza o ajudará a atingir seu objetivo.
 
 Rafaela Oliveira tem 27 anos e trabalha em uma rede de supermercados. Ela contratou o serviço de frete da empresa para suas necessidades pessoais. Rafaela gosta de sair aos fins de semana e assistir séries é o seu maior hobby. Casada e com o objetivo de desenvolver uma carreira de sucesso na empresa, ela busca empresas de transporte com bom custo-benefício e atendimento eficiente. Embora não seja especialista em tecnologia, Rafaela tem uma familiaridade média com ela.
 
