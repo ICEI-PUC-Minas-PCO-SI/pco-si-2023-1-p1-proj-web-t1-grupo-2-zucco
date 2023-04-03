@@ -6,7 +6,7 @@
   
   Para a reestruturação dessa aplicação, serão necessárias tecnologias modernas e eficazes que garantam uma experiência do usuário otimizada. Dentre as tecnologias que serão utilizadas para a reestruturação, destacam-se o HTML, CSS e JavaScript, que são fundamentais para a construção e estilização da interface gráfica do usuário. Além disso, o JSON e o CRUD server serão utilizados para gerenciar as informações e dados do aplicativo, tornando o processo mais eficiente e organizado. O Local Storage e o AJAX serão utilizados para armazenar informações e realizar atualizações em tempo real, proporcionando uma experiência de usuário mais fluida e interativa.
   
-  Com a utilização dessas tecnologias modernas e eficazes, a reestruturação da aplicação poderá melhorar significativamente a experiência do usuário e a eficiência dos serviços prestados. Além disso, essas tecnologias também podem trazer benefícios em termos de segurança, escalabilidade e manutenção do sistema, tornando a aplicação mais robusta e confiável.
+  Com a utilização dessas tecnologias, a reestruturação da aplicação poderá melhorar significativamente a experiência do usuário e a eficiência dos serviços prestados. Além disso, essas tecnologias também podem trazer benefícios em termos de segurança, escalabilidade e manutenção do sistema, tornando a aplicação mais robusta e confiável.
 
 
 ## Personas
