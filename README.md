@@ -29,7 +29,7 @@ A reestruturação é necessária em função da falta de atualizações e infor
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
+<li><a href="docs/03-Metodologia.md"> Metodologia (apagada)</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
 <li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li>
