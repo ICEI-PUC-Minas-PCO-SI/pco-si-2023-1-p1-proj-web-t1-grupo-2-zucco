@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-!(img/User Flow - Zucco.jpg) 
+![Exemplo de UserFlow](img/userflow.jpg)
 
 
 
