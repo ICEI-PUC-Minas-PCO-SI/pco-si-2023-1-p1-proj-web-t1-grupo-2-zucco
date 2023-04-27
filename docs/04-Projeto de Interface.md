@@ -30,6 +30,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 |MATHEUS|AÇÃO|
 |NICOLE|AÇÃO  |
 |RAFAEL| FEITO: WIREFRAME FALE CONOSCO, USERFLOW FALE CONOSCO |
-|RAUL| AÇÃO |
+|RAUL| FEITO: USER FLOW SOBRE NÓS, WIREFRAME DA SOBRE NÓS, TRABALHE CONOSCO E CIDADES ATENDIDAS |
 
 
