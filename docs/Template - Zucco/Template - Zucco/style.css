@@ -1,0 +1,115 @@
+/* Paleta de cores 
+CINZA FORTE  #70809  (112,128,144)
+VERMELHO ESCURO #8B000  (139,0,0)
+VERMELHO #B22222 (178,34,34)
+PRETO #000000  (0,0,0)
+CINZA #A9A9A9  (169,169,169)
+*/
+/* Toda essa parte deve ser apagada */
+.iconografia img{
+    width: 600px;
+    height: 400px;
+}
+#paleta{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+.cores{
+    width: 300px;
+    height: 300px;
+}
+#cinza-forte{
+    background-color: rgb(112,128,144);
+}
+#vermelho-escuro{
+    background-color: rgb(139,0,0);
+}
+#vermelho{
+    background-color: rgb(178,34,34);
+}
+#preto{
+    background-color: rgb(0,0,0);
+}
+#cinza{
+    background-color: rgb(169,169,169);
+}
+
+/* Fonte que vai ser usada */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Tirar o icone de lista */
+li {
+    list-style-type: none;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(178,34,34);
+}
+.nav-link{
+    color: rgb(169,169,169);
+}
+nav div a img{
+    width: 100px;
+    height: 60px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    /* Defini a posição vertical do elemento em relação a sua borda inferior */
+    bottom: 0;
+    color: rgb(169,169,169);
+    background-color: rgb(178,34,34);
+}
+/* Vamos seguir o padrão do bootstrap para trabalhar com a responsividade*/
+/* Padrão de responsividade, caso você queira fazer alguma coisa que o bootstrap não da conta */
+/* Extra small 	  None 	        <576px
+   Small 	      sm            ≥576px
+   Medium 	      md            ≥768px
+   Large 	      lg            ≥992px
+   Extra large 	  xl            ≥1200px
+   Extra extra large 	xxl 	≥1400px */
+@media only screen and (max-width: 575px) {
+    /* regras CSS para telas menores que 576px */
+    /* Extra small */
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* regras CSS para telas entre 576px e 767px */
+    /* Small */
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* regras CSS para telas entre 768px e 991px */
+    /* Medium */
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* regras CSS para telas entre 992px e 1199px */
+    /* Large */
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    /* regras CSS para telas entre 1200px e 1399px */
+    /* Extra large */
+}
+@media only screen and (min-width: 1400px){
+    /* regras CSS para telas com largura mínima de 1400px */
+    /* Extra extra large */
+}
