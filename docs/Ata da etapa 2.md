@@ -4,15 +4,22 @@
 ## ATA DE REUNIÃO
 
 Projeto: Interfaces - Wireframe e Userflow
+
 Data: 21/04/2023
+
 Horário: 15:00 ás 22:00
+
 Local: Reunião on-line - Discord
 
 ## Participantes:
 Alice Silva Lisboa
+
 Matheus Henrique Marques Canuto
+
 Nicole Vargas Zanotto
+
 Rafael Romagnoli Conforte Cesario
+
 Raul Eleutério Aleixo
 
 ## Objetivos:
@@ -22,8 +29,8 @@ Raul Eleutério Aleixo
 ## Deliberações:
 
 Alice Silva Lisboa
-No projeto de interfaces foi realizado por mim a criação do Wireframe da tela Home, Wireframe da tela Onde Estamos, Userflow da tela Onde Estamos e Userflow da tela Cidades Atendidas, 
-além da organização dos Wireframes e criação de um template para futuras execuções. Durante o processo, também ajudei na organização do Userflow.
+
+No projeto de interfaces foi realizado por mim a criação do Wireframe da tela Home, Wireframe da tela Onde Estamos, Userflow da tela Onde Estamos e Userflow da tela Cidades Atendidas, além da organização dos Wireframes e criação de um template para futuras execuções. Durante o processo, também ajudei na organização do Userflow.
 
 - Foi apresentado o Wireframe da tela Home, discutido e aprovado pelos participantes;
 - Foi apresentado o Wireframe da tela Onde Estamos, discutido e aprovado pelos participantes;
