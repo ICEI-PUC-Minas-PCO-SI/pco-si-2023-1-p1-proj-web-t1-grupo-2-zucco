@@ -41,6 +41,8 @@ No projeto de interfaces foi realizado por mim a criação do Wireframe da tela 
 
 Arthur Braga Ribeiro
 
+No projeto de Interfaces, foi criado por mim o Wire frame da tela das Cidades Atendidas.
+
 - Foi apresentado o Wireframe da tela Cidades Atendidas, discutido e aprovado pelos participantes;
 
 Matheus Henrique Marques Canuto
@@ -62,11 +64,15 @@ No projeto de Interfaces foi desenvolvido por mim o Wireframe da tela Serviços 
 
 Rafael Romagnoli Conforte Cesario
 
+No projeto de Interfaces foi desenvolvido por mim o User Flow da tela de Contato e de sua tela de agradecimento, o User Flow da tela de agradecimento de Trabalhe Conosco, e o Wireframe da tela Contato. No template padrão, modifiquei um pouco o HTML do nosso rodapé, para se adequar às ideias de nosso grupo.
+
 - Foi apresentado o Wireframe da tela Contato, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Contato, discutido e aprovado pelos participantes;
-- Modificou o layout de rodapé do template padrão para se adequar às necessidades do grupo; 
+- Modificou o layout de rodapé do template padrão para se adequar às ideias do grupo; 
 
 Raul Eleutério Aleixo
+
+No projeto de Interfaces, foi desenvolvido por mim o Wireframe da tela Sobre nós, o wireframe da tela Trabalhe conosco, e o User Flow da tela Sobre Nós. Além disso, foi criado por mim o código em HTML do rodapé do nosso template padrão.
 
 - Foi apresentado o Wireframe da tela Sobre Nós, discutido e aprovado pelos participantes;
 - Foi apresentado o Wireframe da tela Trabalhe Conosco, discutido e aprovado pelos participantes;
