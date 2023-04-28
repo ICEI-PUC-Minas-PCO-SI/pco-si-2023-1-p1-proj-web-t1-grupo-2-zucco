@@ -45,7 +45,12 @@ Arthur Braga Ribeiro
 
 Matheus Henrique Marques Canuto
 
+Inicializou o template o padrão e os arquivos do figma, trabalhou no template padrão e fez 2 telas do User flow (home e trabalhe conosco)
+
 - Foi apresentado o Userflow da tela Home, discutido e aprovado pelos participantes;
+- Dentro do template padrão: Foi criado o nav, tamanho das fontes, padrões de responsividade, divs mostrando as cores e os exemplos de h1, h2 e h3;
+- Criou os arquivos padrões do figma;
+
 
 Nicole Vargas Zanotto
 
