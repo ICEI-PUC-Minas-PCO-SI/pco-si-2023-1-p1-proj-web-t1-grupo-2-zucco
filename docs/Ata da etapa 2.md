@@ -64,12 +64,14 @@ Rafael Romagnoli Conforte Cesario
 
 - Foi apresentado o Wireframe da tela Contato, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Contato, discutido e aprovado pelos participantes;
+- Modificou o layout de rodapé do template padrão para se adequar às necessidades do grupo; 
 
 Raul Eleutério Aleixo
 
 - Foi apresentado o Wireframe da tela Sobre Nós, discutido e aprovado pelos participantes;
 - Foi apresentado o Wireframe da tela Trabalhe Conosco, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Sobre Nós, discutido e aprovado pelos participantes;
+- Foi apresentado um layout do rodapé do template padrão ao grupo, que foi discutido pelos participantes que sugeriram algumas modificações; 
 
 
 - Os participantes sugeriram algumas melhorias para as próximas execuções, tais como incluir mais informações nos Wireframes e melhorar a organização dos Userflows.
