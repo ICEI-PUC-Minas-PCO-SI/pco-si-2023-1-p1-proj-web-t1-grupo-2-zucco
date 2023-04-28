@@ -40,21 +40,28 @@ No projeto de interfaces foi realizado por mim a criação do Wireframe da tela 
 - Criei template dos Wireframes;
 
 Arthur Braga Ribeiro
+
 - Foi apresentado o Wireframe da tela Cidades Atendidas, discutido e aprovado pelos participantes;
 
 Matheus Henrique Marques Canuto
+
 - Foi apresentado o Userflow da tela Home, discutido e aprovado pelos participantes;
 
 Nicole Vargas Zanotto
+
+No projeto de Interfaces foi desenvolvido por mim o Wireframe da tela Serviços oferecidos, User Flow da tela Serviços oferecidos, User Flow de confirmação de mensagem enviada da tela Trabalhe conosco e Contato. Além disso, contribui na organização do User flow.
+
 - Foi apresentado o Wireframe da tela Serviços, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Serviços, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela de Contato com mensagem de agredecimento, discutido e aprovado pelos participantes;
 
 Rafael Romagnoli Conforte Cesario
+
 - Foi apresentado o Wireframe da tela Contato, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Contato, discutido e aprovado pelos participantes;
 
 Raul Eleutério Aleixo
+
 - Foi apresentado o Wireframe da tela Sobre Nós, discutido e aprovado pelos participantes;
 - Foi apresentado o Wireframe da tela Trabalhe Conosco, discutido e aprovado pelos participantes;
 - Foi apresentado o Userflow da tela Sobre Nós, discutido e aprovado pelos participantes;
