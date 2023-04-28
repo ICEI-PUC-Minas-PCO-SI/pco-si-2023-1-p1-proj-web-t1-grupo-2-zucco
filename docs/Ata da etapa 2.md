@@ -1,25 +1,25 @@
-## Relatório de Atividades
+# Relatório de Atividades
 
 
-# ATA DE REUNIÃO
+## ATA DE REUNIÃO
 
 Projeto: Interfaces - Wireframe e Userflow
 Data: 21/04/2023
 Horário: 15:00 ás 22:00
 Local: Reunião on-line - Discord
 
-# Participantes:
+## Participantes:
 Alice Silva Lisboa
 Matheus Henrique Marques Canuto
 Nicole Vargas Zanotto
 Rafael Romagnoli Conforte Cesario
 Raul Eleutério Aleixo
 
-# Objetivos:
+## Objetivos:
 - Discutir a execução do projeto de Interfaces, com foco nos Wireframes e Userflows das telas Home, Sobre Nós, Serviços, Onde Estamos, Trabalhe Conosco, Cidades Atendidas e Contato;
 - Analisar as etapas do projeto e apresentar possíveis melhorias para futuras execuções.
 
-# Deliberações:
+## Deliberações:
 
 Alice Silva Lisboa
 No projeto de interfaces foi realizado por mim a criação do Wireframe da tela Home, Wireframe da tela Onde Estamos, Userflow da tela Onde Estamos e Userflow da tela Cidades Atendidas, 
@@ -55,7 +55,7 @@ Raul Eleutério Aleixo
 
 - Os participantes sugeriram algumas melhorias para as próximas execuções, tais como incluir mais informações nos Wireframes e melhorar a organização dos Userflows.
 
-# Conclusões:
+## Conclusões:
 - O projeto de Interfaces, com foco nos Wireframes e Userflows das telas Home, Sobre Nós, Serviços, Onde Estamos, Trabalhe Conosco, Cidades Atendidas e Contato, foi executado com sucesso;
 - Todos os participantes estavam satisfeitos com os resultados apresentados;
 - As sugestões de melhorias serão consideradas para futuras execuções.
