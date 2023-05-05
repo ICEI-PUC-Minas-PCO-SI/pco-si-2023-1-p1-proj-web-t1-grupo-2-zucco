@@ -28,5 +28,8 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 <img src="img/ZUCCO-6.png">
 <img src="img/ZUCCO-7.png">
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2a553771991e3eef2345aebe8af1c3f96f7ae8fa
