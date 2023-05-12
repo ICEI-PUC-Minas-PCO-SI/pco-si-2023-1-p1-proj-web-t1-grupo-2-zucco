@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: #e6e4e4;
+  }
+  
+  nav div a img {
+    width: 100px;
+    height: 60px;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 8%;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  footer {
+  
+    margin-top: 3%;
+    font-size: 15px;
+  
+  }
+  
+  p+p {
+    margin-bottom: 0px;
+  }
+  
+  /* Vamos seguir o padrão do bootstrap para trabalhar com a responsividade*/
+  /* Padrão de responsividade, caso você queira fazer alguma coisa que o bootstrap não da conta */
+  /* Extra small 	  None 	        <576px
+     Small 	      sm            ≥576px
+     Medium 	      md            ≥768px
+     Large 	      lg            ≥992px
+     Extra large 	  xl            ≥1200px
+     Extra extra large 	xxl 	≥1400px */
+  @media only screen and (max-width: 575px) {
+  
+    /* regras CSS para telas menores que 576px */
+    /* Extra small */
+    main {
+      margin-top: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+    /* regras CSS para telas entre 576px e 767px */
+    /* Small */
+    main {
+      margin-top: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+    /* regras CSS para telas entre 768px e 991px */
+    /* Medium */
+    main {
+      margin-top: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* regras CSS para telas entre 992px e 1199px */
+    /* Large */
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    /* regras CSS para telas entre 1200px e 1399px */
+    /* Extra large */
+  }
+  
+  @media only screen and (min-width: 1400px) {
+    /* regras CSS para telas com largura mínima de 1400px */
+    /* Extra extra large */
+  }
