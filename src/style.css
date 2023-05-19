@@ -93,3 +93,50 @@ html {
     /* regras CSS para telas com largura mínima de 1400px */
     /* Extra extra large */
   }
+  #main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .card_queroTrabalhar{
+    width: 400px;
+    background-color: #dfdfdf;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0 , 0.389);
+    margin-top: 25px;
+    padding: 20px;
+  }
+
+  #button_captcha{
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border: none;
+  }
+
+   #button_enviar{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .centered {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .centered-1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .form-1check{
+    margin-top: 40px;
+  }
