@@ -1,59 +1,43 @@
 html {
     height: 100%;
     width: 100%;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     color: #e6e4e4;
-  }
-  
-  nav div a img {
+}
+
+nav div a img {
     width: 100px;
     height: 60px;
-  }
-  
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 8%;
-  }
-  
-  h1 {
-    font-size: 50px;
-  }
-  
-  h2 {
-    font-size: 35px;
-  }
-  
-  h3 {
-    font-size: 25px;
-  }
-  
-  p {
+}
+
+
+p {
     font-size: 15px;
-  }
-  
-  footer {
-  
+}
+
+footer {
+
     margin-top: 3%;
     font-size: 15px;
-  
-  }
-  
-  p+p {
-    margin-bottom: 0px;
-  }
-  
-  /* Vamos seguir o padrão do bootstrap para trabalhar com a responsividade*/
-  /* Padrão de responsividade, caso você queira fazer alguma coisa que o bootstrap não da conta */
-  /* Extra small 	  None 	        <576px
-     Small 	      sm            ≥576px
-     Medium 	      md            ≥768px
-     Large 	      lg            ≥992px
-     Extra large 	  xl            ≥1200px
-     Extra extra large 	xxl 	≥1400px */
-  @media only screen and (max-width: 575px) {
-  
+
+}
+
+p+p {
+    margin-bottom: 0;
+}
+
+/* Vamos seguir o padrão do bootstrap para trabalhar com a responsividade*/
+/* Padrão de responsividade, caso você queira fazer alguma coisa que o bootstrap não da conta */
+/* Extra small 	  None 	        <576px
+   Small 	      sm            ≥576px
+   Medium 	      md            ≥768px
+   Large 	      lg            ≥992px
+   Extra large 	  xl            ≥1200px
+   Extra extra large 	xxl 	≥1400px */
+   @media only screen and (max-width: 575px) {
+
     /* regras CSS para telas menores que 576px */
     /* Extra small */
     main {
@@ -86,6 +70,7 @@ html {
   
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     /* regras CSS para telas entre 1200px e 1399px */
+    
     /* Extra large */
   }
   
@@ -93,50 +78,232 @@ html {
     /* regras CSS para telas com largura mínima de 1400px */
     /* Extra extra large */
   }
-  #main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+    background-color: #fff;
+}
 
-  .card_queroTrabalhar{
-    width: 400px;
-    background-color: #dfdfdf;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 , 0.389);
-    margin-top: 25px;
-    padding: 20px;
-  }
+/*-----------------------------------------------------------------------------
+1. CEE RESET 
+----------------------------------------------------------------------------- */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-  #button_captcha{
-    padding: 15px;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-    border: none;
-  }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
-   #button_enviar{
-    font-weight: bold;
-    color: black;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-  }
+body {
+    line-height: 1;
+}
 
-  .centered {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-  }
+/* ==========================================================================
+    2. DOCUMENT STYLES
+========================================================================= */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+    background-color: #fff;
+}
 
-  .centered-1 {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin-top: 40px;
-  }
+/* ==========================================================================
+    3. TYPOGRAPHY 
+========================================================================= */
+p,
+a,
+span {
+    color: #494949;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
+}
 
-  .form-1check{
-    margin-top: 40px;
-  }
+a {
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+h6 {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+b{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar {
+    min-height: 80px;
+    margin-bottom: 0;
+}
+
+.navbar-nav>li {
+    padding-bottom: 0;
+}
+
+/*COR DOS LINKS NAV*/
+.navbar-nav>li>a {
+    line-height: 48px;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #dfdfdf;
+    text-transform: uppercase;
+}
