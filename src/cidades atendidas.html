@@ -18,139 +18,158 @@
 <body>
 
     <!--CABEÇALHO-->
-    <header>
-        <body>
-            <h2>CIDADES ATENDIDAS</h2>
-            <div class="container my-3">
-                <div class="row">
-                  <div class="col">
-                    <div class="accordion" id="accordionExample1">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Estados
-                          </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
-                          <div class="accordion-body">
-                            <div class="d-grid gap-2">
-                              <button class="btn btn-light" type="button">São Paulo</button>
-                              <button class="btn btn-light" type="button">Minas Gerais</button>
-                              <button class="btn btn-light" type="button">Santa Catarina</button>
-                              <button class="btn btn-light" type="button">Paraná</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col">
-                    <div class="accordion" id="accordionExample2">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                            Regiões
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
-                          <div class="accordion-body">
-                            <div class="d-grid gap-2">
-                              <button class="btn btn-light" type="button">Região Metropolitana</button>
-                              <button class="btn btn-light" type="button">Região Norte</button>
-                              <button class="btn btn-light" type="button">Região Sul</button>
-                              <button class="btn btn-light" type="button">Interior do estado</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            
-                <div class="row">
-                  <div class="col">
-                    <div class="card mt-3">
-                      <div class="card-body">
-                        <h5 class="card-title">Cidades</h5>
-                        <div class="row">
-                          <div class="col">
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Cidade 1</li>
-                              <li class="list-group-item">Cidade 2</li>
-                              <li class="list-group-item">Cidade 3</li>
-                              <li class="list-group-item">Cidade 4</li>
-                              <li class="list-group-item">Cidade 5</li>
-                              <li class="list-group-item">Cidade 6</li>
-                              <li class="list-group-item">Cidade 7</li>
-                              <li class="list-group-item">Cidade 8</li>
-                            </ul>
-                          </div>
-                          <div class="col">
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Cidade 9</li>
-                              <li class="list-group-item">Cidade 10</li>
-                              <li class="list-group-item">Cidade 11</li>
-                              <li class="list-group-item">Cidade 12</li>
-                              <li class="list-group-item">Cidade 13</li>
-                              <li class="list-group-item">Cidade 14</li>
-                              <li class="list-group-item">Cidade 15</li>
-                              <li class="list-group-item">Cidade 16</li>
-                            </ul>
-                          </div>
+<header>
+    <nav class="navbar navbar-expand-xxl">
+      <nav class="navbar fixed-top" style="background-color: #b22222;">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5" href="#"><img id="" src="zucco-removebg-preview.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto  mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cotação de Fretes</a></li>
+                  <li><a class="dropdown-item" href="#">Coletas de Mercadorias</a></li>
+                  <li><a class="dropdown-item" href="#">Transporte de Cargas Fracionadas</a></li>
+                  <li><a class="dropdown-item" href="#">Transporte de Cargas Fechadas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Recebimento e Armazenagem de Carga</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Inspeção, Expedição e Distribuição</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onde.html">Onde Estamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trabalhe.html">Trabalhe conosco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cidades.html">Cidades atendidas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-light" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  </header>
+
+    <figure class="text-center">
+        <h1><b>Trabalhe Conosco</b></h1>
+        <!--CONTEUDO-->
+        <main>
+        <h2>CIDADES ATENDIDAS</h2>
+        <div class="container my-3">
+            <div class="row">
+              <div class="col">
+                <div class="accordion" id="accordionExample1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Estados
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+                      <div class="accordion-body">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-light" type="button">São Paulo</button>
+                          <button class="btn btn-light" type="button">Santa Catarina</button>
+                          <button class="btn btn-light" type="button">Paraná</button>
+                          <button class="btn btn-light" type="button">Minas Gerais</button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-                      </body>
-       
-        <!--TODAS AS PAGS-->
-    </figure>
-    
-    <main>
-        <div id="main">
-            <div class="card_queroTrabalhar">
-                <div class="content">
-                    <h3 class="centered">Quero trabalhar como:</h3>
-                    <div class="form-1check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                          Motorista de caminhão
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                          Estoquista
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                        <label class="form-check-label" for="exampleRadios2">
-                          Auxiliar administrativo 
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
-                        <label class="form-check-label" for="exampleRadios2">
-                          Motorista
-                        </label>
-                      </div>
-                      <h5 class="centered-1">Qual seu diferencial?</h5>
-                      <div class="mb-3"> 
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                      </div>
-                      <button id="button_captcha" class="centered"><h3><b>Captcha</b></h3></button>
-                      <p><button id="button_enviar" class="centered"><h5><b>Enviar</b></h5></button></p>
-                </div>
-            </div>
-    
-        </div>
         
-    </main>
-
+              <div class="col">
+                <div class="accordion" id="accordionExample2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Regiões
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                      <div class="accordion-body">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-light" type="button">Região Metropolitana</button>
+                          <button class="btn btn-light" type="button">Região Notre</button>
+                          <button class="btn btn-light" type="button">Região Sul</button>
+                          <button class="btn btn-light" type="button">Interior do Estado</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="row">
+              <div class="col">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Cidades</h5>
+                    <div class="row">
+                      <div class="col">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">1</li>
+                          <li class="list-group-item">2</li>
+                          <li class="list-group-item">3</li>
+                          <li class="list-group-item">4</li>
+                          <li class="list-group-item">5</li>
+                          <li class="list-group-item"> 6</li>
+                          <li class="list-group-item"> 7</li>
+                          <li class="list-group-item">8</li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"> 9</li>
+                          <li class="list-group-item">10</li>
+                          <li class="list-group-item">11</li>
+                          <li class="list-group-item">12</li>
+                          <li class="list-group-item">13</li>
+                          <li class="list-group-item">14</li>
+                          <li class="list-group-item">15</li>
+                          <li class="list-group-item">16</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+               
     <!--RODAPÉ-->
     <footer>
         <div class="container-fluid bg-light pt-3 pb-4 mt-3">
