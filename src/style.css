@@ -359,3 +359,57 @@ img {
   .form-1check{
     margin-top: 40px;
   }
+/* ==========================================================================
+      HOME
+========================================================================= */
+.bodyy{
+  min-height: 20vh;
+  display: grid;
+  place-items: center;
+}
+
+.slider{
+  height: 300px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}   
+
+.slider-track{
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+} 
+.slider-track:hover{
+  animation-play-state: paused;
+}
+
+@keyframes scroll{
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+
+.slides{
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slides img{
+  width: 100%;
+  transition: transform 1%;
+}
+
+.slides img:hover {
+  transform: translateZ(20px);
+}
