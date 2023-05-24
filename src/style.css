@@ -519,7 +519,7 @@ background: linear-gradient(transparent, #3f3f3f);
 }
 
 #read_button:hover {
-  background-color: transparent;
+  
   color: #B22222;
   transition: all 0.2s ease-in-out;
 }
