@@ -435,3 +435,276 @@ img {
   object-fit: cover;
 }
 
+/* ==========================================================================
+      Serviços
+========================================================================= */
+
+/*cards serviços*/
+.cards {
+  max-width: 300px;
+  padding: 25px;
+  background-color: #3f3f3f;
+  text-align: justify;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+  margin-top: 90px;
+  max-height: 450px;
+}
+
+.cards::before{
+content:'';
+position: absolute;
+top: 0;
+right: 0;
+border: 20px solid transparent;
+border-top: 20px solid #B22222;
+border-right: 20px solid #B22222;
+}
+
+.icon img {
+  margin-bottom: 20px;
+}
+
+
+.icon img {
+width: 250px;
+}
+
+.content {
+  height: 215px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content::before {
+content: '';
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(transparent, #3f3f3f);
+
+}
+
+.content h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  position:relative;
+}
+
+.content h3::before {
+  content:'';
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  
+  bottom: 4px;
+  border-radius: 100px;
+}
+
+.content p {
+  color: #b7b7b7;
+}
+
+#read_button {
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+#read_button:hover {
+  background-color: transparent;
+  color: #B22222;
+  transition: all 0.2s ease-in-out;
+}
+
+.card.active.content {
+
+height: auto;
+}
+
+.card.active.content::before {
+  visibility: hidden;
+}
+
+#box-total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+#eba {
+  text-decoration: none;
+  color:white;
+}
+
+#cardswhite {
+text-decoration: none;
+color:white;
+}
+
+#titulo_servicos
+{
+font-weight: 800;
+text-transform: uppercase;
+}
+
+/* ==========================================================================
+      Formulário Serviços
+========================================================================= */
+
+/*formulario de serviços*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container-formulario {
+  margin-top: 0;
+}
+
+.form-image1 {
+  width: 50%;
+  background-color: #777;
+  padding: 1rem;
+}
+
+.form-image1 img {
+  width: 31rem;
+}
+
+#form_servicos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#777;
+  padding: 3rem;
+
+  box-shadow: 5px 5px  10px rgba(0, 0, 0, .212);
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.form-header h2::after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #B22222;
+  margin: 0 auto;
+  position:absolute;
+  border-radius: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.1rem;
+
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.1rem;
+
+}
+
+.input-box input {
+  margin: 0.1rem 0;
+  padding: 0.1rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1 px 6px #0000001c;
+}
+
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+
+.input-box input:focus-visible {
+  outline: 1px solid #B22222;
+}
+
+
+.services-input {
+ display: flex;
+ align-items: center;
+
+}
+
+.services-input input {
+  margin-right: 0.35rem;
+}
+
+
+.services-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+@media screen and (max-width: 1330px) {
+  .form-image {
+    display: none;
+  }
+
+  .container-formulario {
+    width: 50%;
+  }
+
+  .form_serviços{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1064px) {
+  .container-formulario {
+    width: 90%;
+    height: auto;
+  }
+
+.input-group {
+  flex-direction: column;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  max-height: 10rem;
+  padding-right: 5rem;
+}
+
+.services-input {
+  margin-top: 2rem;
+}
+
+.services-group {
+  flex-direction: column;
+}
+
+.services-input {
+  margin-top: 0.5rem;
+}
+
+}
