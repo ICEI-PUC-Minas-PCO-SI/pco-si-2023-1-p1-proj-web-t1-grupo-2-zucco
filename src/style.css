@@ -469,13 +469,13 @@ border-right: 20px solid #B22222;
 width: 250px;
 }
 
-.content {
+.conteudo {
   height: 215px;
   overflow: hidden;
   position: relative;
 }
 
-.content::before {
+.conteudo::before {
 content: '';
 position: absolute;
 bottom: 0;
@@ -485,14 +485,14 @@ background: linear-gradient(transparent, #3f3f3f);
 
 }
 
-.content h3 {
+.conteudo h3 {
   text-align: center;
   margin-bottom: 15px;
   font-size: 20px;
   position:relative;
 }
 
-.content h3::before {
+.conteudo h3::before {
   content:'';
   position: absolute;
   height: 2px;
@@ -502,7 +502,7 @@ background: linear-gradient(transparent, #3f3f3f);
   border-radius: 100px;
 }
 
-.content p {
+.conteudo p {
   color: #b7b7b7;
 }
 
@@ -583,7 +583,7 @@ text-transform: uppercase;
   width: 31rem;
 }
 
-#form_servicos {
+#formulario_servicos {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -675,7 +675,7 @@ text-transform: uppercase;
     width: 50%;
   }
 
-  .form_serviços{
+  #formulario_servicos{
     width: 100%;
   }
 }
