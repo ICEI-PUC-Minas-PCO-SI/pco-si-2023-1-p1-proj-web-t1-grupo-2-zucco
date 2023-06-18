@@ -18,7 +18,6 @@ p {
 }
 
 footer {
-
     margin-top: 3%;
     font-size: 15px;
 
@@ -84,7 +83,7 @@ body {
     font-size: 13px;
     line-height: 22px;
     color: #777;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 /*-----------------------------------------------------------------------------
@@ -470,7 +469,6 @@ border-right: 20px solid #B22222;
   margin-bottom: 20px;
 }
 
-
 .icon img {
 width: 250px;
 }
@@ -531,7 +529,6 @@ background: linear-gradient(transparent, #3f3f3f);
 }
 
 .card.active.content {
-
 height: auto;
 }
 
@@ -605,7 +602,6 @@ text-transform: uppercase;
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
-
 }
 
 .form-header h2::after {
