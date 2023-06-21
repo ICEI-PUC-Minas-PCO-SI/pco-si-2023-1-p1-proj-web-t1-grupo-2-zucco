@@ -419,6 +419,12 @@ img {
   transform: translateZ(20px);
 }
 
+#gerenciadora {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 /* ==========================================================================
       Sobre Nós
 ========================================================================= */
