@@ -60,3 +60,31 @@ function troca(){
 }
 sol.addEventListener("click", troca)
 solApagado.addEventListener("click", troca)
+
+
+const masks = {
+    cpf (value){
+        console.log(value) 
+        return value
+            .replace(/\D/g, '') // \D/g busca global na string p verificar se existe algum valor q nao eh numero e n vai subtituir por nada 
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d{1,2})/, '$1-$2')
+            .replace(/(-\d{2})\d+?$/, '$1')  //  captura para limitar a quantidade de numeros que o cpf pede
+
+             // (\d{3}) serve p pegar 3 numeros e criar um grupo de captura, dps serão 4 numeros seguidos um do outro, \d- indica uma outra captura, ou seja, o quarto numero, // $1 indica um grupo de captura, ou seja, transforma as capturas em variáveis automaticamente
+    },
+
+}
+
+//  para pegar todos os inputs
+document.querySelectorAll('input').forEach(($input) =>  {
+    const field = $input.dataset.js // pegar informações da propriedade data-js
+
+    $input.addEventListener('input', (e) => { 
+       
+        e.target.value = masks[field](e.target.value) // isso faz com q o retorno dessa função seja atribuido ao valor do campo de formulario e.target.value e [field]- dependendo do campo ele vai procurar no objeto masks a função necessaria a ser executada e criar a mascara
+
+    }, false ) // pra cada input atribuir um evento, e função de call back q sempre será executada quando algum valor entrar no campo de cpf
+
+}) // adicionar evento nos elementos do formulario (preparar aplicação p funcionar os dados)
