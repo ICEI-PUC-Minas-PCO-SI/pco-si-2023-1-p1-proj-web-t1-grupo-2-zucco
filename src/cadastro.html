@@ -88,8 +88,23 @@
                         <label for="exampleFormControlTextarea1" class="form-label">CPF</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Informe seu CPF"></textarea>
                       </div>
-                      <button id="button_captcha" class="centered"><h3>Captcha</h3></button>
-                      <p><button id="button_enviar" class="centered"><h5>Enviar</h5></button></p>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Senha</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder=""></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Confirmação de senha</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder=""></textarea>
+                      </div>
+                      <body onload="generateCaptcha()">
+                        <form onsubmit="return validateCaptcha()">
+                            <img id="captchaImage" src="" alt="CAPTCHA Image">
+                            <br>
+                            <input type="text" id="captchaInput" required>
+                            <input type="hidden" id="captchaText">
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </body>
                 </div>
             </div>
     
