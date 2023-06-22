@@ -1,3 +1,4 @@
+// CAPTCHA //
 function generateCaptcha() {
     var captchaText = "";
     var possibleChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
