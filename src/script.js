@@ -61,7 +61,7 @@ function troca(){
 sol.addEventListener("click", troca)
 solApagado.addEventListener("click", troca)
 
-
+// máscaras do formulário serviços
 const masks = {
     cpf (value){
         console.log(value) 
@@ -73,6 +73,26 @@ const masks = {
             .replace(/(-\d{2})\d+?$/, '$1')  
 
     },
+
+    cnpj (value) {
+        return value
+            .replace(/\D/g, '')
+            .replace(/(\d{2})(\d)/, '$1.$2') 
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{4})(\d)/, "$1-$2")   
+            .replace(/(-\d{2})\d+?$/, '$1') 
+    },
+
+    phone (value) {
+        return value
+        .replace(/\D/g, '') 
+        .replace(/(\d{2})(\d)/, '($1) $2')
+        .replace(/(\d{4})(\d)/, '$1-$2') 
+        .replace(/(\d{4})-(\d)(\d{4})/, '$1$2-$3') 
+        .replace(/(-\d{4})\d+?$/, '$1') 
+    }, 
 
 }
 
