@@ -70,28 +70,56 @@
     
     <main>
         <div id="main">
-            <div class="card_queroTrabalhar">
-                <div class="content">
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Nome *</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"placeholder="Nome completo"></textarea></textarea>
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">E-mail *</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Celular *</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Celular"></textarea>
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">CPF</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Informe seu CPF"></textarea>
-                      </div>
-                      <button id="button_captcha" class="centered"><h3>Captcha</h3></button>
-                      <p><button id="button_enviar" class="centered"><h5>Enviar</h5></button></p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5" id="">
+
+                        <div class="card_queroTrabalhar">
+                            <div class="content">
+                                <h4>Cadastro</h4>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Nome</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"placeholder="Nome completo"></textarea></textarea>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Celular</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Celular"></textarea>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">CPF</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Informe seu CPF"></textarea>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Senha</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder=""></textarea>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Confirmação de senha</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder=""></textarea>
+                                  </div>
+                                  <body onload="generateCaptcha()">
+                                    <form onsubmit="return validateCaptcha()">
+                                        <img id="captchaImage" src="" alt="CAPTCHA Image">
+                                        <br>
+                                        <input type="text" id="captchaInput" required>
+                                        <input type="hidden" id="captchaText">
+                                        <input type="submit" value="Enviar">
+                                    </form>
+                                </body>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="col-md-7" id="imagemCadastro">
+                        <img src="img/imgcarrossel1.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
             </div>
+            
     
         </div>
         
