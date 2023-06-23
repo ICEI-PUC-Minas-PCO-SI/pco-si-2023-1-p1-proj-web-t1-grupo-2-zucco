@@ -51,13 +51,12 @@
                                 <a class="nav-link" href="cidadesatendidas.html">Cidades atendidas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link me-5" href="contato.html">Contato</a>
+                                <a class="nav-link" href="contato.html">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-5" href="cadastro.html">Cadastro</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                            <button class="btn btn-light" type="submit">Pesquisar</button>
-                        </form>
                     </div>
                 </div>
             </nav>
@@ -90,14 +89,18 @@
 
                     <div class="input-box">
                         <label for="">Celular</label>
-                        <input id="number" type="text" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        <input id="number" type="text" data-js="phone" name="number" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="PFPJ">Pessoa Fisica ou Jurídica</label>
-                        <input id="PFPJ" type="text" name="PFPJ" placeholder="Digite seu CPF ou CNPJ" required>
+                        <label for="PFPJ">Pessoa Fisica</label>
+                        <input id="PFPJ" type="text" data-js="cpf" name="PFPJ" placeholder="Digite o seu CPF" required>
                     </div>
 
+                    <div class="input-box">
+                        <label for="PFPJ">Pessoa Jurídica</label>
+                        <input id="PFPJ" type="text" data-js="cnpj" name="PFPJ" placeholder="Digite o CNPJ da sua empresa" required>
+                    </div>
 
                     <div class="input-box">
                         <label for="">Cidade de origem</label>
@@ -255,6 +258,6 @@
   </div>
 </div>
 </footer>
-        
+<script src="script.js"></script>
 </body>
 </html>
