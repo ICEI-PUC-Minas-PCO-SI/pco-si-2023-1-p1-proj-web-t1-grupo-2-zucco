@@ -74,69 +74,23 @@
 
     <main>
         <div id="main">
-            <div class="card_queroTrabalhar">
-                <div class="content">
-                    <h3 class="centered">Quero trabalhar como:</h3>
-                    <div class="form-1check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            <h4>Motorista de caminhão</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Estoquista</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                            value="option3">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Auxiliar administrativo</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
-                            value="option4">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Motorista</h4>
-                        </label>
-                        <div class="mt-5 mb-4">
-                            <label for="exampleFormControlInput1" class="form-label1">
-                                <h5>Email para contato:</h5>
-                            </label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Digite seu e-mail">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="formFileLg" class="form-label">
-                            <h5>Envie seu currículo</h5>
-                        </label>
-                        <input class="form-control form-control-lg mb-3" id="formFileLg" type="file">
-                    </div>
-                    <h5 class="centered-1">Qual seu diferencial?</h5>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-
-                    <body onload="generateCaptcha()">
-                        <form onsubmit="return validateCaptcha()">
-                            <div id="captchaforms"> 
-                                <img id="captchaImage" src="" alt="CAPTCHA Image">
-                                <br>
-                                <input type="text" id="captchaInput" required>
-                                <input type="hidden" id="captchaText">
-                                <input type="submit" value="Enviar">
-                            </div>
-                        </form>
-                    </body>
-                </div>
-            </div>
-
+            <section id="formularioTrabConosco">
+                <h2>Contato</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Telefone</label>
+                    <input type="text" name="phone" placeholder="Digite seu telefone" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="10" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+        
+                    <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/detalhes.html">
+                </form>
+            </section>
         </div>
 
     </main>

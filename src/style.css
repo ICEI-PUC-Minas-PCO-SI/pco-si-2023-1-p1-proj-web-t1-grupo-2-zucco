@@ -311,70 +311,90 @@ img {
  Trabalhe Conosco 
 ========================================================================= */
 
-#main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .card_queroTrabalhar{
-    width: 515px;
-    background-color: #dfdfdf;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 , 0.389);
-    margin-top: 25px;
-    padding: 20px;
-  }
-
-  #button_captcha{
-    padding: 15px;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-    border: none;
-  }
-
-   #button_enviar{
-    font-weight: bold;
-    color: black;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-  }
-
-  .centered {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-  }
-
-  .centered-1 {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .form-1check{
-    margin-top: 40px;
-  }
-
-  #captchaImage {
-    width: 200px;
-    height: 75px;
-    border: 1px solid #ccc;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-#captchaforms{
+#main {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-#acessologin{
-  justify-content: end;
+#formularioTrabConosco {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 45px;
+  background-color: #b22222;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2 {
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label {
+  color: #f5f5f5;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+form input {
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+form input:focus {
+  border-radius: 16px;
+}
+
+form textarea {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+form textarea:focus{
+  border-radius: 16px;
+}
+
+form button{
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #f5f5f5;
+  color: #f5f5f5;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+
+form button:hover{
+  background: #f5f5f5;
+  color: #b22222;
+  border-radius: 16px;
 }
 /* ==========================================================================
       HOME
