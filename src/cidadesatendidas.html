@@ -2,6 +2,14 @@
 <html lang="pt-br">
 
 <head>
+  <style>
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -150,6 +158,30 @@
               </div>
             </div>
           </div>
+ <figure class="text-center mt-5">
+        <h2>TEMPO DE ENTREGA</h2>
+        </figure>
+<div class="center">
+  <div class="card" style="width: 75rem;">
+    <div class="card-body">
+      <div class="card-body">
+        <div class="container">
+          <h5>Selecione o seu estado:</h5>
+          <div class="form-group">
+            <label for="estado"></label>
+            <select class="form-control" id="estado" onchange="atualizarTempoEntrega()">
+              <option value="SP">São Paulo</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PR">Paraná</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="tempo-entrega"></div>
+    </div>
+  </div>
+</div>
         </main>
                
     <!--RODAPÉ-->
@@ -269,5 +301,26 @@
         </div>
     </footer>
     <script src="script.js"></script>
+     <script>
+        function atualizarTempoEntrega() {
+            var estado = document.getElementById("estado").value;
+            var tempoEntrega = calcularTempoEntrega(estado);
+            document.getElementById("tempo-entrega").innerHTML = "Tempo estimado: " + tempoEntrega + " dias";
+        }
+        function calcularTempoEntrega(estado) {
+            switch (estado) {
+                case "SP":
+                    return 4;
+                case "SC":
+                    return 2;
+                case "MG":
+                    return 3;
+                case "PR":
+                    return 2;
+                default:
+                    return "N/A";
+            }
+        }
+    </script>
 </body>
 </html>
