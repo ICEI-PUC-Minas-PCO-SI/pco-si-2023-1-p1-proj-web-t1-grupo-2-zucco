@@ -58,13 +58,29 @@
                                 <a class="nav-link" href="cadastro.html">Cadastro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="acessologin"  href="">Acessar</a>
+                                <a class="nav-link" href="#" id="openModal">Acessar</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </nav>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h5 id="mensagemlogin">Acessar</h5>
+              <form>
+                <label for="login">E-mail:</label>
+                <input type="text" id="login">
+                <br>
+                <br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha">
+                <br><br>
+                <input type="submit" value="Acessar">
+              </form>
+            </div>
+          </div>
     </header>
 
     <figure class="text-center mt-3">
@@ -77,14 +93,14 @@
             <section id="formularioTrabConosco">
                 <h3>Informe seus dados</h3>
                 <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label>Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-                    <label>Telefone</label>
-                    <input type="text" name="phone" placeholder="Digite seu telefone" autocomplete="off" required>
-                    <label>Mensagem</label>
-                    <textarea name="message" cols="10" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                    <label id="identificacaoformulario">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required id="preencherformulario">
+                    <label id="identificacaoformulario">Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required id="preencherformulario">
+                    <label id="identificacaoformulario">Telefone</label>
+                    <input type="text" name="phone" placeholder="Digite seu telefone" autocomplete="off" required id="preencherformulario">
+                    <label id="identificacaoformulario">Mensagem</label>
+                    <textarea name="message" cols="10" rows="5" placeholder="Digite sua mensagem" required id="preencherformulario"></textarea>
                     <button type="submit">Enviar</button>
 
                     <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
