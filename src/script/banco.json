@@ -1,0 +1,35 @@
+{
+  "cotacao" : [
+    {
+      "nome" : "",
+      "email" : "",
+      "celular": "",
+      "cpf": "",
+      "cnpj": "",
+      "cidadeOrigem": "",
+      "cidadeDestino": "",
+      "tipoServico": ""
+    }
+  ],
+  "curriculos" : [
+    {
+      "vaga": "",
+      "email": "",
+      "arquivo": "",
+      "diferencial":""
+    }
+  ],
+  "cidadeAtendidas" : [
+    {
+      "estado" : "Minas Gerais",
+      "cidade" : "Contagem"
+    }
+  ],
+  "contato" : [
+    {
+      "email": "",
+      "senha": "",
+      "mensagem": "a"
+    }
+  ]
+}
