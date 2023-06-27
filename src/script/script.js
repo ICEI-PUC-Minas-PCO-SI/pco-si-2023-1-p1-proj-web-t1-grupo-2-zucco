@@ -65,13 +65,34 @@ solApagado.addEventListener("click", troca)
 
 const baseUrl = "http://localhost:3000";
 
+
+var str = "";
+
 function fazRequisicao(tipo){
-    var link = `${baseUrl}/${tipo}`;
+    var link = `http://localhost:3000/cotacao`;
     fetch(link, {method: 'GET',})
       .then(res => res.json())
-      .then(res =>
-         console.log(res)
-        )
+      .then(res => {
+        for(i = 0 ; i < res.length ; i++){
+            str += `<tr>
+                        <th scope="row">${i}</th>
+                        <th scope="row">${res[i].numeroDoPedido}</th>
+                        <td>${res[i].nome}</td>
+                        <td>${res[i].email}</td>
+                        <td>${res[i].celular}</td>
+                        <td>${res[i].cpf}</td>
+                        <td>${res[i].cnpj}</td>
+                        <td>${res[i].cidadeOrigem}</td>
+                        <td>${res[i].cidadeDestino}</td>
+                        <td>${res[i].numeroDoPedido}</td>
+                        <td>${res[i].tipoServico}</td>
+                    </tr>
+          `
+        }
+        console.log(str)
+        var paiPlanilha = document.getElementById("paiPlanilha");
+        paiPlanilha.innerHTML = str;
+      })
 }
 
 function deleta(){
