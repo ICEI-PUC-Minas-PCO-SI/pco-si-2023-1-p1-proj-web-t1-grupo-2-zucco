@@ -69,39 +69,25 @@
     </figure>
     
     <main>
-        <div id="main">
-            <div class="container-fluid" id="conteudocadastro">
-                <div class="row">
-                    <div class="col-md-4" id="">
-
-                        <section id="formscadastro">
-                            <form method="post">
-                                <label id="identificacaoformulario">Nome</label>
-                                <input type="text" placeholder="Digite seu nome" autocomplete="off" required id="preencherformulario">
-                                <label id="identificacaoformulario">Email</label>
-                                <input type="email" placeholder="Digite seu email" autocomplete="off" required id="preencherformulario">
-                                <label id="identificacaoformulario">Telefone</label>
-                                <input type="text" placeholder="Digite seu telefone" autocomplete="off" required id="preencherformulario">
-                                <label id="identificacaoformulario">CPF</label>
-                                <input type="text" placeholder="Digite seu CPF" autocomplete="off" required id="preencherformulario">
-                                <label id="identificacaoformulario">Senha</label>
-                                <input type="text" placeholder="Digite seu CPF" autocomplete="off" required id="preencherformulario">
-                                <label id="identificacaoformulario">Confirmação de senha</label>
-                                <input type="text" placeholder="Digite seu CPF" autocomplete="off" required id="preencherformulario">
-                                <button id="btnformulario" type="submit">Enviar</button>
-                            </form>
-                        </section>
-                
-                    </div>
-                    <div class="col-md-8" id="imagemCadastro">
-                        <img src="img/imgcarrossel1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
+        <div class="container" id="conteudocadastro">
+            <div class="col" id="formulariocadastro">
+                <form action="" method="post" id="conteudoformscadastro">
+                    <label for="firstname">Nome completo</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                </form>
             </div>
-            
-    
+            <div class="col" id="imagemcadastro">
+                <img src="img/imgcadastro.jpg" alt="">
+            </div>
         </div>
-        
     </main>
 
     <!--RODAPÉ-->

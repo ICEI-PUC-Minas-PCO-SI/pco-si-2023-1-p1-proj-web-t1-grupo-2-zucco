@@ -1,30 +1,30 @@
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .nav-link {
-    color: #e6e4e4;
+  color: #e6e4e4;
 }
 
 nav div a img {
-    width: 100px;
-    height: 60px;
+  width: 100px;
+  height: 60px;
 }
 
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 footer {
-    margin-top: 3%;
-    font-size: 15px;
+  margin-top: 3%;
+  font-size: 15px;
 
 }
 
 p+p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Vamos seguir o padrão do bootstrap para trabalhar com a responsividade*/
@@ -35,55 +35,55 @@ p+p {
    Large 	      lg            ≥992px
    Extra large 	  xl            ≥1200px
    Extra extra large 	xxl 	≥1400px */
-   @media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
 
-    /* regras CSS para telas menores que 576px */
-    /* Extra small */
-    main {
-      margin-top: 35px;
-    }
+  /* regras CSS para telas menores que 576px */
+  /* Extra small */
+  main {
+    margin-top: 35px;
   }
-  
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-  
-    /* regras CSS para telas entre 576px e 767px */
-    /* Small */
-    main {
-      margin-top: 15px;
-    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  /* regras CSS para telas entre 576px e 767px */
+  /* Small */
+  main {
+    margin-top: 15px;
   }
-  
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-  
-    /* regras CSS para telas entre 768px e 991px */
-    /* Medium */
-    main {
-      margin-top: 15px;
-    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* regras CSS para telas entre 768px e 991px */
+  /* Medium */
+  main {
+    margin-top: 15px;
   }
-  
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* regras CSS para telas entre 992px e 1199px */
-    /* Large */
-  }
-  
-  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    /* regras CSS para telas entre 1200px e 1399px */
-    
-    /* Extra large */
-  }
-  
-  @media only screen and (min-width: 1400px) {
-    /* regras CSS para telas com largura mínima de 1400px */
-    /* Extra extra large */
-  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* regras CSS para telas entre 992px e 1199px */
+  /* Large */
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* regras CSS para telas entre 1200px e 1399px */
+
+  /* Extra large */
+}
+
+@media only screen and (min-width: 1400px) {
+  /* regras CSS para telas com largura mínima de 1400px */
+  /* Extra extra large */
+}
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 13px;
-    line-height: 22px;
-    color: #777;
-    /* background-color: #fff; */
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #777;
+  /* background-color: #fff; */
 }
 
 /*-----------------------------------------------------------------------------
@@ -170,11 +170,11 @@ u,
 ul,
 var,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 article,
@@ -188,22 +188,22 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 /* ==========================================================================
     2. DOCUMENT STYLES
 ========================================================================= */
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 13px;
-    line-height: 22px;
-    color: #777;
-    background-color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #777;
+  background-color: #fff;
 }
 
 /* ==========================================================================
@@ -212,22 +212,22 @@ body {
 p,
 a,
 span {
-    color: #494949;
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 22px;
+  color: #494949;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 22px;
 }
 
 a {
-    -webkit-transition: all 0.2s ease 0s;
-    -moz-transition: all 0.2s ease 0s;
-    -o-transition: all 0.2s ease 0s;
-    -ms-transition: all 0.2s ease 0s;
-    transition: all 0.2s ease 0s;
-    text-decoration: none;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -ms-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1,
@@ -236,75 +236,75 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-    font-weight: 800;
-    margin-bottom: 25px;
-    margin-top: 0;
-    color: #333;
+  font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+  font-weight: 800;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #333;
 }
 
 h1 {
-    font-size: 40px;
-    line-height: 40px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 h2 {
-    font-size: 24px;
-    line-height: 26px;
+  font-size: 24px;
+  line-height: 26px;
 }
 
 h3 {
-    font-size: 21px;
-    line-height: 24px;
+  font-size: 21px;
+  line-height: 24px;
 }
 
 h4 {
-    font-size: 18px;
-    line-height: 22px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 h5 {
-    font-size: 16px;
-    line-height: 18px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 h6 {
-    font-size: 15px;
-    line-height: 18px;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-b{
-    font-weight: 600;
-    font-size: 15px;
+b {
+  font-weight: 600;
+  font-size: 15px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .navbar {
-    min-height: 80px;
-    margin-bottom: 0;
+  min-height: 80px;
+  margin-bottom: 0;
 }
 
 .navbar-nav>li {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 /*COR DOS LINKS NAV*/
 .navbar-nav>li>a {
-    line-height: 48px;
-    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    color: #dfdfdf;
-    text-transform: uppercase;
+  line-height: 48px;
+  font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #dfdfdf;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
@@ -348,13 +348,13 @@ section form {
   width: 100%;
 }
 
-#identificacaoformulario{
+#identificacaoformulario {
   color: #f5f5f5;
   font-size: 17px;
   margin-bottom: 4px;
 }
 
-#preencherformulario{
+#preencherformulario {
   padding: 15px;
   outline: none;
   border: 0;
@@ -375,11 +375,11 @@ form textarea {
   transition: all 0.5s;
 }
 
-form textarea:focus{
+form textarea:focus {
   border-radius: 16px;
 }
 
-#btnformulario{
+#btnformulario {
   padding: 15px;
   cursor: pointer;
   font-size: 16px;
@@ -390,13 +390,13 @@ form textarea:focus{
   margin-bottom: 20px;
 }
 
-#btnformulario:hover{
+#btnformulario:hover {
   background: #f5f5f5;
   color: #b22222;
   border-radius: 16px;
 }
 
-#footercontato{
+#footercontato {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -438,7 +438,7 @@ form textarea:focus{
   cursor: pointer;
 }
 
-#mensagemlogin{
+#mensagemlogin {
   display: flex;
   justify-content: center;
 
@@ -447,49 +447,49 @@ form textarea:focus{
 /* ==========================================================================
  Mensagem final 
 ========================================================================= */
-#mainmensasgem{
-  display: flex;    
+#mainmensasgem {
+  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: #b22222;
   flex-direction: column;
-  }
-  
-  #textomensasgem{
-    font-size: 45px;
-    color: #f5f5f5;
-    margin-bottom: 30px;
-  }
-  
-  #paragrafomensagem{
-    color: #f5f5f5;
-    margin-bottom: 50px;
-  }
-  
-  #btnmensagem{
-    padding: 15px 15px;
-    background: #f5f5f5;
-    text-decoration: none;
-    color: #b22222;
-    font-size: 18px;
-    transition: all 0.5s;
-  }
-  
-  #btnmensagem:hover{
-    border-radius: 16px;
-  }
+}
+
+#textomensasgem {
+  font-size: 45px;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+#paragrafomensagem {
+  color: #f5f5f5;
+  margin-bottom: 50px;
+}
+
+#btnmensagem {
+  padding: 15px 15px;
+  background: #f5f5f5;
+  text-decoration: none;
+  color: #b22222;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+#btnmensagem:hover {
+  border-radius: 16px;
+}
 
 /* ==========================================================================
       HOME
 ========================================================================= */
-.bodyy{
+.bodyy {
   min-height: 20vh;
   display: grid;
   place-items: center;
 }
 
-.slider{
+.slider {
   height: 300px;
   margin: auto;
   position: relative;
@@ -497,27 +497,29 @@ form textarea:focus{
   display: grid;
   place-items: center;
   overflow: hidden;
-}   
+}
 
-.slider-track{
+.slider-track {
   display: flex;
   width: calc(250px * 12);
   animation: scroll 40s linear infinite;
-} 
-.slider-track:hover{
+}
+
+.slider-track:hover {
   animation-play-state: paused;
 }
 
-@keyframes scroll{
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 12));
   }
 }
 
-.slides{
+.slides {
   height: 200px;
   width: 250px;
   display: flex;
@@ -526,7 +528,7 @@ form textarea:focus{
   perspective: 100px;
 }
 
-.slides img{
+.slides img {
   width: 100%;
   transition: transform 1%;
 }
@@ -547,7 +549,8 @@ form textarea:focus{
 
 .carousel-16-9 {
   position: relative;
-  padding-top: 56.25%; /* 16:9 aspect ratio (9 dividido por 16) */
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio (9 dividido por 16) */
 }
 
 .carousel-16-9 .carousel-inner {
@@ -577,14 +580,14 @@ form textarea:focus{
   max-height: 450px;
 }
 
-.cards::before{
-content:'';
-position: absolute;
-top: 0;
-right: 0;
-border: 20px solid transparent;
-border-top: 20px solid #B22222;
-border-right: 20px solid #B22222;
+.cards::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 20px solid transparent;
+  border-top: 20px solid #B22222;
+  border-right: 20px solid #B22222;
 }
 
 .icon img {
@@ -592,7 +595,7 @@ border-right: 20px solid #B22222;
 }
 
 .icon img {
-width: 250px;
+  width: 250px;
 }
 
 .conteudo {
@@ -602,12 +605,12 @@ width: 250px;
 }
 
 .conteudo::before {
-content: '';
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 100px;
-background: linear-gradient(transparent, #3f3f3f);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(transparent, #3f3f3f);
 
 }
 
@@ -615,15 +618,15 @@ background: linear-gradient(transparent, #3f3f3f);
   text-align: center;
   margin-bottom: 15px;
   font-size: 20px;
-  position:relative;
+  position: relative;
 }
 
 .conteudo h3::before {
-  content:'';
+  content: '';
   position: absolute;
   height: 2px;
   width: 40px;
-  
+
   bottom: 4px;
   border-radius: 100px;
 }
@@ -645,13 +648,13 @@ background: linear-gradient(transparent, #3f3f3f);
 }
 
 #read_button:hover {
-  
+
   color: #B22222;
   transition: all 0.2s ease-in-out;
 }
 
 .card.active.content {
-height: auto;
+  height: auto;
 }
 
 .card.active.content::before {
@@ -668,18 +671,17 @@ height: auto;
 
 #eba {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 #cardswhite {
-text-decoration: none;
-color:white;
+  text-decoration: none;
+  color: white;
 }
 
-#titulo_servicos
-{
-font-weight: 800;
-text-transform: uppercase;
+#titulo_servicos {
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
@@ -714,10 +716,10 @@ text-transform: uppercase;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color:#777;
+  background-color: #777;
   padding: 3rem;
 
-  box-shadow: 5px 5px  10px rgba(0, 0, 0, .212);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
 .form-header {
@@ -733,7 +735,7 @@ text-transform: uppercase;
   height: 0.3rem;
   background-color: #B22222;
   margin: 0 auto;
-  position:absolute;
+  position: absolute;
   border-radius: 10px;
 }
 
@@ -774,8 +776,8 @@ text-transform: uppercase;
 
 
 .services-input {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -799,7 +801,7 @@ text-transform: uppercase;
     width: 50%;
   }
 
-  #formulario_servicos{
+  #formulario_servicos {
     width: 100%;
   }
 }
@@ -811,25 +813,25 @@ text-transform: uppercase;
     height: auto;
   }
 
-.input-group {
-  flex-direction: column;
-  overflow: scroll;
-  flex-wrap: nowrap;
-  max-height: 10rem;
-  padding-right: 5rem;
-}
+  .input-group {
+    flex-direction: column;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    max-height: 10rem;
+    padding-right: 5rem;
+  }
 
-.services-input {
-  margin-top: 2rem;
-}
+  .services-input {
+    margin-top: 2rem;
+  }
 
-.services-group {
-  flex-direction: column;
-}
+  .services-group {
+    flex-direction: column;
+  }
 
-.services-input {
-  margin-top: 0.5rem;
-}
+  .services-input {
+    margin-top: 0.5rem;
+  }
 
 }
 
@@ -837,39 +839,40 @@ text-transform: uppercase;
       Cadastro
 ========================================================================= */
 
-#imagemCadastro{
-  margin-top: 40px;
-}
-
-@media screen and (max-width: 1220px) {
-  #imagemCadastro{
-    display: none;
-  }
-
-  #conteudocadastro{
-    width: 50%;
-  }
-
-  #formscadastro{
-    width: 100%;
-  }
-}
-
-#formscadastro{
+#conteudocadastro {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+#formulariocadastro {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagemcadastro {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudoformscadastro {
+  width: 50%;
+  display: flex;
   flex-direction: column;
-  padding: 10px 45px;
-  background-color: #b22222;
-  width: 450px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 /* ==========================================================================
       ONDE ESTAMOS
 ========================================================================= */
-#centralizar{
+#centralizar {
   display: flex;
   align-items: center;
   justify-content: center;
