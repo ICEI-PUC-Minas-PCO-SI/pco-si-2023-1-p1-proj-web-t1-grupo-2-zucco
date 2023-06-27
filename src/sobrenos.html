@@ -54,13 +54,32 @@
                             <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-5" href="cadastro.html">Cadastro</a>
+                          <a class="nav-link" href="cadastro.html">Cadastro</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" id="openModal">Acessar</a>
+                    </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </nav>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h5 id="mensagemlogin">Acessar</h5>
+        <form>
+          <label for="login">E-mail:</label>
+          <input type="text" id="login">
+          <br>
+          <br>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha">
+          <br><br>
+          <input type="submit" value="Acessar">
+        </form>
+      </div>
+    </div>
 </header>
   <main>
     <figure class="text-center">

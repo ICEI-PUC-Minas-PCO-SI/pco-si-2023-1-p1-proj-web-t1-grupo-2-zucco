@@ -84,60 +84,41 @@
     </header>
     <main>
         <figure class="text-center">
-            <h1 id="sobreZucco" class="mt-5">Perguntas Frequentes</h1>
+            <h1 id="sobreZucco" class="mt-5">Planilha de pedidos</h1>
             <!--TODAS AS PAGS-->
         </figure>
 
-        <div class="container-fluid">
-            <!--PERGUNTAS FREQUENTES-->
-            <div class="row d-flex justify-content-center">
-                <div class="col-8">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Primeira pergunta
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Aqui estaria a resposta da Zucco para a primeira pergunta.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Segunda pergunta
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Aqui estaria a resposta da Zucco para a segunda pergunta.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Terceira pergunta
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Aqui estaria a resposta da Zucco para a terceira pergunta.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Nº do pedido</th>
+                    <th scope="col">E-mail</th>
+                    <th scope="col">Celular</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">CNPJ</th>
+                    <th scope="col">Cidade de Origem</th>
+                    <th scope="col">Cidade de Destino</th>
+                    <th scope="col">Tipo de serviço</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Exemplo de nome</td>
+                    <td>000-1</td>
+                    <td>email.exemplo@nome.empresa.com</td>
+                    <td>(99) 99999-9999</td>
+                    <td>123.456.789-10</td>
+                    <td>12.345.678/0001-99</td>
+                    <td>Contagem-MG</td>
+                    <td>Flores da Cunha-RS</td>
+                    <td>Cotação</td>
+                  </tr>
+                </tbody>
+              </table>
         </div>
     </main>
 

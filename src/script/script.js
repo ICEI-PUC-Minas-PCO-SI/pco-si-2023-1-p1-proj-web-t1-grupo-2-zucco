@@ -1,3 +1,4 @@
+//<<<<<<< HEAD:src/script/script.js
 // CAPTCHA //
 function generateCaptcha() {
     var captchaText = "";
@@ -44,6 +45,7 @@ var sol = document.getElementById("sol");
 var principal = document.getElementById("principal");
 var footer = document.getElementById("footer");
 var i = 2;
+
 function troca(){
     if(i % 2 == 0){
         sol.style.display = "none";
@@ -102,3 +104,13 @@ function subir(){
     })
     .then(res => res.json())
 }
+//=======
+
+document.getElementById("openModal").addEventListener("click", function() {
+    document.getElementById("modal").style.display = "block";
+  });
+
+  document.getElementsByClassName("close")[0].addEventListener("click", function() {
+    document.getElementById("modal").style.display = "none";
+  });
+//>>>>>>> 5439d0aa4a25c3aab68b1c7e602a7c18dc0d8250:src/script.js
