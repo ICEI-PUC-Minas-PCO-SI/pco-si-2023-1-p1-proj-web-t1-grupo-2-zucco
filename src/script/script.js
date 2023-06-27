@@ -144,6 +144,7 @@ function logar (){
 
     if(login == "admin" && senha == "admin"){
         alert('Sucesso');
+        location.href = "index.html";
     }
     else{
         alert('Usuário ou senha incorreto')
