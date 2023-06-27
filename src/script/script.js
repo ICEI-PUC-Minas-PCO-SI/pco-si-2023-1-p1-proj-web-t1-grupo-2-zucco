@@ -22,7 +22,6 @@ function generateCaptcha() {
     
     document.getElementById("captchaText").value = captchaText;
 }
-
 function validateCaptcha() {
     var captchaText = document.getElementById("captchaText").value;
     var userText = document.getElementById("captchaInput").value;
@@ -61,3 +60,45 @@ function troca(){
 }
 sol.addEventListener("click", troca)
 solApagado.addEventListener("click", troca)
+
+const baseUrl = "http://localhost:3000";
+
+function fazRequisicao(tipo){
+    var link = `${baseUrl}/${tipo}`;
+    fetch(link, {method: 'GET',})
+      .then(res => res.json())
+      .then(res =>
+         console.log(res)
+        )
+}
+
+function deleta(){
+    //Delete
+    fetch(link,{method: 'DELETE',})
+      .then(res => res)
+      //Atualiza a página para exibir todas as informações
+      .then(() => location.reload());
+}
+
+var cotacao = {
+    "numeroDoPedido": "588",
+    "nome": "Raul",
+    "email": "raulneto@gmail.com",
+    "celular": "3788995577",
+    "cpf": "35684572616",
+    "cnpj": "300300000269",
+    "cidadeOrigem": "Divinopolis",
+    "cidadeDestino": "Contagem",
+    "tipoServico": "Cotacao"
+  };
+
+function subir(){
+    fetch('http://localhost:3000/cotacao', {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(cotacao)
+    })
+    .then(res => res.json())
+}
