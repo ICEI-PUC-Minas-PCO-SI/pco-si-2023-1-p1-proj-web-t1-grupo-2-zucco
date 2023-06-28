@@ -143,8 +143,9 @@ function logar (){
     var senha = document.getElementById('senha').value;
 
     if(login == "admin" && senha == "admin"){
+        var nome = "Rafael";
         alert('Sucesso');
-        location.href = "index.html";
+        document.getElementById("openModal").innerText = nome;
     }
     else{
         alert('Usuário ou senha incorreto')
