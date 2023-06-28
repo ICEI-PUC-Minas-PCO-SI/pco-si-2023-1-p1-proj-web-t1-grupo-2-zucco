@@ -73,22 +73,22 @@
         <div class="container" id="conteudocadastro">
             <div class="col-md-5" id="formulariocadastro">
                 <form action="" method="post" id="conteudoformscadastro">
-                    <label class="identificacaoformulario">Nome</label>
+                    <label class="identificacaoformulario" id="labelNome">Nome</label>
                     <input type="text" name="name" placeholder="Digite seu nome completo" autocomplete="off" required
                         class="formscadastro" id="nomeusuario">
-                    <label class="identificacaoformulario">Usuário</label>
+                    <label class="identificacaoformulario" id="labelUsuario">Usuário</label>
                     <input type="text" name="name" placeholder="Digite um usuário" autocomplete="off" required
                         class="formscadastro" id="loginusuario">
-                    <label class="identificacaoformulario">Email</label>
+                    <label class="identificacaoformulario" id="labelEmail">Email</label>
                     <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required
                         class="formscadastro" id="emailusuario">
-                    <label class="identificacaoformulario">Telefone</label>
+                    <label class="identificacaoformulario" id="labelTelefone">Telefone</label>
                     <input type="text" name="phone" placeholder="Digite seu telefone" autocomplete="off" required
                         class="formscadastro" id="telusuario">
-                    <label class="identificacaoformulario" for="password">Senha</label>
+                    <label class="identificacaoformulario" for="password" id="labelSenha">Senha</label>
                     <input type="password" name="password" placeholder="Digite sua senha" required class="formscadastro"
                         id="password">
-                        <button class="btnformulario" type="submit">Cadastrar</button>
+                        <button class="btnformulario" type="submit" onclick="cadastrar()">Cadastrar</button>
                 </form>
             </div>
             <div class="col-md-7" id="imagemcadastro">
@@ -213,7 +213,7 @@
             <p style="color: #ffffff;">© 2009-2023 Zucco</p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
