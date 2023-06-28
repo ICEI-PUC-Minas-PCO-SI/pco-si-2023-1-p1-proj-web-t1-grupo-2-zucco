@@ -15,47 +15,26 @@
     {
       "id" : "2",
       "numeroDoPedido": "587",
-      "nome": "Rafael",
-      "email": "rafaelbraga07@gmail.com",
-      "celular": "319876548",
-      "cpf": "99955586475",
-      "cnpj": "654654987987225",
-      "cidadeOrigem": "Porto Alegre",
-      "cidadeDestino": "Natal",
+      "nome": "Fulano",
+      "email": "fulano@gmail.com",
+      "celular": "123456789",
+      "cpf": "12345678901",
+      "cnpj": "987654321",
+      "cidadeOrigem": "São Paulo",
+      "cidadeDestino": "Rio de Janeiro",
       "tipoServico": "Cotacao"
     },
     {
       "id" : "3",
       "numeroDoPedido": "588",
-      "nome": "Raul",
-      "email": "raulneto@gmail.com",
-      "celular": "3788995577",
-      "cpf": "35684572616",
-      "cnpj": "300300000269",
-      "cidadeOrigem": "Divinopolis",
-      "cidadeDestino": "Contagem",
+      "nome": "Ciclano",
+      "email": "ciclano@gmail.com",
+      "celular": "987654321",
+      "cpf": "98765432109",
+      "cnpj": "123456789",
+      "cidadeOrigem": "Porto Alegre",
+      "cidadeDestino": "Curitiba",
       "tipoServico": "Cotacao"
-    }
-  ],
-  "curriculos": [
-    {
-      "id": "0",
-      "vaga": "",
-      "email": "",
-      "arquivo": "",
-      "diferencial": ""
-    }
-  ],
-  "cidadeAtendidas": [
-    {
-      "id": "0",
-      "estado": "Minas Gerais",
-      "cidade": "Contagem"
-    },
-    {
-      "id": "1",
-      "estado": "São Paulo",
-      "cidade": "São Bernado"
     }
   ]
 }
