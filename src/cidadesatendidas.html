@@ -2,14 +2,6 @@
 <html lang="pt-br">
 
 <head>
-  <style>
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -158,51 +150,55 @@
               </div>
             </div>
           </div>
-<figure class="text-center mt-5">
-  <h2>TEMPO DE ENTREGA</h2>
-</figure>
-<div class="container">
-  <div class="card">
-    <div class="card-body">
-      <div class="container">
-        <h5 class="text-center">Selecione o seu estado:</h5>
-        <div class="form-group">
-          <label for="estado"></label>
-          <select class="form-control" id="estado" onchange="atualizarTempoEntrega()">
-            <option value="SP">São Paulo</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PR">Paraná</option>
-          </select>
+          <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <figure class="text-center mt-5">
+        <h2>TEMPO DE ENTREGA</h2>
+      </figure>
+      <div class="card">
+        <div class="card-body">
+          <div class="container">
+            <h5 class="text-center">Selecione o seu estado:</h5>
+            <div class="form-group">
+              <label for="estado"></label>
+              <select class="form-control" id="estado" onchange="atualizarTempoEntrega()">
+                <option value="SP">São Paulo</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PR">Paraná</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="tempo-entrega" class="text-center"></div>
         </div>
       </div>
     </div>
-    <div class="card-body">
-      <div id="tempo-entrega" class="text-center"></div>
-    </div>
-  </div>
-</div>
-<figure class="text-center mt-5">
-  <h2>VALOR DO FRETE</h2>
-</figure>
-<div class="container">
-  <div class="card">
-    <div class="card-body">
-      <div class="container">
-        <h5 class="text-center">Selecione o seu estado:</h5>
-        <div class="form-group">
-          <label for="estado"></label>
-          <select class="form-control" id="estado" onchange="valorFrete()">
-            <option value="SP">São Paulo</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PR">Paraná</option>
-          </select>
+    <div class="col-sm-6">
+      <figure class="text-center mt-5">
+        <h2>VALOR DO FRETE</h2>
+      </figure>
+      <div class="card">
+        <div class="card-body">
+          <div class="container">
+            <h5 class="text-center">Selecione o seu estado:</h5>
+            <div class="form-group">
+              <label for="EStado"></label>
+              <select class="form-control" id="EStado" onchange="atualizarValorTransporte()">
+                <option value="mg">Minas Gerais</option>
+                <option value="pr">Paraná</option>
+                <option value="sp">São Paulo</option>
+                <option value="sc">Santa Catarina</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="valor-transporte" class="text-center"></div>
         </div>
       </div>
-    </div>
-    <div class="card-body">
-      <div id="tempo-entrega" class="text-center"></div>
     </div>
   </div>
 </div>
@@ -325,7 +321,7 @@
         </div>
     </footer>
     <script src="script.js"></script>
-     <script>
+   <script>
         function atualizarTempoEntrega() {
             var estado = document.getElementById("estado").value;
             var tempoEntrega = calcularTempoEntrega(estado);
@@ -334,15 +330,37 @@
         function calcularTempoEntrega(estado) {
             switch (estado) {
                 case "SP":
-                    return 4;
+                    return 3;
                 case "SC":
                     return 2;
                 case "MG":
-                    return 3;
+                    return 4;
                 case "PR":
                     return 2;
                 default:
                     return "N/A";
+            }
+        }
+    </script>
+   <script>
+        function atualizarValorTransporte() {
+            var EStado = document.getElementById("EStado").value;
+            var valorTransporte = calcularValorTransporte(EStado);
+            document.getElementById("valor-transporte").innerHTML = "Valor do frete: R$ " + valorTransporte.toFixed(2);
+        }
+
+        function calcularValorTransporte(EStado) {
+            switch (EStado) {
+                case "mg":
+                    return 40.00;
+                case "pr":
+                    return 20.00;
+                case "sp":
+                    return 30.00;
+                case "sc":
+                    return 20.00;
+                default:
+                    return 0.00;
             }
         }
     </script>

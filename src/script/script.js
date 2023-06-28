@@ -155,3 +155,19 @@ function deleta(){
 //     document.getElementById("modal").style.display = "none";
 // });
 //>>>>>>> 5439d0aa4a25c3aab68b1c7e602a7c18dc0d8250:src/script.js
+
+
+function logar (){
+
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
+
+    if(login == "admin" && senha == "admin"){
+        var nome = "Rafael";
+        alert('Sucesso');
+        document.getElementById("openModal").innerText = nome;
+    }
+    else{
+        alert('Usuário ou senha incorreto')
+    }
+}
