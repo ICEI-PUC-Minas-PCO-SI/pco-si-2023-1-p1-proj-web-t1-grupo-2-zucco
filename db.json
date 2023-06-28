@@ -1,6 +1,7 @@
 {
   "cotacao": [
     {
+      "id" : "1",
       "numeroDoPedido": "586",
       "nome": "Canuto",
       "email": "matheuscanuto07@gmail.com",
@@ -12,6 +13,7 @@
       "tipoServico": "Cotacao"
     },
     {
+      "id" : "2",
       "numeroDoPedido": "587",
       "nome": "Rafael",
       "email": "rafaelbraga07@gmail.com",
@@ -23,6 +25,7 @@
       "tipoServico": "Cotacao"
     },
     {
+      "id" : "3",
       "numeroDoPedido": "588",
       "nome": "Raul",
       "email": "raulneto@gmail.com",
