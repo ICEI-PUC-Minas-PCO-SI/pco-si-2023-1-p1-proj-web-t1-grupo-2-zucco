@@ -75,19 +75,20 @@
                 <form action="" method="post" id="conteudoformscadastro">
                     <label class="identificacaoformulario">Nome</label>
                     <input type="text" name="name" placeholder="Digite seu nome completo" autocomplete="off" required
-                        class="formscadastro">
+                        class="formscadastro" id="nomeusuario">
+                    <label class="identificacaoformulario">Usuário</label>
+                    <input type="text" name="name" placeholder="Digite um usuário" autocomplete="off" required
+                        class="formscadastro" id="loginusuario">
                     <label class="identificacaoformulario">Email</label>
                     <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required
-                        class="formscadastro">
+                        class="formscadastro" id="emailusuario">
                     <label class="identificacaoformulario">Telefone</label>
                     <input type="text" name="phone" placeholder="Digite seu telefone" autocomplete="off" required
-                        class="formscadastro">
+                        class="formscadastro" id="telusuario">
                     <label class="identificacaoformulario" for="password">Senha</label>
-                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required
-                        class="formscadastro">
-                    <label class="identificacaoformulario" for="confirmPassword">Confirmação</label>
-                    <input id="confirmPassword" type="password" name="confirmPassword"
-                        placeholder="Digite sua senha novamente" required class="formscadastro">
+                    <input type="password" name="password" placeholder="Digite sua senha" required class="formscadastro"
+                        id="password">
+                        <button class="btnformulario" type="submit">Cadastrar</button>
                 </form>
             </div>
             <div class="col-md-7" id="imagemcadastro">

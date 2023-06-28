@@ -379,7 +379,7 @@ form textarea:focus {
   border-radius: 16px;
 }
 
-#btnformulario {
+.btnformulario {
   padding: 15px;
   cursor: pointer;
   font-size: 16px;
@@ -390,7 +390,7 @@ form textarea:focus {
   margin-bottom: 20px;
 }
 
-#btnformulario:hover {
+.btnformulario:hover {
   background: #f5f5f5;
   color: #b22222;
   border-radius: 16px;
