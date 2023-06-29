@@ -1,40 +1,16 @@
 {
   "cotacao": [
     {
-      "id" : "1",
-      "numeroDoPedido": "586",
-      "nome": "Canuto",
-      "email": "matheuscanuto07@gmail.com",
-      "celular": "31999784358",
-      "cpf": "16203757616",
-      "cnpj": "200200200000168",
-      "cidadeOrigem": "Contagem",
-      "cidadeDestino": "Belo Horizonte",
-      "tipoServico": "Cotacao"
-    },
-    {
-      "id" : "2",
-      "numeroDoPedido": "587",
-      "nome": "Fulano",
+      "id": "1",
+      "numeroDoPedido": "0000",
+      "nome": "Rafael mito",
       "email": "fulano@gmail.com",
-      "celular": "123456789",
+      "celular": "3412",
       "cpf": "12345678901",
       "cnpj": "987654321",
       "cidadeOrigem": "São Paulo",
       "cidadeDestino": "Rio de Janeiro",
-      "tipoServico": "Cotacao"
-    },
-    {
-      "id" : "3",
-      "numeroDoPedido": "588",
-      "nome": "Ciclano",
-      "email": "ciclano@gmail.com",
-      "celular": "987654321",
-      "cpf": "98765432109",
-      "cnpj": "123456789",
-      "cidadeOrigem": "Porto Alegre",
-      "cidadeDestino": "Curitiba",
-      "tipoServico": "Cotacao"
+      "tipoServico": "Pimba"
     }
   ]
 }

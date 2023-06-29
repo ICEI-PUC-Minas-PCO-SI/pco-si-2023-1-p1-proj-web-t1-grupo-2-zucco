@@ -61,11 +61,7 @@ function troca() {
     i++;
     console.log(i);
 }
-
-
-var link = `http://localhost:3000/cotacao`;
 var dados = [];
-
 function pegaDados() {
     fetch("http://localhost:3000/cotacao", { method: 'GET', })
         .then(res => res.json())
@@ -77,10 +73,12 @@ function pegaDados() {
         })
 
 }
+var link = `http://localhost:3000/cotacao`;
 
 function fazRequisicao() {
     var str = "";
     for (i = 0; i < dados.length; i++) {
+        console.log("pimba " + i)
         str += `<tr>
                     <th scope="row">${i}</th>
                     <th scope="row">${dados[i].numeroDoPedido}</th>
@@ -93,9 +91,9 @@ function fazRequisicao() {
                     <td>${dados[i].cidadeDestino}</td>
                     <td>${dados[i].numeroDoPedido}</td>
                     <td>${dados[i].tipoServico}</td>
-                    <td><button class="btn btn-danger" id="btn-apaga" onclick="deleta(${i})">Apagar</button></td>
-                    <td><button class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar${i}">Editar</button></td>
-                    <div class="modal" id="modalEditar${i}">
+                    <td><button class="btn btn-danger" id="btn-apaga" onclick="deleta(${dados[i].id})">Apagar</button></td>
+                    <td><button class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar${dados[i].id}">Editar</button></td>
+                    <div class="modal" id="modalEditar${dados[i].id}">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -104,48 +102,77 @@ function fazRequisicao() {
                                 </div>
                                 <div class="modal-body">
                                     <label for="exampleInputEmail1" class="form-label">Identificador</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${i}" disabled>
+                                    <input type="email" class="form-control" id="iden${dados[i].id}" aria-describedby="emailHelp" value="${i}" disabled>
                                     <label for="exampleInputEmail1" class="form-label">Numero do pedido</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
+                                    <input type="email" class="form-control" id="numero${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
                                     <label for="exampleInputEmail1" class="form-label">Nome</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].nome}">
+                                    <input type="email" class="form-control" id="nome${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].nome}">
                                     <label for="exampleInputEmail1" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].email}">
+                                    <input type="email" class="form-control" id="email${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].email}">
                                     <label for="exampleInputEmail1" class="form-label">Celular</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].celular}">
+                                    <input type="email" class="form-control" id="celular${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].celular}">
                                     <label for="exampleInputEmail1" class="form-label">CPF</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].cpf}">
+                                    <input type="email" class="form-control" id="cpf${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cpf}">
                                     <label for="exampleInputEmail1" class="form-label">CNPJ</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].cnpj}">
+                                    <input type="email" class="form-control" id="cnpj${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cnpj}">
                                     <label for="exampleInputEmail1" class="form-label">Cidade de origem</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].cidadeOrigem}">
+                                    <input type="email" class="form-control" id="cidadeO${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cidadeOrigem}">
                                     <label for="exampleInputEmail1" class="form-label">Cidade de destino</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].cidadeDestino}">
+                                    <input type="email" class="form-control" id="cidadeDes${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cidadeDestino}">
                                     <label for="exampleInputEmail1" class="form-label">Número do pedido</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
+                                    <input type="email" class="form-control" id="nPed${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
                                     <label for="exampleInputEmail1" class="form-label">Tipo de serviçõ</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="${dados[i].tipoServico}">
+                                    <input type="email" class="form-control" id="tipo${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].tipoServico}">
                                 </div>
                                 <div class="modal-footer">
-                                    <button class="btn btn-success" onclick="">Enviar</button>
+                                    <button class="btn btn-success" onclick="atualiza(${dados[i].id})">Enviar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </tr>
-          `
+                  `
+        console.log(str)
+        var paiPlanilha = document.getElementById("paiPlanilha");
+        paiPlanilha.innerHTML = str;
     }
-    console.log(str)
-    var paiPlanilha = document.getElementById("paiPlanilha");
-    paiPlanilha.innerHTML = str;
 }
 
-function deleta(){
-    fetch("http://localhost:3000/cotacao", {
+
+
+function deleta(id) {
+    fetch("http://localhost:3000/cotacao/" + id, {
         method: 'DELETE',
     })
         .then(res => res.json())
         .then(() => location.reload());
+}
+
+function atualiza(id) {
+    var cotacao = JSON.stringify({
+        id: document.getElementById('iden'+id).value,
+        numeroDoPedido: document.getElementById('numero'+id).value,
+        nome: document.getElementById('nome'+id).value,
+        email: document.getElementById('email'+id).value,
+        celular: document.getElementById('celular'+id).value,
+        cpf: document.getElementById('cpf'+id).value,
+        cnpj: document.getElementById('cnpj'+id).value,
+        cidadeOrigem: document.getElementById('cidadeO'+id).value,
+        cidadeDestino: document.getElementById('cidadeDes'+id).value,
+        tipoServico: document.getElementById('tipo'+id).value
+    })
+    fetch(`http://localhost:3000/cotacao/` + id, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: cotacao
+    })
+        .then(res => res.json())
+        .then(() => {
+            pegaDados();
+            location.reload();
+        });
 }
 // document.getElementById("openModal").addEventListener("click", function () {
 //     document.getElementById("modal").style.display = "block";
@@ -157,17 +184,17 @@ function deleta(){
 //>>>>>>> 5439d0aa4a25c3aab68b1c7e602a7c18dc0d8250:src/script.js
 
 
-function logar (){
+function logar() {
 
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
-    if(login == "admin" && senha == "admin"){
+    if (login == "admin" && senha == "admin") {
         var nome = "Rafael";
         alert('Sucesso');
         document.getElementById("openModal").innerText = nome;
     }
-    else{
+    else {
         alert('Usuário ou senha incorreto')
     }
 }
