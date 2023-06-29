@@ -344,5 +344,5 @@ if(localStorage.getItem('token') == null){
 }
 
 function sair(){
-  alert('deu bom')
+    window.location.href = './login.html'
 }
