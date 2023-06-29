@@ -1035,3 +1035,13 @@ CADASTRO E LOGIN
   justify-content: center;
   display: flex;
 }
+
+#btnSair{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 50px;
+  color: white;
+  margin-top: 16px;
+}
