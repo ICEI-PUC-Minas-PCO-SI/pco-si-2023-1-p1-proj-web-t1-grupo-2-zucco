@@ -233,7 +233,7 @@ usuario.addEventListener('keyup', () => {
 
 
 tel.addEventListener('keyup', () => {
-    if (tel.value.length <= 11) {
+    if (tel.value.length < 10 && tel.value.length < 13) {
         labelTelefone.setAttribute('style', 'color: red')
         validTelefone = false
     }
@@ -285,7 +285,7 @@ function cadastrar() {
         window.location.href = './login.html'
     }
     else {
-        alert('deu ruim')
+        alert('Preencha todos os campos corretamente')
     }
 }
 
@@ -325,7 +325,7 @@ function entrar(){
       localStorage.setItem('userLogado', JSON.stringify(userValid))
     }
     else{
-        alert('deu ruim')
+        alert('Uusário ou senha incorreto')
     }
 
 }
