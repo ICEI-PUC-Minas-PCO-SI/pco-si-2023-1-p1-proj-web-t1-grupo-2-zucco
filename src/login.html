@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="corpoLogin">
+  <div id="formularioLogin">
+    <a id="mensagemCadastro">Acessar</a>
+    <br><br>
+    <label for="usuario" id="userLabel">Usuário:</label>
+    <input type="text" id="usuario" class="respostaUsuario">
+    <br><br>
+    <label for="senha" id="senhaLabel">Senha:</label>
+    <input type="password" id="senha" class="respostaUsuario">
+    <br><br>
+    <button type="button" onclick='entrar()' id="btnEntrar">Entrar</button>
+    <br>
+    <a href="cadastro.html" id="btnDeCadastrar">Ainda nao possui conta? Cadastrar</a>
+  </div>
+</body>
+<script src="script/script.js"></script>
+
+</html>

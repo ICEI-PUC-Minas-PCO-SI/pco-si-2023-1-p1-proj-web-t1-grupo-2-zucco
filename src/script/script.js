@@ -184,17 +184,165 @@ function atualiza(id) {
 //>>>>>>> 5439d0aa4a25c3aab68b1c7e602a7c18dc0d8250:src/script.js
 
 
-function logar() {
+/*==========================================================================*/
 
-    var login = document.getElementById('login').value;
-    var senha = document.getElementById('senha').value;
+let nome = document.querySelector('#nome')
+let labelNome = document.querySelector('#labelNome')
+let validNome = false
 
-    if (login == "admin" && senha == "admin") {
-        var nome = "Rafael";
-        alert('Sucesso');
-        document.getElementById("openModal").innerText = nome;
+let usuario = document.querySelector('#usuario')
+let labelUsuario = document.querySelector('#labelUsuario')
+let validUsuario = false
+
+let tel = document.querySelector('#tel')
+let labelTelefone = document.querySelector('#labelTelefone')
+let validTelefone = false
+
+let senha = document.querySelector('#senha')
+let labelSenha = document.querySelector('#labelSenha')
+let validSenha = false
+
+let confirmeSenha = document.querySelector('#confirmeSenha')
+let labelConfirmeSenha = document.querySelector('#labelConfirmeSenha')
+let validConfirmeSenha = false
+
+let msgError = document.querySelector('#msgError')
+let msgSucces = document.querySelector('#msgSuccess')
+
+nome.addEventListener('keyup', () => {
+    if (nome.value.length <= 3) {
+        labelNome.setAttribute('style', 'color: red')
+        validNome = false
     }
     else {
-        alert('Usuário ou senha incorreto')
+        labelNome.setAttribute('style', 'color: green')
+        validNome = true
     }
+})
+
+usuario.addEventListener('keyup', () => {
+    if (usuario.value.length <= 3) {
+        labelUsuario.setAttribute('style', 'color: red')
+        validUsuario = false
+    }
+    else {
+        labelUsuario.setAttribute('style', 'color: green')
+        validUsuario = true
+    }
+})
+
+
+tel.addEventListener('keyup', () => {
+    if (tel.value.length <= 11) {
+        labelTelefone.setAttribute('style', 'color: red')
+        validTelefone = false
+    }
+    else {
+        labelTelefone.setAttribute('style', 'color: green')
+        validTelefone = true
+    }
+})
+
+
+senha.addEventListener('keyup', () => {
+    if (senha.value.length <= 5) {
+        labelSenha.setAttribute('style', 'color: red')
+        validSenha = false
+    }
+    else {
+        labelSenha.setAttribute('style', 'color: green')
+        validSenha = true
+    }
+})
+
+confirmeSenha.addEventListener('keyup', () => {
+    if (senha.value != confirmeSenha.value) {
+        labelConfirmeSenha.setAttribute('style', 'color: red')
+        validConfirmeSenha = false
+    }
+    else {
+        labelConfirmeSenha.setAttribute('style', 'color: green')
+        validConfirmeSenha = true
+    }
+})
+
+
+
+function cadastrar() {
+    if (validNome && validUsuario && validTelefone && validSenha && validConfirmeSenha) {
+        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+
+        listaUser.push({
+            nomeCad: nome.value,
+            userCad: usuario.value,
+            telCad: tel.value,
+            senhaCad: senha.value
+        })
+
+        localStorage.setItem('listaUser', JSON.stringify(listaUser))
+        
+
+        window.location.href = './login.html'
+    }
+    else {
+        alert('deu ruim')
+    }
+}
+
+function entrar(){
+    let usuario = document.querySelector('#usuario')
+    let userLabel = document.querySelector('userLabel')
+
+    let senha = document.querySelector('#senha')
+    let senhaLabel = document.querySelector('#senhaLabel')
+
+    let listaUser = []
+
+    let userValid = {
+        nome: '',
+        user: '',
+        senha: ''
+    }
+
+    listaUser = JSON.parse(localStorage.getItem('listaUser'))
+
+    listaUser.forEach((item) =>{
+        if(usuario.value == item.userCad && senha.value == item.senhaCad){
+            userValid = {
+                nome: item.nomeCad,
+                user: item.userCad,
+                senha: item.senhaCad
+            }
+        }
+    })
+
+    if(usuario.value == userValid.user && senha.value == userValid.senha){
+      window.location.href = './index.html'
+
+      let token = Marth.random().toString(16).substr(2) + Marth.random().toString(16).substr(2)
+      localStorage.setItem('token', token)
+
+      localStorage.setItem('userLogado', JSON.stringify(userValid))
+    }
+    else{
+        alert('deu ruim')
+    }
+
+}
+
+let userLogado = []
+
+userLogado = JSON.parse(localStorage.getItem('userLogado'))
+
+let logado = document.querySelector('#logado')
+
+logado.innerHTML = `Ola ${userLogado.nome}`
+
+if(localStorage.getItem('token') == null){
+  alert('voce precisa estar logado para acessar a pagina')
+  window.location.href = './login.html'
+}
+
+function sair(){
+  alert('deu bom')
 }
