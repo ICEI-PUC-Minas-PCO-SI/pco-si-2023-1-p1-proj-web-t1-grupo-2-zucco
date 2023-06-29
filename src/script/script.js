@@ -282,7 +282,7 @@ function cadastrar() {
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
         
 
-        window.location.href = './login.html'
+        window.location.href = './index.html'
     }
     else {
         alert('Preencha todos os campos corretamente')
@@ -317,7 +317,7 @@ function entrar(){
     })
 
     if(usuario.value == userValid.user && senha.value == userValid.senha){
-      window.location.href = './index.html'
+      window.location.href = './home.html'
 
       let token = Marth.random().toString(16).substr(2) + Marth.random().toString(16).substr(2)
       localStorage.setItem('token', token)
@@ -340,9 +340,9 @@ logado.innerHTML = `Ola ${userLogado.nome}`
 
 if(localStorage.getItem('token') == null){
   alert('voce precisa estar logado para acessar a pagina')
-  window.location.href = './login.html'
+  window.location.href = './index.html'
 }
 
 function sair(){
-    window.location.href = './login.html'
+    window.location.href = './index.html'
 }

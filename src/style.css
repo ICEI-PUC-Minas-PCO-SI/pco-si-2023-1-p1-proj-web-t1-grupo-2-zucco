@@ -1003,6 +1003,7 @@ CADASTRO E LOGIN
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 450px;
 }
 
 
