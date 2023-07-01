@@ -536,6 +536,12 @@ form textarea {
   text-align: center;
 }
 
+#descubra{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 
 
 /* ==========================================================================
