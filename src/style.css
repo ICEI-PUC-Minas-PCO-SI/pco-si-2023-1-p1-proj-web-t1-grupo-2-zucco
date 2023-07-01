@@ -543,6 +543,12 @@ form textarea:focus {
   text-align: center;
 }
 
+#descubra{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 /* ==========================================================================
       Sobre Nós
 ========================================================================= */
