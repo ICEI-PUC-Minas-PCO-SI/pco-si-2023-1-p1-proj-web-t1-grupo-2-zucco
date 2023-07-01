@@ -5,13 +5,13 @@ function pegaDados() {
     .then(res => {
       for (i = 0; i < res.length; i++) {
         dados.push(res[i]);
-      } 
+      }
       console.log(dados);
     })
     .then(res => fazRequisicao());
 }
 
-function fazRequisicao(){
+function fazRequisicao() {
   str = "";
   console.log(dados.length);
   for (i = 0; i < dados.length; i++) {
@@ -81,7 +81,7 @@ function deleta(id) {
 }
 
 function atualiza(id) {
-  var cotacao = JSON.stringify({
+  let cotacao = JSON.stringify({
     id: document.getElementById('iden' + id).value,
     numeroDoPedido: document.getElementById('numero' + id).value,
     nome: document.getElementById('nome' + id).value,
@@ -103,6 +103,45 @@ function atualiza(id) {
     .then(res => res.json())
     .then(() => {
       pegaDados();
+      location.reload();
+    });
+}
+
+function pegaOpcao(){
+  
+  console.log(opcaoSelecionada.value);
+}
+function envia() {
+  window.alert("Aguarde enquando os dados são enviado!");
+  var data = new Date();
+  //Precisa acrescentar o + 1 por que o getMonth está como array, o janeiro é o mês zero
+  id = String(data.getFullYear()) + String(data.getMonth() + 1) + String(data.getDate()) + String(data.getHours()) + String(data.getMinutes()) + String(data.getSeconds());
+  //Pega todos os inputs do tipo radio que tem o nome service e estão ativos, no caso o html só deixa um ativo então deu bom demais, Fabio melhor professor S2
+  //Se a Alice não é a japonesa mais linda que eu conheco eu não sei quem é
+  //Rafael mitooooooooooooooooooooooooooooooooooooooooooooooooo
+  //Esqueci de mencionar, atravez dessa variavel opcaoSelecionada é possivel acessar o id do atributo, apenas colocando um ponto como se fosse um array
+  var opcaoSelecionada = document.querySelector('input[name="service"]:checked');
+  let cotacaoEnviar = JSON.stringify({
+    id: id,
+    numeroDoPedido: "0000",
+    nome: document.getElementById('firstname').value,
+    email: document.getElementById('email').value,
+    celular: document.getElementById('number').value,
+    cpf: document.getElementById('cpf').value,
+    cnpj: document.getElementById('cnpj').value,
+    cidadeOrigem: document.getElementById('cidadeO').value,
+    cidadeDestino: document.getElementById('cidadeDes').value,
+    tipoServico: opcaoSelecionada.value
+  })
+  fetch(`http://localhost:3000/cotacao`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: cotacaoEnviar
+  })
+    .then(() => {
+      
       location.reload();
     });
 }

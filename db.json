@@ -1,139 +1,29 @@
 {
   "cotacao": [
     {
-      "id": "1",
+      "id": "2023630232552",
       "numeroDoPedido": "0000",
-      "nome": "Rafael mito",
-      "email": "fulano123@gmail.com",
-      "celular": "3412",
-      "cpf": "12345678901",
-      "cnpj": "987654321",
-      "cidadeOrigem": "São Paulo",
-      "cidadeDestino": "Rio de Janeiro",
-      "tipoServico": "Pimba"
+      "nome": "asdf",
+      "email": "asfd",
+      "celular": "asdf",
+      "cpf": "asf",
+      "cnpj": "asfd",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga"
     },
     {
-      "id": "2",
-      "numeroDoPedido": "0001",
-      "nome": "João Silva",
-      "email": "joao.silva@example.com",
-      "celular": "5544",
-      "cpf": "98765432109",
-      "cnpj": "123456789",
-      "cidadeOrigem": "Belo Horizonte",
-      "cidadeDestino": "Brasília",
-      "tipoServico": "Entrega rápida"
-    },
-    {
-      "id": "3",
-      "numeroDoPedido": "0002",
-      "nome": "Maria Souza",
-      "email": "maria.souza@example.com",
-      "celular": "9988",
-      "cpf": "87654321098",
-      "cnpj": "567890123",
-      "cidadeOrigem": "Porto Alegre",
-      "cidadeDestino": "Curitiba",
-      "tipoServico": "Transporte pesado"
-    },
-    {
-      "id": "4",
-      "numeroDoPedido": "0003",
-      "nome": "Pedro Santos",
-      "email": "pedro.santos@example.com",
-      "celular": "3322",
-      "cpf": "76543210987",
-      "cnpj": "890123456",
-      "cidadeOrigem": "Fortaleza",
-      "cidadeDestino": "Recife",
-      "tipoServico": "Logística internacional"
-    },
-    {
-      "id": "5",
-      "numeroDoPedido": "0004",
-      "nome": "Ana Oliveira",
-      "email": "ana.oliveira@example.com",
-      "celular": "7766",
-      "cpf": "65432109876",
-      "cnpj": "901234567",
-      "cidadeOrigem": "Salvador",
-      "cidadeDestino": "Aracaju",
-      "tipoServico": "Carga frágil"
-    },
-    {
-      "id": "6",
-      "numeroDoPedido": "0005",
-      "nome": "Carlos Mendes",
-      "email": "carlos.mendes@example.com",
-      "celular": "1122",
-      "cpf": "54321098765",
-      "cnpj": "012345678",
-      "cidadeOrigem": "Manaus",
-      "cidadeDestino": "Belém",
-      "tipoServico": "Distribuição local"
-    },
-    {
-      "id": "7",
-      "numeroDoPedido": "0006",
-      "nome": "Lúcia Costa",
-      "email": "lucia.costa@example.com",
-      "celular": "7788",
-      "cpf": "43210987654",
-      "cnpj": "123456780",
-      "cidadeOrigem": "Florianópolis",
-      "cidadeDestino": "Porto Alegre",
-      "tipoServico": "Entrega expressa"
-    },
-    {
-      "id": "8",
-      "numeroDoPedido": "0007",
-      "nome": "Fernando Oliveira",
-      "email": "fernando.oliveira@example.com",
-      "celular": "5566",
-      "cpf": "32109876543",
-      "cnpj": "234567890",
-      "cidadeOrigem": "Goiânia",
-      "cidadeDestino": "Cuiabá",
-      "tipoServico": "Carga perigosa"
-    },
-    {
-      "id": "9",
-      "numeroDoPedido": "0008",
-      "nome": "Paula Rodrigues",
-      "email": "paula.rodrigues@example.com",
-      "celular": "3366",
-      "cpf": "21098765432",
-      "cnpj": "345678901",
-      "cidadeOrigem": "Vitória",
-      "cidadeDestino": "São Luís",
-      "tipoServico": "Transporte refrigerado"
-    },
-    {
-      "id": "10",
-      "numeroDoPedido": "0009",
-      "nome": "Antônio Carvalho",
-      "email": "antonio.carvalho@example.com",
-      "celular": "9900",
-      "cpf": "10987654321",
-      "cnpj": "456789012",
-      "cidadeOrigem": "Natal",
-      "cidadeDestino": "João Pessoa",
-      "tipoServico": "Armazenagem"
-    },
-    {
-      "id": "11",
-      "numeroDoPedido": "0010",
-      "nome": "Camila Fernandes",
-      "email": "camila.fernandes@example.com",
-      "celular": "8844",
-      "cpf": "09876543210",
-      "cnpj": "567890123",
-      "cidadeOrigem": "Recife",
-      "cidadeDestino": "Fortaleza",
-      "tipoServico": "Carga aérea"
+      "id": "2023630232615",
+      "numeroDoPedido": "0000",
+      "nome": "asdf",
+      "email": "asfd",
+      "celular": "asdf",
+      "cpf": "asf",
+      "cnpj": "asfd",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga"
     }
   ],
-  "usuarios":[
-    
-  ]
+  "usuarios": []
 }
