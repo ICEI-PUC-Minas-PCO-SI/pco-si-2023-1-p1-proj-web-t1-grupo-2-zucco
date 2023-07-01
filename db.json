@@ -1,6 +1,7 @@
 {
   "cotacao": [
     {
+<<<<<<< HEAD
       "id": "2",
       "numeroDoPedido": "0001",
       "nome": "João Sio",
@@ -107,6 +108,31 @@
       "cidadeOrigem": "Recife",
       "cidadeDestino": "Fortaleza",
       "tipoServico": "Carga aérea"
+=======
+      "id": "2023630232552",
+      "numeroDoPedido": "0000",
+      "nome": "asdf",
+      "email": "asfd",
+      "celular": "asdf",
+      "cpf": "asf",
+      "cnpj": "asfd",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga"
+    },
+    {
+      "id": "2023630232615",
+      "numeroDoPedido": "0000",
+      "nome": "asdf",
+      "email": "asfd",
+      "celular": "asdf",
+      "cpf": "asf",
+      "cnpj": "asfd",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga"
+>>>>>>> d9687247abee174d766aa676748a2a6836850ed1
     }
-  ]
+  ],
+  "usuarios": []
 }

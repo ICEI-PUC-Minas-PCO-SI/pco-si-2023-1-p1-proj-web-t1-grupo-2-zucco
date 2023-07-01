@@ -6,23 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zucco Transportes</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body id="corpoLogin">
-  <div id="formularioLogin">
-    <a id="mensagemCadastro">Acessar</a>
-    <br><br>
-    <label for="usuario" id="userLabel" class="opcaoLogin">Usuário:</label>
-    <input type="text" class="form-control" id="usuario" placeholder="Example input">
-    <br><br>
-    <label for="senha" id="senhaLabel" class="opcaoLogin">Senha:</label>
-    <input type="password" class="form-control" id="senha" placeholder="Password">
-    <br><br>
-    <button type="button" onclick='entrar()' id="btnEntrar">Entrar</button>
-    <br>
-    <a href="cadastro.html" id="btnDeCadastrar">Cadastrar</a>
-  </div>
+    <div id="img-logo" class="row">
+      <img src="img/logos/logo2.png" id="imagemLogin">
+    </div>
+    <div class="row" id="formularioLogin">
+        <a id="mensagemCadastro">Acessar</a>
+        <br><br>
+        <label for="usuario" id="userLabel" class="opcaoLogin">Usuário:</label>
+        <input type="text" class="form-control" id="usuario" placeholder="Nome de usuário">
+        <br><br>
+        <label for="senha" id="senhaLabel" class="opcaoLogin">Senha:</label>
+        <input type="password" class="form-control" id="senha" placeholder="Senha">
+        <br><br>
+        <button type="button" onclick='entrar()' id="btnEntrar">Entrar</button>
+        <br>
+        <a href="cadastro.html" id="btnDeCadastrar">Cadastrar</a>
+    </div>
 </body>
 <script src="script/script.js"></script>
 

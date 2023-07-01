@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body id="corpoLogin">
+    <div id="img-logo" class="row">
+        <img src="img/logos/logo2.png" id="imagemLogin">
+      </div>
     <form action="" method="post" id="formularioCadastro">
         <a id="mensagemCadastro">Criar conta</a>
         <br><br>
         <label class="identificacaoformulario" id="labelNome">Nome:</label>
-        <input type="text" name="name" placeholder="Digite seu nome completo" autocomplete="off" 
-            class="CadastroUsuario" id="nome">
+        <input type="text" name="name" class="form-control" id="nome" placeholder="Digite seu nome completo">
         <label class="identificacaoformulario" id="labelUsuario">Usuário:</label>
-        <input type="text" name="name" placeholder="Digite um usuário" autocomplete="off" 
-            class="CadastroUsuario" id="usuario">
+        <input type="text" name="name" class="form-control" id="usuario" placeholder="Digite seu usuário">
         <label class="identificacaoformulario" id="labelTelefone">Telefone:</label>
-        <input type="text" data-js="phone" name="phone" placeholder="Digite seu telefone" autocomplete="off" 
-            class="CadastroUsuario" id="tel">
+        <input type="text" data-js="phone" name="name" class="form-control" id="tel" placeholder="Telefone">
         <label class="identificacaoformulario" for="password" id="labelSenha">Senha:</label>
-        <input type="password" name="password" placeholder="Digite sua senha"  class="CadastroUsuario"
-            id="senha">
-            <label class="identificacaoformulario" for="password" id="labelConfirmeSenha">Confirmação de senha:</label>
-        <input type="password" name="password" placeholder="Digite sua senha"  class="CadastroUsuario"
-            id="confirmeSenha">
-            <br>
-            <button class="btncadastro" type="button" onclick="cadastrar()">Cadastrar</button>
+        <input type="password" name="password" placeholder="Digite sua senha" class="form-control" id="senha">
+        <label class="identificacaoformulario" for="password" id="labelConfirmeSenha">Confirmação de senha:</label>
+        <input type="password" name="password" placeholder="Confirme a senha" class="form-control" id="confirmeSenha">
+        <br>
+        <button class="btncadastro" type="button" onclick="cadastrar()">Cadastrar</button>
     </form>
     <script src="script/script.js"></script>
     <script src="/src/script/validacoes.js"></script>
 </body>
+
 </html>
