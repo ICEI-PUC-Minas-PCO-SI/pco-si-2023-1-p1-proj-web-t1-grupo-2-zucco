@@ -1,21 +1,9 @@
 {
   "cotacao": [
     {
-      "id": "1",
-      "numeroDoPedido": "0000",
-      "nome": "Rafael mito",
-      "email": "fulano123@gmail.com",
-      "celular": "3412",
-      "cpf": "12345678901",
-      "cnpj": "987654321",
-      "cidadeOrigem": "São Paulo",
-      "cidadeDestino": "Rio de Janeiro",
-      "tipoServico": "Pimba"
-    },
-    {
       "id": "2",
       "numeroDoPedido": "0001",
-      "nome": "João Silva",
+      "nome": "João Sio",
       "email": "joao.silva@example.com",
       "celular": "5544",
       "cpf": "98765432109",
@@ -71,18 +59,6 @@
       "cidadeOrigem": "Manaus",
       "cidadeDestino": "Belém",
       "tipoServico": "Distribuição local"
-    },
-    {
-      "id": "7",
-      "numeroDoPedido": "0006",
-      "nome": "Lúcia Costa",
-      "email": "lucia.costa@example.com",
-      "celular": "7788",
-      "cpf": "43210987654",
-      "cnpj": "123456780",
-      "cidadeOrigem": "Florianópolis",
-      "cidadeDestino": "Porto Alegre",
-      "tipoServico": "Entrega expressa"
     },
     {
       "id": "8",

@@ -908,7 +908,6 @@ form textarea:focus {
 CADASTRO E LOGIN
 ===========================================================================*/
 .formularioLogin {
-  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -922,18 +921,13 @@ CADASTRO E LOGIN
 }
 
 
-
-.imagemLogin {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#senha{
+  padding: 15px;
+  font-size: 15px;
 }
 
-.respostaUsuario {
+#usuario{
   padding: 15px;
-  border: none;
-  outline: none;
   font-size: 15px;
 }
 
@@ -980,19 +974,21 @@ CADASTRO E LOGIN
   font-size: 75px;
   justify-content: center;
   display: flex;
-  color: white;
+  color: black;
 }
 
-
-
+.opcaoLogin{
+  color: black;
+}
 
 #corpoLogin {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  background-color: rgb(177, 6, 6);
 }
 
 #formularioLogin {
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 50%;
   left: 50%;
