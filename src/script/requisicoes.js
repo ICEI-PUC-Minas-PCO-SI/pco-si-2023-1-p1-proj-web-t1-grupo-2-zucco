@@ -1,22 +1,23 @@
+var dados = [];
 function pegaDados() {
   fetch("http://localhost:3000/cotacao", { method: 'GET', })
-      .then(res => res.json())
-      .then(res => {
-          for (i = 0; i < res.length; i++) {
-              dados.push(res[i]);
-          }
-          return dados;
-      })
-
+    .then(res => res.json())
+    .then(res => {
+      for (i = 0; i < res.length; i++) {
+        dados.push(res[i]);
+      } 
+      console.log(dados);
+    })
+    .then(res => fazRequisicao());
 }
 
-
-function fazRequisicao() {
-  var dados = pegaDados();
+function fazRequisicao(){
+  str = "";
+  console.log(dados.length);
   for (i = 0; i < dados.length; i++) {
-      console.log("pimba " + i)
-      str += `<tr>
-                  <th scope="row">${i}</th>
+    console.log("pimba " + i);
+    str += `<tr>
+                  <th scope="row">${dados[i].id}</th>
                   <th scope="row">${dados[i].numeroDoPedido}</th>
                   <td>${dados[i].nome}</td>
                   <td>${dados[i].email}</td>
@@ -25,7 +26,6 @@ function fazRequisicao() {
                   <td>${dados[i].cnpj}</td>
                   <td>${dados[i].cidadeOrigem}</td>
                   <td>${dados[i].cidadeDestino}</td>
-                  <td>${dados[i].numeroDoPedido}</td>
                   <td>${dados[i].tipoServico}</td>
                   <td><button class="btn btn-danger" id="btn-apaga" onclick="deleta(${dados[i].id})">Apagar</button></td>
                   <td><button class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar${dados[i].id}">Editar</button></td>
@@ -38,7 +38,7 @@ function fazRequisicao() {
                               </div>
                               <div class="modal-body">
                                   <label for="exampleInputEmail1" class="form-label">Identificador</label>
-                                  <input type="email" class="form-control" id="iden${dados[i].id}" aria-describedby="emailHelp" value="${i}" disabled>
+                                  <input type="email" class="form-control" id="iden${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].id}" disabled>
                                   <label for="exampleInputEmail1" class="form-label">Numero do pedido</label>
                                   <input type="email" class="form-control" id="numero${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
                                   <label for="exampleInputEmail1" class="form-label">Nome</label>
@@ -55,8 +55,6 @@ function fazRequisicao() {
                                   <input type="email" class="form-control" id="cidadeO${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cidadeOrigem}">
                                   <label for="exampleInputEmail1" class="form-label">Cidade de destino</label>
                                   <input type="email" class="form-control" id="cidadeDes${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].cidadeDestino}">
-                                  <label for="exampleInputEmail1" class="form-label">Número do pedido</label>
-                                  <input type="email" class="form-control" id="nPed${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].numeroDoPedido}">
                                   <label for="exampleInputEmail1" class="form-label">Tipo de serviçõ</label>
                                   <input type="email" class="form-control" id="tipo${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].tipoServico}">
                               </div>
@@ -68,45 +66,43 @@ function fazRequisicao() {
                   </div>
               </tr>
                 `
-      console.log(str)
-      var paiPlanilha = document.getElementById("paiPlanilha");
-      paiPlanilha.innerHTML = str;
+    console.log(str)
+    var paiPlanilha = document.getElementById("paiPlanilha");
+    paiPlanilha.innerHTML = str;
   }
 }
 
-
-
 function deleta(id) {
   fetch("http://localhost:3000/cotacao/" + id, {
-      method: 'DELETE',
+    method: 'DELETE',
   })
-      .then(res => res.json())
-      .then(() => location.reload());
+    .then(res => res.json())
+    .then(() => location.reload());
 }
 
 function atualiza(id) {
   var cotacao = JSON.stringify({
-      id: document.getElementById('iden'+id).value,
-      numeroDoPedido: document.getElementById('numero'+id).value,
-      nome: document.getElementById('nome'+id).value,
-      email: document.getElementById('email'+id).value,
-      celular: document.getElementById('celular'+id).value,
-      cpf: document.getElementById('cpf'+id).value,
-      cnpj: document.getElementById('cnpj'+id).value,
-      cidadeOrigem: document.getElementById('cidadeO'+id).value,
-      cidadeDestino: document.getElementById('cidadeDes'+id).value,
-      tipoServico: document.getElementById('tipo'+id).value
+    id: document.getElementById('iden' + id).value,
+    numeroDoPedido: document.getElementById('numero' + id).value,
+    nome: document.getElementById('nome' + id).value,
+    email: document.getElementById('email' + id).value,
+    celular: document.getElementById('celular' + id).value,
+    cpf: document.getElementById('cpf' + id).value,
+    cnpj: document.getElementById('cnpj' + id).value,
+    cidadeOrigem: document.getElementById('cidadeO' + id).value,
+    cidadeDestino: document.getElementById('cidadeDes' + id).value,
+    tipoServico: document.getElementById('tipo' + id).value
   })
   fetch(`http://localhost:3000/cotacao/` + id, {
-      method: 'PUT',
-      headers: {
-          'Content-Type': 'application/json'
-      },
-      body: cotacao
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: cotacao
   })
-      .then(res => res.json())
-      .then(() => {
-          pegaDados();
-          location.reload();
-      });
+    .then(res => res.json())
+    .then(() => {
+      pegaDados();
+      location.reload();
+    });
 }
