@@ -108,6 +108,12 @@ function atualiza(id) {
 }
 
 function envia() {
+  var recebeAlerta = document.getElementById("recebeAlerta");
+  let alerta = `
+                <div class="alert alert-success" role="alert">
+                  Os dados foram enviado com sucesso!
+                </div>
+  `;
   // Faz com que o spinner apareça quando a pessoa apertar o botão
   var spinner = document.getElementById("spinner");
   spinner.style.display = "inline";
@@ -139,7 +145,9 @@ function envia() {
     body: cotacaoEnviar
   })
     .then(() => {
+      recebeAlerta.innerHTML = alerta;
       spinner.style.display = "none";
+      alerta.style.display = "inline";
       location.reload();
     });
 }
