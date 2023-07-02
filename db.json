@@ -1,7 +1,6 @@
 {
   "cotacao": [
     {
-<<<<<<< HEAD
       "id": "2",
       "numeroDoPedido": "0001",
       "nome": "João Sio",
@@ -108,7 +107,8 @@
       "cidadeOrigem": "Recife",
       "cidadeDestino": "Fortaleza",
       "tipoServico": "Carga aérea"
-=======
+    },
+    {
       "id": "2023630232552",
       "numeroDoPedido": "0000",
       "nome": "asdf",
@@ -131,7 +131,66 @@
       "cidadeOrigem": "asdf",
       "cidadeDestino": "asdf",
       "tipoServico": "Coleta de carga"
->>>>>>> d9687247abee174d766aa676748a2a6836850ed1
+    },
+    {
+      "id": "202372184435",
+      "numeroDoPedido": "0000",
+      "nome": "Teste",
+      "email": "asdf",
+      "celular": "asdf",
+      "cpf": "asdf",
+      "cnpj": "asdf",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga fechada"
+    },
+    {
+      "id": "202372185823",
+      "numeroDoPedido": "0000",
+      "nome": "Teste",
+      "email": "asdf",
+      "celular": "asdf",
+      "cpf": "asdf",
+      "cnpj": "asdf",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga fechada"
+    },
+    {
+      "id": "20237218596",
+      "numeroDoPedido": "0000",
+      "nome": "Teste",
+      "email": "asdf",
+      "celular": "asdf",
+      "cpf": "asdf",
+      "cnpj": "asdf",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga fechada"
+    },
+    {
+      "id": "20237219631",
+      "numeroDoPedido": "0000",
+      "nome": "Teste",
+      "email": "asdf",
+      "celular": "asdf",
+      "cpf": "asdf",
+      "cnpj": "asdf",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga fechada"
+    },
+    {
+      "id": "20237219715",
+      "numeroDoPedido": "0000",
+      "nome": "Teste",
+      "email": "asdf",
+      "celular": "asdf",
+      "cpf": "asdf",
+      "cnpj": "asdf",
+      "cidadeOrigem": "asdf",
+      "cidadeDestino": "asdf",
+      "tipoServico": "Coleta de carga fechada"
     }
   ],
   "usuarios": []

@@ -64,7 +64,7 @@
             </nav>
         </nav>
     </header>
-
+      
     <!--formulario-serviços-->
     <main class="formulario">
         <div class="container-formulario">
@@ -145,9 +145,12 @@
                     </div>
 
                     <div class="continue-button">
-                        <button id="read_button" type="button" class="btn btn-danger"><a id="cardswhite"
-                                href="https://www.example.com" target="_blank" > Continuar</a></button>
-                                <button onclick="envia()">enviar</button>
+                        <button id="read_button" type="button" class="btn btn-danger d-flex align-items-center justify-content-between" onclick="envia()"> 
+                            <p class="text-white">Enviar</p>
+                            <div class="spinner-border text-success" role="status" id="spinner">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>                         
+                        </button> 
                     </div>
                 </form>
             </div>

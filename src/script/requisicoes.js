@@ -107,12 +107,10 @@ function atualiza(id) {
     });
 }
 
-function pegaOpcao(){
-  
-  console.log(opcaoSelecionada.value);
-}
 function envia() {
-  window.alert("Aguarde enquando os dados são enviado!");
+  // Faz com que o spinner apareça quando a pessoa apertar o botão
+  var spinner = document.getElementById("spinner");
+  spinner.style.display = "inline";
   var data = new Date();
   //Precisa acrescentar o + 1 por que o getMonth está como array, o janeiro é o mês zero
   id = String(data.getFullYear()) + String(data.getMonth() + 1) + String(data.getDate()) + String(data.getHours()) + String(data.getMinutes()) + String(data.getSeconds());
@@ -141,7 +139,7 @@ function envia() {
     body: cotacaoEnviar
   })
     .then(() => {
-      
+      spinner.style.display = "none";
       location.reload();
     });
 }
