@@ -2,6 +2,11 @@
 <html lang="pt-br">
 
 <head>
+  <style>
+    .accordion-button:not(.collapsed) {
+      background-color: #f8f9fa;
+    }
+  </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,100 +72,122 @@
         <figure class="text-center mt-5">
         <h2>CIDADES ATENDIDAS</h2>
         </figure>
-  <div class="container">
+   <div class="container mt-4">
     <div class="row">
       <div class="col-md-6">
         <div class="accordion" id="accordion1">
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading1">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-              Santa Catarina
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Accordion 1
               </button>
             </h2>
-            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
-              data-bs-parent="#accordion1">
+            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1">
               <div class="accordion-body">
-                <div class="list-group">
-                <a href="#" class="list-group-item">Antônio Carlos</a><br>
-              <a href="#" class="list-group-item">Barreiros</a><br>
-              <a href="#" class="list-group-item">Biguaçu</a><br>
-              <a href="#" class="list-group-item">Canasvieiras</a><br>
-              <a href="#" class="list-group-item">Florianópolis</a><br>
-              <a href="#" class="list-group-item">Gov. Celso Ramos</a><br>
-              <a href="#" class="list-group-item">Palhoça</a><br>
-              <a href="#" class="list-group-item">Paulo Lopes</a><br>
-              <a href="#" class="list-group-item">Prata</a><br>
-              <a href="#" class="list-group-item">Pres. Kennedy</a><br>
-              <a href="#" class="list-group-item">Sto. Amaro</a><br>
-              <a href="#" class="list-group-item">Imperatriz</a><br>
-              <a href="#" class="list-group-item">São João Batista</a><br>
-              <a href="#" class="list-group-item">São José</a><br>
-              <a href="#" class="list-group-item">São Pedro de Alcântara</a><br>
-              <a href="#" class="list-group-item">Araranguá</a><br>
-              <a href="#" class="list-group-item">Armazém</a><br>
-              <a href="#" class="list-group-item">Arroio do Silva</a><br>
-              <a href="#" class="list-group-item">Balneário Gaivota</a><br>
-              <a href="#" class="list-group-item">Balneário Rincão</a><br>
-              <a href="#" class="list-group-item">Braço do Norte</a><br>
-              <a href="#" class="list-group-item">Capivari de Baixo</a><br>
-              <a href="#" class="list-group-item">Cocal do Sul</a><br>
-              <a href="#" class="list-group-item">Criciúma</a><br>
-              <a href="#" class="list-group-item">Ermo</a><br>
-              <a href="#" class="list-group-item">Esplanada</a><br>
-              <a href="#" class="list-group-item">Forquilhinha</a><br>
-              <a href="#" class="list-group-item">Garopaba</a><br>
-              <a href="#" class="list-group-item">Grão-Pará</a><br>
-              <a href="#" class="list-group-item">Gravatal</a><br>
+                <div class="accordion" id="innerAccordion1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading1">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse1">
+                        Inner Accordion 1
+                      </button>
+                    </h2>
+                    <div id="innerCollapse1" class="accordion-collapse collapse" aria-labelledby="innerHeading1">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading2">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse2">
+                        Inner Accordion 2
+                      </button>
+                    </h2>
+                    <div id="innerCollapse2" class="accordion-collapse collapse" aria-labelledby="innerHeading2">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="col-md-6">
         <div class="accordion" id="accordion2">
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading2">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                Paraná
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Accordion 2
               </button>
             </h2>
-            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-              data-bs-parent="#accordion2">
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
               <div class="accordion-body">
-                <div class="list-group">
-<a href="#" class="list-group-item ">Almirante Tamandaré</a><br>
-<a href="#" class="list-group-item ">Araucária</a><br>
-<a href="#" class="list-group-item ">Boa Vista</a><br>
-<a href="#" class="list-group-item ">Bocaiuva do Sul</a><br>
-<a href="#" class="list-group-item ">Campina Grande do Sul</a><br>
-<a href="#" class="list-group-item ">Campo do Meio</a><br>
-<a href="#" class="list-group-item ">Campo Largo</a><br>
-<a href="#" class="list-group-item ">Campo Magro</a><br>
-<a href="#" class="list-group-item ">Cerro Azul</a><br>
-<a href="#" class="list-group-item ">Colombo</a><br>
-<a href="#" class="list-group-item ">Contenda</a><br>
-<a href="#" class="list-group-item ">Curitiba</a><br>
-<a href="#" class="list-group-item ">Fazenda Rio Grande</a><br>
-<a href="#" class="list-group-item ">Itapecuru</a><br>
-<a href="#" class="list-group-item ">Lagoinha</a><br>
-<a href="#" class="list-group-item ">Mandirituba</a><br>
-<a href="#" class="list-group-item ">Maracanã</a><br>
-<a href="#" class="list-group-item ">Pinhais</a><br>
-<a href="#" class="list-group-item ">Piraquara</a><br>
-<a href="#" class="list-group-item ">Quatro Barras</a><br>
-<a href="#" class="list-group-item ">Rio Branco do Sul</a><br>
-<a href="#" class="list-group-item ">São José</a><br>
-<a href="#" class="list-group-item ">São José dos Pinhais</a><br>
-<a href="#" class="list-group-item ">Tijucas do Sul</a><br>
-<a href="#" class="list-group-item ">Abatia</a><br>
-<a href="#" class="list-group-item ">Apucarana</a><br>
-<a href="#" class="list-group-item ">Arapongas</a><br>
-<a href="#" class="list-group-item ">Aricanduva</a><br>
-<a href="#" class="list-group-item ">Astorga</a><br>
-<a href="#" class="list-group-item ">Bom Progresso</a><br>
+                <div class="accordion" id="innerAccordion3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading3">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse3">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse3" class="accordion-collapse collapse" aria-labelledby="innerHeading3">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading4">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse4">
+                        Inner Accordion 4
+                      </button>
+                    </h2>
+                    <div id="innerCollapse4" class="accordion-collapse collapse" aria-labelledby="innerHeading4">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading33">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse33">
+                        Inner Accordion 5
+                      </button>
+                    </h2>
+                    <div id="innerCollapse33" class="accordion-collapse collapse" aria-labelledby="innerHeading33">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -168,99 +195,190 @@
         </div>
       </div>
     </div>
+
     <div class="row mt-4">
       <div class="col-md-6">
         <div class="accordion" id="accordion3">
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading3">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-               São Paulo
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Accordion 3
               </button>
             </h2>
-            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-              data-bs-parent="#accordion3">
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
               <div class="accordion-body">
-                <div class="list-group">
-                 <a href="#" class="list-group-item">São Paulo Capital</a><br>
-                  <a href="#" class="list-group-item">Barueri</a><br>
-                  <a href="#" class="list-group-item">Caieiras</a><br>
-                  <a href="#" class="list-group-item">Cajamar</a><br>
-                  <a href="#" class="list-group-item">Cotia</a><br>
-                  <a href="#" class="list-group-item">Diadema</a><br>
-                  <a href="#" class="list-group-item">Embu das Artes</a><br>
-                  <a href="#" class="list-group-item">Embu-Guaçu</a><br>
-                  <a href="#" class="list-group-item">Guarulhos</a><br>
-                  <a href="#" class="list-group-item">Itapecerica da Serra</a><br>
-                  <a href="#" class="list-group-item">Itapevi</a><br>
-                  <a href="#" class="list-group-item">Jandira</a><br>
-                  <a href="#" class="list-group-item">Mauá</a><br>
-                  <a href="#" class="list-group-item">Osasco</a><br>
-                  <a href="#" class="list-group-item">Ribeirão Pires</a><br>
-                  <a href="#" class="list-group-item">Santana de Parnaíba</a><br>
-                  <a href="#" class="list-group-item">Santo André</a><br>
-                  <a href="#" class="list-group-item">São Bernardo do Campo</a><br>
-                  <a href="#" class="list-group-item">São Caetano do Sul</a><br>
-                  <a href="#" class="list-group-item">São Lourenço da Serra</a><br>
-                  <a href="#" class="list-group-item">Taboão da Serra</a><br>
-                  <a href="#" class="list-group-item">Vargem Grande Paulista</a><br>
-                  <a href="#" class="list-group-item">Águas de Lindóia</a><br>
-                  <a href="#" class="list-group-item">Águas de São Pedro</a><br>
-                  <a href="#" class="list-group-item">Alambari</a><br>
-                  <a href="#" class="list-group-item">Americana</a><br>
-                  <a href="#" class="list-group-item">Amparo</a><br>
-                  <a href="#" class="list-group-item">Aparecida</a><br>
-                  <a href="#" class="list-group-item">Araras</a><br>
-                  <a href="#" class="list-group-item">Arthur Nogueira</a><br>
+                <div class="accordion" id="innerAccordion5">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading5">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse5">
+                        Inner Accordion 5
+                      </button>
+                    </h2>
+                    <div id="innerCollapse5" class="accordion-collapse collapse" aria-labelledby="innerHeading5">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading6">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse6">
+                        Inner Accordion 6
+                      </button>
+                    </h2>
+                    <div id="innerCollapse6" class="accordion-collapse collapse" aria-labelledby="innerHeading6">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading34">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse34">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse34" class="accordion-collapse collapse" aria-labelledby="innerHeading34">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="col-md-6">
         <div class="accordion" id="accordion4">
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading4">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                Minas Gerais
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Accordion 4
               </button>
             </h2>
-            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-              data-bs-parent="#accordion4">
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
               <div class="accordion-body">
-                <div class="list-group">
-              <a href="#" class="list-group-item">Belo Horizonte</a><br>
-                <a href="#" class="list-group-item">Betim</a><br>
-                <a href="#" class="list-group-item">Brumadinho</a><br>
-                <a href="#" class="list-group-item">Caeté</a><br>
-                <a href="#" class="list-group-item">Confins</a><br>
-                <a href="#" class="list-group-item">Congonhas</a><br>
-                <a href="#" class="list-group-item">Conselheiro Lafayete</a><br>
-                <a href="#" class="list-group-item">Contagem</a><br>
-                <a href="#" class="list-group-item">Esmeraldas</a><br>
-                <a href="#" class="list-group-item">Ibirité</a><br>
-                <a href="#" class="list-group-item">Igarapé</a><br>
-                <a href="#" class="list-group-item">Itabira</a><br>
-                <a href="#" class="list-group-item">Itaguara</a><br>
-                <a href="#" class="list-group-item">Itatiaçu</a><br>
-                <a href="#" class="list-group-item">Itaverava</a><br>
-                <a href="#" class="list-group-item">João Monlevade</a><br>
-                <a href="#" class="list-group-item">Juatuba</a><br>
-                <a href="#" class="list-group-item">Lagoa Santa</a><br>
-                <a href="#" class="list-group-item">Mariana</a><br>
-                <a href="#" class="list-group-item">Mário Campos</a><br>
-                <a href="#" class="list-group-item">Mateus Leme</a><br>
-                <a href="#" class="list-group-item">Nova Era</a><br>
-                <a href="#" class="list-group-item">Nova Lima</a><br>
-                <a href="#" class="list-group-item">Ouro Branco</a><br>
-                <a href="#" class="list-group-item">Ouro Preto</a><br>
-                <a href="#" class="list-group-item">Pará de Minas</a><br>
-                <a href="#" class="list-group-item">Pedro Leopoldo</a><br>
-                <a href="#" class="list-group-item">Raposos</a><br>
-                <a href="#" class="list-group-item">Ribeirão das Neves</a><br>
-                <a href="#" class="list-group-item">Rio Acima</a><br>
+                <div class="accordion" id="innerAccordion7">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading7">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse7">
+                        Inner Accordion 7
+                      </button>
+                    </h2>
+                    <div id="innerCollapse7" class="accordion-collapse collapse" aria-labelledby="innerHeading7">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading8">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse8">
+                        Inner Accordion 8
+                      </button>
+                    </h2>
+                    <div id="innerCollapse8" class="accordion-collapse collapse" aria-labelledby="innerHeading8">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading55">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse55">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse55" class="accordion-collapse collapse" aria-labelledby="innerHeading55">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading377">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse377">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse377" class="accordion-collapse collapse" aria-labelledby="innerHeading377">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading399">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse399">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse399" class="accordion-collapse collapse" aria-labelledby="innerHeading399">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="accordion-item">
+                    <h2 class="accordion-header" id="innerHeading31">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerCollapse31">
+                        Inner Accordion 3
+                      </button>
+                    </h2>
+                    <div id="innerCollapse31" class="accordion-collapse collapse" aria-labelledby="innerHeading31">
+                      <div class="accordion-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                          <li class="list-group-item">Item 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -485,5 +603,6 @@
             }
         }
     </script>
+  
 </body>
 </html>
