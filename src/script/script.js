@@ -212,6 +212,9 @@ function entrar(){
 
       localStorage.setItem('userLogado', JSON.stringify(userValid))
     }
+    if(usuario.value == "" && senha.value == ""){
+        alert('Uusário ou senha incorreto')
+    }
     else{
         alert('Uusário ou senha incorreto')
     }

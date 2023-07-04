@@ -941,7 +941,7 @@ CADASTRO E LOGIN
 .form-control {
   padding: 15px;
   font-size: 15px;
-  width: 100%;
+  width: 330px;
   margin-bottom: 15px;
 }
 
@@ -951,6 +951,12 @@ CADASTRO E LOGIN
   justify-content: center;
   display: flex;
   color: black;
+}
+
+@media screen and (max-width: 1131px){
+  #mensagemCadastro{
+    font-size: 73px;
+  }
 }
 
 .opcaoLogin{
