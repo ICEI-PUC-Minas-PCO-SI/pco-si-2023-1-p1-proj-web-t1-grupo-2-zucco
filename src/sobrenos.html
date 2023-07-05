@@ -18,7 +18,7 @@
 <body>
 
   <!--CABEÇALHO-->
-  <header>
+  <header class="">
     <nav class="navbar navbar-expand-xxl">
         <nav class="navbar fixed-top" style="background-color: #b22222;">
             <div class="container-fluid">
@@ -57,14 +57,16 @@
                           <a class="nav-item" type="button" onclick="sair()" id="btnSair">Sair</a>
                       </li>
                     </ul>
+                    <img id="solApagado" src="img/icones/brightness-low.svg" alt="" width="30px" height="30px">
+                        <img id="sol" src="img/icones/brightness-low-fill.svg" alt="" width="30px" height="30px">
                 </div>
             </div>
         </nav>
     </nav>
 </header>
-  <main>
+  <main id="principal" class="pt-5">
     <figure class="text-center">
-      <h1 id="sobreZucco" class="mt-5">Sobre Nós</h1>
+      <h1 id="sobreZucco" class="">Sobre Nós</h1>
       <!--TODAS AS PAGS-->
     </figure>
 
@@ -160,7 +162,6 @@
       </div>
     </div>
   </main>
-
 
   <!--RODAPÉ-->
   <footer>
@@ -278,6 +279,6 @@
       <p style="color: #ffffff;">© 2009-2023 Zucco</p>
     </div>
   </footer>
-  <script src="script/script.js"></script>
+  <script src="script/modoNoturno.js"></script>
 </body>
 </html>

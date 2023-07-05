@@ -38,29 +38,7 @@ function validateCaptcha() {
 
     return false;
 }
-
-function troca() {
-    var solApagado = document.getElementById("solApagado");
-    solApagado.style.display = "none";
-    var sol = document.getElementById("sol");
-    var principal = document.getElementById("principal");
-    var footer = document.getElementById("footer");
-    var i = 2;
-    sol.addEventListener("click", troca)
-    solApagado.addEventListener("click", troca)
-    if (i % 2 == 0) {
-        sol.style.display = "none";
-        solApagado.style.display = "";
-        principal.setAttribute("style", "background-color: black; color: white;");
-        footer.setAttribute("style", "background-color: black; color: white;");
-    } else {
-        solApagado.style.display = "none";
-        sol.style.display = "";
-        principal.removeAttribute("style");
-    }
-    i++;
-    console.log(i);
-}
+    
 
 // document.getElementById("openModal").addEventListener("click", function () {
 //     document.getElementById("modal").style.display = "block";

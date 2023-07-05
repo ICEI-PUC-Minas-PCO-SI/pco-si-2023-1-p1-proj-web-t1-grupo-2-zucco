@@ -51,19 +51,20 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="cidadesatendidas.html">Cidades atendidas</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contato.html">Contato</a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-item" type="button" onclick="sair()" id="btnSair">Sair</a>
                             </li>
+                            
                         </ul>
+                        <img id="solApagado" src="img/icones/brightness-low.svg" alt="" width="30px" height="30px">
+                        <img id="sol" src="img/icones/brightness-low-fill.svg" alt="" width="30px" height="30px">
                     </div>
                 </div>
             </nav>
         </nav>
     </header>
-    <main>
+    <main id="principal">
         <figure class="text-center">
             <h1 id="sobreZucco" class="mt-5">Perguntas Frequentes</h1>
             <!--TODAS AS PAGS-->
@@ -121,7 +122,6 @@
             </div>
         </div>
     </main>
-
 
     <!--RODAPÉ-->
     <footer id="footercontato">
@@ -240,6 +240,7 @@
         </div>
     </footer>
     <script src="script/script.js"></script>
+    <script src="script/modoNoturno.js"></script>
 </body>
 
 </html>
