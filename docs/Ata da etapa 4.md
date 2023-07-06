@@ -26,7 +26,10 @@ Arthur Braga Ribeiro
 
 **Alice Silva Lisboa**
  - Planilha de teste de usabilidades
+
 **Arthur Braga Ribeiro**
+- Card "Tempo de entrega".
+- Card "Valor do frete".
 
 **Matheus Henrique Marques Canuto**
  - Pastas para organizar o css e o Java Script
