@@ -938,7 +938,7 @@ CADASTRO E LOGIN
   flex-direction: column;
 }
 
-.form-control {
+.form-control-cadastro {
   padding: 15px;
   font-size: 15px;
   width: 330px;
