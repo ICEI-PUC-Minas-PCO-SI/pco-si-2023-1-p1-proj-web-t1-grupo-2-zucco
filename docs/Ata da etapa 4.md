@@ -48,9 +48,13 @@ Arthur Braga Ribeiro
 **Nicole Vargas Zanotto**
 
 **Rafael Romagnoli Conforte Cesario**
-
+- Api para fazer com que o formulário trabalhe conosco envie um e-mail para a zucco
+- Tela login e funcionalidade de login
+- Tela cadastro e funcionalidade de cadastro
+  
 **Raul Eleutério Aleixo**
 - Tela Perguntas Frequentes (faq.html)
 - Tela Pedidos (pedidos.html)
+  
 ## Conclusões:
- Colocar uma conclusão foda aqui
+ 
