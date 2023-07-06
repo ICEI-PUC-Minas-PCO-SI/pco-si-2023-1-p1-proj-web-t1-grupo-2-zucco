@@ -50,6 +50,7 @@ Arthur Braga Ribeiro
 **Rafael Romagnoli Conforte Cesario**
 
 **Raul Eleutério Aleixo**
-
+- Tela Perguntas Frequentes (faq.html)
+- Tela Pedidos (pedidos.html)
 ## Conclusões:
  Colocar uma conclusão foda aqui
