@@ -77,7 +77,7 @@ function deleta(id) {
     method: 'DELETE',
   })
     .then(res => res.json())
-    .then(() => window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';)
+    .then(() => window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html')
 }
 
 function atualiza(id) {
