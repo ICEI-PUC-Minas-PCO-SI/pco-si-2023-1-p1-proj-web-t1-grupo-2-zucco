@@ -1,6 +1,6 @@
 var dados = [];
 function pegaDados() {
-  fetch("https://servidor-zucco-9o7mnj96u-matheuscanuto07.vercel.app/cotacao", { method: 'GET', })
+  fetch("https://servidor-zucco.vercel.app/cotacao", { method: 'GET', })
     .then(res => res.json())
     .then(res => {
       for (i = 0; i < res.length; i++) {
@@ -73,7 +73,7 @@ function fazRequisicao() {
 }
 
 function deleta(id) {
-  fetch("https://servidor-zucco-9o7mnj96u-matheuscanuto07.vercel.app/cotacao" + id, {
+  fetch("https://servidor-zucco.vercel.app/cotacao/" + id, {
     method: 'DELETE',
   })
     .then(res => res.json())
@@ -93,7 +93,7 @@ function atualiza(id) {
     cidadeDestino: document.getElementById('cidadeDes' + id).value,
     tipoServico: document.getElementById('tipo' + id).value
   })
-  fetch(`https://servidor-zucco-9o7mnj96u-matheuscanuto07.vercel.app/cotacao` + id, {
+  fetch(`https://servidor-zucco.vercel.app/cotacao/` + id, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
@@ -137,7 +137,7 @@ function envia() {
     cidadeDestino: document.getElementById('cidadeDes').value,
     tipoServico: opcaoSelecionada.value
   })
-  fetch(`https://servidor-zucco-9o7mnj96u-matheuscanuto07.vercel.app/cotacao`, {
+  fetch(`https://servidor-zucco.vercel.app/cotacao`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
