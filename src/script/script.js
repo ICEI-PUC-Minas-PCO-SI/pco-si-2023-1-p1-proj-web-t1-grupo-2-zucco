@@ -182,16 +182,22 @@ function entrar(){
         }
     })
 
-    if(usuario.value == userValid.user && senha.value == userValid.senha){
+    if(usuario.value === "" && senha.value === ""){
+        alert('Preencha os campos')
+    }
+    else if(usuario.value === ""){
+        alert('Preencha com seu usuário')
+    }
+    else if(senha.value === ""){
+        alert('Preencha com sua senha')
+    }
+    else if(usuario.value == userValid.user && senha.value == userValid.senha){
       window.location.href = './home.html'
 
       let token = Marth.random().toString(16).substr(2) + Marth.random().toString(16).substr(2)
       localStorage.setItem('token', token)
 
       localStorage.setItem('userLogado', JSON.stringify(userValid))
-    }
-    if(usuario.value == "" && senha.value == ""){
-        alert('Uusário ou senha incorreto')
     }
     else{
         alert('Uusário ou senha incorreto')
