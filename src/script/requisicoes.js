@@ -77,7 +77,7 @@ function deleta(id) {
     method: 'DELETE',
   })
     .then(res => res.json())
-    .then(() => location.reload());
+    .then(() => window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';);
 }
 
 function atualiza(id) {
@@ -103,7 +103,7 @@ function atualiza(id) {
     .then(res => res.json())
     .then(() => {
       pegaDados();
-      location.reload();
+      window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';
     });
 }
 
@@ -148,6 +148,6 @@ function envia() {
       recebeAlerta.innerHTML = alerta;
       spinner.style.display = "none";
       alerta.style.display = "inline";
-      location.reload();
+      window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';
     });
 }
