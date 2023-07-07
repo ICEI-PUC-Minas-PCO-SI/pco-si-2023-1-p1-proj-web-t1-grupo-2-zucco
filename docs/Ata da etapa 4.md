@@ -44,9 +44,14 @@ Arthur Braga Ribeiro
  - Legendas do carrosel da tela home retiradas
  - Funcionalidade de tela noturna implementada em todas as telas
  - Nav sicronizado em todas as páginas
+ - Upload do back-end para o vercel
+ - Upload do front-end para o vercel
 
 **Nicole Vargas Zanotto**
-
+ - Máscaras formulários serviços 
+ - Gerenciamento de riscos na página home 
+ - Cards rápidos sobre nós, cidades atendidas e onde estamos
+   
 **Rafael Romagnoli Conforte Cesario**
 - Api para fazer com que o formulário trabalhe conosco seja enviado para o e-mail da zucco
 - Api para fazer com que sugestões no footer sejam enviados para o e-mail da zucco
