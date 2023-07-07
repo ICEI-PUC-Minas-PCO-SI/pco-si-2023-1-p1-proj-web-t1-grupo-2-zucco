@@ -389,7 +389,7 @@ form textarea {
   border-radius: 16px;
 }
 
-#footercontato {
+.footerPedidos {
   position: fixed;
   bottom: 0;
   width: 100%;
