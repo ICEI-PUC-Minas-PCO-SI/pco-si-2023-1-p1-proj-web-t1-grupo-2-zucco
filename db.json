@@ -1,0 +1,53 @@
+{
+  "cotacao": [
+    {
+      "id": "2023630232552",
+      "numeroDoPedido": "0010",
+      "nome": "Camila Fernandes",
+      "email": "camila.fernandes@example.com",
+      "celular": "8844",
+      "cpf": "09876543210",
+      "cnpj": "567890123",
+      "cidadeOrigem": "Recife",
+      "cidadeDestino": "Fortaleza",
+      "tipoServico": "Carga aérea"
+    },
+    {
+      "id": "202372184435",
+      "numeroDoPedido": "0013",
+      "nome": "Pedro Santos",
+      "email": "pedro.santos@example.com",
+      "celular": "4567",
+      "cpf": "76543210987",
+      "cnpj": "654321098",
+      "cidadeOrigem": "Belo Horizonte",
+      "cidadeDestino": "Curitiba",
+      "tipoServico": "Carga terrestre"
+    },
+    {
+      "id": "20237218596",
+      "numeroDoPedido": "0014",
+      "nome": "Ana Oliveira",
+      "email": "ana.oliveira@example.com",
+      "celular": "3467",
+      "cpf": "65432109876",
+      "cnpj": "432109876",
+      "cidadeOrigem": "Porto Alegre",
+      "cidadeDestino": "Florianópolis",
+      "tipoServico": "Transporte ferroviário"
+    },
+    {
+      "id": "202372193113",
+      "numeroDoPedido": "0015",
+      "nome": "Carlos Mendes",
+      "email": "carlos.mendes@example.com",
+      "celular": "2894",
+      "cpf": "54321098765",
+      "cnpj": "210987654",
+      "cidadeOrigem": "Manaus",
+      "cidadeDestino": "Belém",
+      "tipoServico": "Carga aérea"
+    }
+  ],
+  "usuarios": []
+}

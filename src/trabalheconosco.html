@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-xxl">
             <nav class="navbar fixed-top" style="background-color: #b22222;">
                 <div class="container-fluid">
-                    <a class="navbar-brand me-5" href="index.html"><img id="" src="img/zucco-removebg-preview.png"
+                    <a class="navbar-brand me-5" href="home.html"><img id="" src="img/logos/logo2.png"
                             alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -31,9 +31,9 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav me-auto  mb-lg-0" id="teste123">
+                        <ul class="navbar-nav me-auto  mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" aria-current="page" href="home.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="sobrenos.html">Sobre nós</a>
@@ -52,93 +52,46 @@
                                 <a class="nav-link" href="cidadesatendidas.html">Cidades atendidas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contato.html">Contato</a>
+                                <a class="nav-link" href="pedidos.html">Visualizar Pedidos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="cadastro.html">Cadastro</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="acessologin"  href="">Acessar</a>
+                                <a class="nav-item" type="button" onclick="sair()" id="btnSair">Sair</a>
                             </li>
                         </ul>
+                        <img id="solApagado" src="img/icones/brightness-low.svg" alt="" width="30px" height="30px">
+                        <img id="sol" src="img/icones/brightness-low-fill.svg" alt="" width="30px" height="30px">
                     </div>
                 </div>
             </nav>
         </nav>
     </header>
 
-    <figure class="text-center mt-3">
-        <h1>Trabalhe Conosco</h1>
-        <!--TODAS AS PAGS-->
-    </figure>
+    
 
-    <main>
+    <main id="principal">
+            <figure class="text-center pt-3">
+                    <h1>Trabalhe Conosco</h1>
+                    <!--TODAS AS PAGS-->
+                </figure>
         <div id="main">
-            <div class="card_queroTrabalhar">
-                <div class="content">
-                    <h3 class="centered">Quero trabalhar como:</h3>
-                    <div class="form-1check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            <h4>Motorista de caminhão</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Estoquista</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                            value="option3">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Auxiliar administrativo</h4>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
-                            value="option4">
-                        <label class="form-check-label" for="exampleRadios2">
-                            <h4>Motorista</h4>
-                        </label>
-                        <div class="mt-5 mb-4">
-                            <label for="exampleFormControlInput1" class="form-label1">
-                                <h5>Email para contato:</h5>
-                            </label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Digite seu e-mail">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="formFileLg" class="form-label">
-                            <h5>Envie seu currículo</h5>
-                        </label>
-                        <input class="form-control form-control-lg mb-3" id="formFileLg" type="file">
-                    </div>
-                    <h5 class="centered-1">Qual seu diferencial?</h5>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
+            <section id="formularioTrabConosco">
+                <h3>Informe seus dados</h3>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label class="identificacaoformulario">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required class="preencherformulario">
+                    <label class="identificacaoformulario">Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required class="preencherformulario">
+                    <label class="identificacaoformulario">Telefone</label>
+                    <input type="text" data-js="phone" name="phone" placeholder="Digite seu telefone" autocomplete="off" required class="preencherformulario">
+                    <label class="identificacaoformulario">Mensagem</label>
+                    <textarea name="message" cols="10" rows="5" placeholder="Digite sua mensagem" required class="preencherformulario"></textarea>
+                    <button class="btnformulario" type="submit">Enviar</button>
 
-                    <body onload="generateCaptcha()">
-                        <form onsubmit="return validateCaptcha()">
-                            <div id="captchaforms"> 
-                                <img id="captchaImage" src="" alt="CAPTCHA Image">
-                                <br>
-                                <input type="text" id="captchaInput" required>
-                                <input type="hidden" id="captchaText">
-                                <input type="submit" value="Enviar">
-                            </div>
-                        </form>
-                    </body>
-                </div>
-            </div>
-
+                    <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/src/mensagem.html">
+                </form>
+            </section>
         </div>
-
     </main>
 
     <!--RODAPÉ-->
@@ -257,6 +210,8 @@
             <p style="color: #ffffff;">© 2009-2023 Zucco</p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/modoNoturno.js"></script>
+    <script src="/src/script/validacoes.js"></script>
 </body>
 </html>
