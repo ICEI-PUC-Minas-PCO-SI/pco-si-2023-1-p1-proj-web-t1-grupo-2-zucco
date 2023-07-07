@@ -389,6 +389,38 @@ form textarea {
   border-radius: 16px;
 }
 
+.btnSugest {
+  background-color: rgb(182, 34, 34);
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+
+.btnSugest:hover {
+  background: #f5f5f5;
+  color: #b22222;
+  border-radius: 16px;
+}
+
+#mensagemSugest {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#sugestEReclam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .footerPedidos {
   position: fixed;
   bottom: 0;
@@ -536,10 +568,10 @@ form textarea {
   text-align: center;
 }
 
-#descubra{
+#descubra {
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center;
 }
 
 
@@ -863,7 +895,7 @@ form textarea {
   padding: 3rem;
 }
 
-.formscadastro{
+.formscadastro {
   width: 400px;
   padding: 15px;
   outline: none;
@@ -886,12 +918,12 @@ form textarea {
 CADASTRO E LOGIN
 ===========================================================================*/
 
-#senha{
+#senha {
   padding: 15px;
   font-size: 15px;
 }
 
-#usuario{
+#usuario {
   padding: 15px;
   font-size: 15px;
 }
@@ -936,13 +968,13 @@ CADASTRO E LOGIN
   color: black;
 }
 
-@media screen and (max-width: 1131px){
-  #mensagemCadastro{
+@media screen and (max-width: 1131px) {
+  #mensagemCadastro {
     font-size: 73px;
   }
 }
 
-.opcaoLogin{
+.opcaoLogin {
   color: black;
 }
 
@@ -998,7 +1030,7 @@ CADASTRO E LOGIN
   display: flex;
 }
 
-#btnSair{
+#btnSair {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1008,12 +1040,13 @@ CADASTRO E LOGIN
   margin-top: 16px;
 }
 
-#img-logo{
+#img-logo {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 /* Formulário trabalhe conosco */
-#spinner{
+#spinner {
   display: none;
 }

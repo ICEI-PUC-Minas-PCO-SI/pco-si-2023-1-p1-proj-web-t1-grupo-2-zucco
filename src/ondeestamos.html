@@ -235,22 +235,23 @@
                         <b>0800 1111 22</b>
                     </p>
                 </div>
-                <div class="col-12 col-md-1  mb-3">
-                    <div class="card mb-3" style="width: 18rem;">
+                <div class="col-12 col-md-2  mb-3">
+                    <div class="card mb-3 mb-3">
                         <div class="card-body mx-auto">
                             <h5 class="card-title fs-6"><b>Sugestões e Reclamações</b></h5>
-                            <div class="d-flex">
-                                <input type="email" class="form-control mt-2" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Nome">
-                                <input type="email" class="form-control mt-2" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Sobrenome">
-                            </div>
-                            <form>
-                                <div class="mb-3">
-                                    <input type="email" class="form-control mt-2" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Mensagem">
+                            <form action="https://api.staticforms.xyz/submit" method="post" id="sugestEReclam">
+                                <div class="d-flex">
+                                    <input type="text" name="name" placeholder="Nome" autocomplete="off" required
+                                        class="form-control mt-2">
+                                    <input type="text" name="name" placeholder="Sobrenome" autocomplete="off" required
+                                        class="form-control mt-2">
                                 </div>
-                                <button type="submit" class="btn btn-light">Enviar</button>
+                                <textarea name="message" cols="10" rows="5" placeholder="Digite sua reclamação" required
+                                    class="form-control" id="mensagemSugest"></textarea>
+                                <button class="btnSugest" type="submit">Enviar</button>
+
+                                <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
+                                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/src/mensagem.html">
                             </form>
                         </div>
                     </div>
