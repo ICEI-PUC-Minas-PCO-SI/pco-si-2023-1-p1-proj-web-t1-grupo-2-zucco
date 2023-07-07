@@ -48,9 +48,18 @@ Arthur Braga Ribeiro
 **Nicole Vargas Zanotto**
 
 **Rafael Romagnoli Conforte Cesario**
-- Api para fazer com que o formulário trabalhe conosco envie um e-mail para a zucco
+- Api para fazer com que o formulário trabalhe conosco seja enviado para o e-mail da zucco
+- Api para fazer com que sugestões no footer sejam enviados para o e-mail da zucco
 - Tela login e funcionalidade de login
 - Tela cadastro e funcionalidade de cadastro
+- Planilha de testes
+- Testes de Login
+- Testes de Cadastro
+- Testes de Formulário
+- Testes de Sugestões
+- Ajustes nav em todas as telas
+- Ajustes footer em todas as telas
+- Ajudar subir aplicação 
   
 **Raul Eleutério Aleixo**
 - Tela Perguntas Frequentes (faq.html)
