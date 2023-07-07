@@ -57,4 +57,4 @@ Arthur Braga Ribeiro
 - Tela Pedidos (pedidos.html)
   
 ## Conclusões:
- 
+Neste projeto, cujo objetivo era revisar requisitos, implementar o CRUD do servidor JSON, realizar testes e documentá-los, e finalmente fazer o deploy da aplicação, cada membro da equipe desempenhou um papel fundamental no avanço e sucesso do projeto.
