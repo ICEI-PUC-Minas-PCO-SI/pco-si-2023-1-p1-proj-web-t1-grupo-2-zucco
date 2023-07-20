@@ -18,9 +18,9 @@ p {
 }
 
 footer {
+  width: 100%;
   margin-top: 3%;
   font-size: 15px;
-
 }
 
 p+p {
@@ -36,7 +36,6 @@ p+p {
    Extra large 	  xl            ≥1200px
    Extra extra large 	xxl 	≥1400px */
 @media only screen and (max-width: 575px) {
-
   /* regras CSS para telas menores que 576px */
   /* Extra small */
   main {
@@ -175,20 +174,6 @@ video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
 }
 
 body {
@@ -419,12 +404,6 @@ form textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.footerPedidos {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 .close {
@@ -1030,3 +1009,4 @@ CADASTRO E LOGIN
 #spinner {
   display: none;
 }
+  

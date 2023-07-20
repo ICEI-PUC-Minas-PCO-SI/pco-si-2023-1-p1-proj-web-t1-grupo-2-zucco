@@ -59,7 +59,7 @@ function fazRequisicao() {
                                   <input type="email" class="form-control" id="tipo${dados[i].id}" aria-describedby="emailHelp" value="${dados[i].tipoServico}">
                               </div>
                               <div class="modal-footer">
-                                  <button class="btn btn-success" onclick="atualiza(${dados[i].id})">Enviar</button>
+                                  <button class="btn btn-success" onclick="atualiza(${dados[i].id})">Atualizar</button>
                               </div>
                           </div>
                       </div>
@@ -76,8 +76,7 @@ function deleta(id) {
   fetch("https://servidor-zucco.vercel.app/cotacao/" + id, {
     method: 'DELETE',
   })
-    .then(res => res.json())
-    .then(() => window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html')
+    .then(() => location.reload())
 }
 
 function atualiza(id) {
@@ -100,10 +99,9 @@ function atualiza(id) {
     },
     body: cotacao
   })
-    .then(res => res.json())
     .then(() => {
       pegaDados();
-      window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';
+      location.reload();
     });
 }
 
@@ -148,6 +146,6 @@ function envia() {
       recebeAlerta.innerHTML = alerta;
       spinner.style.display = "none";
       alerta.style.display = "inline";
-      window.location.href = 'https://pco-si-2023-1-p1-proj-web-t1-grupo-2-zucco-pxcrdeoqb.vercel.app/pedidos.html';
+      location.reload();
     });
 }

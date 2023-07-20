@@ -28,7 +28,6 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                         <ul class="navbar-nav me-auto  mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="home.html">Home</a>
@@ -66,7 +65,6 @@
     <main id="principal">
         <h1 id="sobreZucco" class="mt-2 text-center">Planilha de pedidos</h1>
         <!--TODAS AS PAGS-->
-
         <div class="container">
             <table class="table table-striped">
                 <thead>
@@ -92,9 +90,9 @@
     </main>
     <!--RODAPÉ-->
     <footer id="footer" class="footerPedidos">
-        <div class="container-fluid bg-light pt-3 pb-4">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mb-3 offset-md-1 mb-3">
+        <div class="container-fluid bg-light">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-3">
                     <p><b>Links Rápidos</b></p>
                     <p><a href="#">Help</a></p>
                     <p>
@@ -113,8 +111,7 @@
                         <a href="#">Disclamer</a>
                     </p>
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 offset-md-1 mb-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-3">
                     <p>
                         <b>Nossas Redes Sociais</b>
                     </p>
@@ -143,8 +140,7 @@
                         </svg>
                     </a>
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mb-3 offset-md-1 mb-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-3">
                     <p>
                         <b>Contatos</b>
                     </p>
@@ -176,35 +172,33 @@
                         <b>0800 1111 22</b>
                     </p>
                 </div>
-                <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
-                    <div class="col-12 col-md-2  mb-3">
-                        <div class="card mb-3 mb-3">
-                            <div class="card-body mx-auto">
-                                <h5 class="card-title fs-6"><b>Sugestões e Reclamações</b></h5>
-                                <form action="https://api.staticforms.xyz/submit" method="post" id="sugestEReclam">
-                                    <div class="d-flex">
-                                        <input type="text" name="name" placeholder="Nome" autocomplete="off" required
-                                            class="form-control mt-2">
-                                        <input type="text" name="name" placeholder="Sobrenome" autocomplete="off" required
-                                            class="form-control mt-2">
-                                    </div>
-                                    <textarea name="message" cols="10" rows="5" placeholder="Digite sua reclamação" required
-                                        class="form-control" id="mensagemSugest"></textarea>
-                                    <button class="btnSugest" type="submit">Enviar</button>
-    
-                                    <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
-                                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/src/mensagem.html">
-                                </form>
-                            </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-3">
+                    <div class="card">
+                        <div class="card-body mx-auto">
+                            <h5 class="card-title"><b>Sugestões e Reclamações</b></h5>
+                            <form action="https://api.staticforms.xyz/submit" method="post" id="sugestEReclam">
+                                <div class="d-flex">
+                                    <input type="text" name="name" placeholder="Nome" autocomplete="off" required
+                                        class="form-control mt-2">
+                                    <input type="text" name="name" placeholder="Sobrenome" autocomplete="off" required
+                                        class="form-control mt-2">
+                                </div>
+                                <textarea name="message" placeholder="Digite sua reclamação" required
+                                    class="form-control" id="mensagemSugest"></textarea>
+                                <button class="btnSugest" type="submit">Enviar</button>
+
+                                <input type="hidden" name="accessKey" value="d3f8da60-caa1-4555-811a-9220237f0e73">
+                                <input type="hidden" name="redirectTo" value="mensagem.html">
+                            </form>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
-
-        <div class="container-fluid text-center" style="background-color: #b22222;">
-            <p style="color: #ffffff;">© 2009-2023 Zucco</p>
-        </div>
     </footer>
+    <div id="footer-zucco" class="container-fluid text-center" style="background-color: #b22222;">
+        <p style="color: #ffffff;">© 2009-2023 Zucco</p>
+    </div>
     <!-- <script src="script/script.js"></script> -->
     <script src="script/requisicoes.js"></script>
     <script src="script/modoNoturno.js"></script>
